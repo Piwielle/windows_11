@@ -12,6 +12,7 @@ Je vais lister ici les tweaks que j'utilise pour rendre l'OS un peu plus agréab
  - [**2/ Les tâches de fond**](#2-les-apps-en-tâche-de-fond)
  - [**3/ La GameBar**](#3-la-game-bar)
  - [**4/ Les animations**](#4-les-animations-de-windows)
+ - [**-----**](#-----)
 
 ## 1/ Le clic droit.
 
@@ -132,3 +133,5 @@ Pour une fois, il s'agit d'un simple paramètre de Windows à changer.
 - -> Accessibilité
 - -> Effets Visuels
 - Cocher ```Effets d'animation```
+
+## 5/ blabla
