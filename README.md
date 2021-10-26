@@ -38,6 +38,7 @@ Pour annuler cette modification, il suffira de faire l'inverse et de supprimer l
 ## 2/ Les apps en tâche de fond.
 
 C'est un réglage qui était présent sur windows 10 :
+
 ![réglage windows 10](https://docs.microsoft.com/en-us/windows/application-management/images/backgroundapps-setting.png)
 
 Sur Windows 11, il n'y a plus de réglage global. La seule possibilité est d'aller le désactiver individuemment pour chaque application, une par une. C'est très pénible, et je voudrais pouvoir tout désactiver d'un coup.
@@ -82,8 +83,10 @@ Pour désactiver la Game Bar, il faut modifier une clé de registre, ce qu'on pe
 Pour annuler cette modification, il suffira de faire l'inverse et de changer les valeurs.
 - Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
 - Windows Terminal (Admin)
-- Coller la ligne ```reg add "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" /v AppCaptureEnabled /t REG_DWORD /d 00000001 /f```
+- Coller la ligne 
+```reg add "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" /v AppCaptureEnabled /t REG_DWORD /d 00000001 /f```
 - Vérifier que la réponse confirme que l'opération a bien été effectuée.
-- Coller la ligne ```reg add "HKEY_CURRENT_USER\System\GameConfigStore" /v GameDVR_Enabled /t REG_DWORD /d 00000001 /f```
+- Coller la ligne 
+```reg add "HKEY_CURRENT_USER\System\GameConfigStore" /v GameDVR_Enabled /t REG_DWORD /d 00000001 /f```
 - Vérifier que la réponse confirme que l'opération a bien été effectuée.
 - Redémarrer le PC.
