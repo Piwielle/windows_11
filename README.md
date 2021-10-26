@@ -8,8 +8,10 @@ Je vais lister ici les tweaks que j'utilise pour rendre l'OS un peu plus agréab
 
 ## Table des matières
 
- - [**Le clic droit**](#1-le-clic-droit)
- - [**Les tâches de fond**](#2-les-apps-en-tâche-de-fond)
+ - [**1/ Le clic droit**](#1-le-clic-droit)
+ - [**2/ Les tâches de fond**](#2-les-apps-en-tâche-de-fond)
+ - [**3/ La GameBar**](#3-la-game-bar)
+ - [**4/ Les animations**](#4-les-animations-de-windows)
 
 ## 1/ Le clic droit.
 
