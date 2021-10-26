@@ -84,9 +84,11 @@ Pour annuler cette modification, il suffira de faire l'inverse et de changer les
 - Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
 - Windows Terminal (Admin)
 - Coller la ligne 
+
 ```reg add "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" /v AppCaptureEnabled /t REG_DWORD /d 00000001 /f```
 - Vérifier que la réponse confirme que l'opération a bien été effectuée.
 - Coller la ligne 
+
 ```reg add "HKEY_CURRENT_USER\System\GameConfigStore" /v GameDVR_Enabled /t REG_DWORD /d 00000001 /f```
 - Vérifier que la réponse confirme que l'opération a bien été effectuée.
 - Redémarrer le PC.
