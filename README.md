@@ -6,6 +6,10 @@ Mais bon, c'est l'avenir. Avec les nouvelles sorties de matériel (salut Alder L
 
 Je vais lister ici les tweaks que j'utilise pour rendre l'OS un peu plus agréable à utiliser, c'est un peu expérimental, et en cours d'évolution.
 
+## Table des matières
+
+ - [**Le clic droit**](#1/-le-clic-droit.)
+ - [**Les tâches de fond**](#2/-les-apps-en-tâche-de-fond.)
 
 ## 1/ Le clic droit.
 
