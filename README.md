@@ -11,7 +11,9 @@ Je vais lister ici les tweaks que j'utilise pour rendre l'OS un peu plus agréab
 
 ### 1.1/ Activer.
 
-Le clic droit de Windows 11 ressemble à ça : ![image menu](https://i.imgur.com/l6MxFzI.png)
+Le clic droit de Windows 11 ressemble à ça : 
+
+![image menu](https://i.imgur.com/l6MxFzI.png)
 
 Alors oui, c'est très joli y'a des icônes. Mais si je veux utiliser 7zip pour extraire une archive, ou alors accéder à mon panneau nvidia, je suis obligé de cliquer sur "Afficher plus d'options", puis sur ce que je veux. C'est pénible.
 
