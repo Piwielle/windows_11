@@ -107,6 +107,22 @@ Pour annuler cette modification, il suffira de faire l'inverse et de changer les
 
 ## 4/ Les animations de Windows
 
-Y'a plein d'animations dans Windows 11. Pour le menu démarrer, le scroll, l'ouverture/fermeture des fenêtres. Je les trouve lentes.
+Y'a plein d'animations dans Windows 11. Pour le menu démarrer, le scroll, l'ouverture/fermeture des fenêtres. Je les trouve lentes, et je préfère les désactiver.
 
 ![animation](https://i.imgur.com/QqcfhrJ.gif)
+
+### 4.1/ Modification.
+
+Pour une fois, il s'agit d'un simple paramètre de Windows à changer.
+- Paramètres
+- -> Accessibilité
+- -> Effets Visuels
+- Décocher ```Effets d'animation```
+
+### 4.2/ Annuler le changement.
+
+Pour une fois, il s'agit d'un simple paramètre de Windows à changer.
+- Paramètres
+- -> Accessibilité
+- -> Effets Visuels
+- Cocher ```Effets d'animation```
