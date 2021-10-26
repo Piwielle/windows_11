@@ -20,8 +20,7 @@ Alors oui, c'est très joli y'a des icônes. Mais si je veux utiliser 7zip pour 
 Pour récupérer le clic droit de Windows 10, il faut modifier une clé de registre, ce qu'on peut faire via le Terminal.
 - Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
 - Windows Terminal (Admin)
-- Coller la ligne suivante
-```reg add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve```
+- Coller la ligne ```reg add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve```
 - Vérifier que la réponse confirme que l'opération a bien été effectuée.
 - Redémarrer le PC.
 
@@ -30,7 +29,6 @@ Pour récupérer le clic droit de Windows 10, il faut modifier une clé de regis
 Pour annuler cette modification, il suffira de faire l'inverse et de supprimer la clé de registre qu'on a modifié.
 - Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
 - Windows Terminal (Admin)
-- Coller la ligne suivante
-```reg delete "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}" /f```
+- Coller la ligne ```reg delete "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}" /f```
 - Vérifier que la réponse confirme que l'opération a bien été effectuée.
 - Redémarrer le PC.
