@@ -141,3 +141,4 @@ Le menu démarrer de Windows 11 est médiocre, et pas fonctionnel. Je suis limit
 ![start menu](https://i.imgur.com/XCvE4fq.png)
 
 Quel enfer. J'ai pas encore trouvé de solution viable.
+edit : en train de tester https://www.startallback.com/
