@@ -143,3 +143,6 @@ Le menu démarrer de Windows 11 est médiocre, et pas fonctionnel. Je suis limit
 Quel enfer. J'ai pas encore trouvé de solution viable.
 
 edit : en train de tester https://www.startallback.com/
+
+edit 2 : startallback = nul (uniquement vertical, pas possible de faire des groupes de raccourcis sur plusieurs colonnes
+du coup je test https://www.stardock.com/products/start11/
