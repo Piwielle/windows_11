@@ -145,5 +145,6 @@ Quel enfer. J'ai pas encore trouvé de solution viable.
 edit : en train de tester https://www.startallback.com/
 
 edit 2 : startallback = nul (uniquement vertical, pas possible de faire des groupes de raccourcis sur plusieurs colonnes)
-
 du coup je test https://www.stardock.com/products/start11/
+
+edit 3 : start11 c'est pas parfait non plus (le scroll est pas fluide, on peut pas définir de transparance pour le fond des icones pinned), mais c'est mieux que startallback, et c'est en développement actif, j'ai donné du feedback on verra bien. Sinon, j'ai essayé de couper des services au hasard pour voir, j'ai éclaté mon install, et j'ai dû tout réactiver depuis winRE, c'était pas ouf. Faites attention. Je teste aussi le logiciel https://github.com/builtbybel/ThisIsWin11.
