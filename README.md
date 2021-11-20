@@ -12,7 +12,8 @@ Je vais lister ici les tweaks que j'utilise pour rendre l'OS un peu plus agréab
  - [**2/ Les tâches de fond**](#2-les-apps-en-tâche-de-fond)
  - [**3/ La GameBar**](#3-la-game-bar)
  - [**4/ Les animations**](#4-les-animations-de-windows)
- - [**5/ Le menu démarrer**](#5-le-menu-démarrer)
+ - [**5/ La recommendation de Bing dans Microsoft Edge**](#5-la-recommendation-de-bing-dans-microsoft-edge)
+ - [**6/ Le menu démarrer**](#6-le-menu-démarrer)
 
 ## 1/ Le clic droit.
 
@@ -134,7 +135,15 @@ Pour une fois, il s'agit d'un simple paramètre de Windows à changer.
 - -> Effets Visuels
 - Cocher ```Effets d'animation```
 
-## 5/ le menu démarrer
+## 5/ La recommendation de Bing dans Microsoft Edge
+C'est ce truc là, qui apparaît au moins une fois par semaine. ![bing](https://i.imgur.com/4ywSfS2.png)
+
+Pour le désactiver : 
+- Aller sur l'url [url=edge://flags/#edge-show-feature-recommendations]
+- Changer le réglage pour "Désactivé"
+- Redémarrer Edge.
+
+## 6/ le menu démarrer
 
 Le menu démarrer de Windows 11 est médiocre, et pas fonctionnel. Je suis limité à 18 raccourcis affichés maximum (à moins d'utiliser les pages, et de devoir scroll, avec leur scroll pas réactif), on est forcé d'afficher les objets "recommandés" (on peut les cacher, mais dans ce cas on se retrouve avec un cadre vide qui nous dit de les activer...)
 
