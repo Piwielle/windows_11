@@ -139,7 +139,7 @@ Pour une fois, il s'agit d'un simple paramètre de Windows à changer.
 C'est ce truc là, qui apparaît au moins une fois par semaine. ![bing](https://i.imgur.com/4ywSfS2.png)
 
 Pour le désactiver : 
-- Aller sur l'url [url=edge://flags/#edge-show-feature-recommendations]
+- Aller sur l'url [edge://flags/#edge-show-feature-recommendations]
 - Changer le réglage pour "Désactivé"
 - Redémarrer Edge.
 
