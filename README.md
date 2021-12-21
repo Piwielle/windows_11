@@ -163,6 +163,10 @@ C'est mieux, mais c'est payant (6€). Apparemment, une future mise à jour de w
 ## 7/ Les résultats web dans la recherche
 Par défaut, Windows affiche des résultats du web dans la recherche du menu démarrer. 
 
+![recherche](https://i.imgur.com/wnChamT.png)
+
+C'est pénible, je veux le désactiver.
+
 ### 7.1/ Modification.
 
 Pour désactiver la Game Bar, il faut modifier une clé de registre, ce qu'on peut faire via le Terminal.
@@ -170,11 +174,7 @@ Pour désactiver la Game Bar, il faut modifier une clé de registre, ce qu'on pe
 - Windows Terminal (Admin)
 - Coller la ligne :
 
-```reg add "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" /v AppCaptureEnabled /t REG_DWORD /d 00000000 /f```
-- Vérifier que la réponse confirme que l'opération a bien été effectuée.
-- Coller la ligne :
-
-```reg add "HKEY_CURRENT_USER\System\GameConfigStore" /v GameDVR_Enabled /t REG_DWORD /d 00000000 /f```
+```reg add "HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Explorer" /v DisableSearchBoxSuggestions /t REG_DWORD /d 00000001 /f```
 - Vérifier que la réponse confirme que l'opération a bien été effectuée.
 - Redémarrer le PC.
 
@@ -185,10 +185,6 @@ Pour annuler cette modification, il suffira de faire l'inverse et de changer les
 - Windows Terminal (Admin)
 - Coller la ligne 
 
-```reg add "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" /v AppCaptureEnabled /t REG_DWORD /d 00000001 /f```
-- Vérifier que la réponse confirme que l'opération a bien été effectuée.
-- Coller la ligne 
-
-```reg add "HKEY_CURRENT_USER\System\GameConfigStore" /v GameDVR_Enabled /t REG_DWORD /d 00000001 /f```
+```reg add "HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Explorer" /v DisableSearchBoxSuggestions /t REG_DWORD /d 00000000 /f```
 - Vérifier que la réponse confirme que l'opération a bien été effectuée.
 - Redémarrer le PC.
