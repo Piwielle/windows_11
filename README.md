@@ -14,6 +14,7 @@ Je vais lister ici les tweaks que j'utilise pour rendre l'OS un peu plus agréab
  - [**4/ Les animations**](#4-les-animations-de-windows)
  - [**5/ La recommendation de Bing dans Microsoft Edge**](#5-la-recommendation-de-bing-dans-microsoft-edge)
  - [**6/ Le menu démarrer**](#6-le-menu-démarrer)
+ - [**7/ Les résultats web dans la recherche**](#6-les-résultats-web-dans-la-recherche)
 
 ## 1/ Le clic droit.
 
@@ -158,3 +159,36 @@ Mon menu démarrer actuel ressemble à ça
 ![start menu](https://i.imgur.com/9iqa8nd.png)
 
 C'est mieux, mais c'est payant (6€). Apparemment, une future mise à jour de windows 11 devrait améliorer le menu démarrer, et rajouter une ligne supplémentaire de raccourcis. C'est mieux, mais pas assez à mon goût, et la barre de "recommendations" reste impossible à cacher complètement.
+
+## 7/ Les résultats web dans la recherche
+Par défaut, Windows affiche des résultats du web dans la recherche du menu démarrer. 
+
+### 7.1/ Modification.
+
+Pour désactiver la Game Bar, il faut modifier une clé de registre, ce qu'on peut faire via le Terminal.
+- Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
+- Windows Terminal (Admin)
+- Coller la ligne :
+
+```reg add "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" /v AppCaptureEnabled /t REG_DWORD /d 00000000 /f```
+- Vérifier que la réponse confirme que l'opération a bien été effectuée.
+- Coller la ligne :
+
+```reg add "HKEY_CURRENT_USER\System\GameConfigStore" /v GameDVR_Enabled /t REG_DWORD /d 00000000 /f```
+- Vérifier que la réponse confirme que l'opération a bien été effectuée.
+- Redémarrer le PC.
+
+### 7.2/ Annuler le changement.
+
+Pour annuler cette modification, il suffira de faire l'inverse et de changer les valeurs.
+- Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
+- Windows Terminal (Admin)
+- Coller la ligne 
+
+```reg add "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" /v AppCaptureEnabled /t REG_DWORD /d 00000001 /f```
+- Vérifier que la réponse confirme que l'opération a bien été effectuée.
+- Coller la ligne 
+
+```reg add "HKEY_CURRENT_USER\System\GameConfigStore" /v GameDVR_Enabled /t REG_DWORD /d 00000001 /f```
+- Vérifier que la réponse confirme que l'opération a bien été effectuée.
+- Redémarrer le PC.
