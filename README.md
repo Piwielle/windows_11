@@ -14,7 +14,7 @@ Je vais lister ici les tweaks que j'utilise pour rendre l'OS un peu plus agréab
  - [**4/ Les animations**](#4-les-animations-de-windows)
  - [**5/ La recommendation de Bing dans Microsoft Edge**](#5-la-recommendation-de-bing-dans-microsoft-edge)
  - [**6/ Le menu démarrer**](#6-le-menu-démarrer)
- - [**7/ Les résultats web dans la recherche**](#6-les-résultats-web-dans-la-recherche)
+ - [**7/ Les résultats web dans la recherche**](#7-les-résultats-web-dans-la-recherche)
 
 ## 1/ Le clic droit.
 
