@@ -82,6 +82,7 @@ Pour annuler cette modification, il suffira de faire l'inverse et de supprimer l
 Sur Windows 11, le réglage pour désactiver la Game Bar a disparu. La seule chose présente dans les paramètres, c'est une option pour ne pas l'ouvrir en appuyant sur un bouton de manette.
 
 Elle se lance quand même systématiquement quand on lance un jeu. 
+
 /!\ Certaines personnes utilisent la Game Bar, et trouvent ça utile. Si c'est votre cas, n'appliquez évidemment pas ces modifications, qui vont la désactiver.
 
 ### 3.1/ Modification.
