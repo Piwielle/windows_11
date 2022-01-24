@@ -16,10 +16,10 @@ Je vais lister ici les tweaks que j'utilise pour rendre l'OS un peu plus agréab
  - [**6/ Le menu démarrer**](#6-le-menu-démarrer)
  - [**7/ Les résultats web dans la recherche**](#7-les-résultats-web-dans-la-recherche)
 
-## Chapitre 0 : Liste des fonctionnalités perdues avec Windows 11 : 
+## Chapitre 0 : Liste des fonctionnalités perdues avec Windows 11
 
 Avant de commencer, listons joyeuseuement ce qui ne fonctionne pas ou plus avec Windows 11 : 
-- 
+- (liste non faite parce que l'auteur est un branleur)
 
 ## 1/ Le clic droit.
 
