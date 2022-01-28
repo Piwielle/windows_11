@@ -15,6 +15,7 @@ Je vais lister ici les tweaks que j'utilise pour rendre l'OS un peu plus agréab
  - [**5/ La recommendation de Bing dans Microsoft Edge**](#5-la-recommendation-de-bing-dans-microsoft-edge)
  - [**6/ Le menu démarrer**](#6-le-menu-démarrer)
  - [**7/ Les résultats web dans la recherche**](#7-les-résultats-web-dans-la-recherche)
+ - [**8/ Les widgets**](#8-les-widgets)
 
 ## Chapitre 0 : Liste des fonctionnalités perdues avec Windows 11
 
@@ -192,5 +193,34 @@ Pour annuler cette modification, il suffira de faire l'inverse et de changer les
 - Coller la ligne 
 
 ```reg add "HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Explorer" /v DisableSearchBoxSuggestions /t REG_DWORD /d 00000000 /f```
+- Vérifier que la réponse confirme que l'opération a bien été effectuée.
+- Redémarrer le PC.
+
+## 8/ Les widgets
+
+Windows a ajouté une fonctionnalité, les widgets.
+![widgets](https://img.bfmtv.com/c/0/708/dd3/9c94d037cdb46d167b8f1ff98fe49.png)
+
+On peut assez simplement les désactiver dans les paramètres, mais le fait de simplement les désactiver ne suffit pas, et ils tournent toujours en tâche de fond même désactivés. Je souhaite donc vraiment les désactiver, et que plus rien ne tourne.
+
+### 8.1/ Modification.
+
+Pour désactiver les Widgets, il faut modifier une clé de registre, ce qu'on peut faire via le Terminal.
+- Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
+- Windows Terminal (Admin)
+- Coller la ligne :
+
+```reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Dsh" /v AllowNewsAndInterests /t REG_DWORD /d 00000000 /f```
+- Vérifier que la réponse confirme que l'opération a bien été effectuée.
+- Redémarrer le PC.
+
+### 8.2/ Annuler le changement.
+
+Pour annuler cette modification, il suffira de faire l'inverse et de changer les valeurs.
+- Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
+- Windows Terminal (Admin)
+- Coller la ligne 
+
+```reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Dsh" /v AllowNewsAndInterests /f```
 - Vérifier que la réponse confirme que l'opération a bien été effectuée.
 - Redémarrer le PC.
