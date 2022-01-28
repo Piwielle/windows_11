@@ -16,6 +16,7 @@ Je vais lister ici les tweaks que j'utilise pour rendre l'OS un peu plus agréab
  - [**6/ Le menu démarrer**](#6-le-menu-démarrer)
  - [**7/ Les résultats web dans la recherche**](#7-les-résultats-web-dans-la-recherche)
  - [**8/ Les widgets**](#8-les-widgets)
+ - [**TLDR (tout d'un coup)**](#tldr-tout-dun-coup)
 
 ## Chapitre 0 : Liste des fonctionnalités perdues avec Windows 11
 
@@ -23,8 +24,7 @@ Avant de commencer, listons joyeuseuement ce qui ne fonctionne pas ou plus avec 
 - (liste non faite parce que l'auteur est un branleur)
 
 ## 1/ Le clic droit.
-<details>
-  <summary>Description (cliquer pour dérouler)</summary> 
+
 Le clic droit de Windows 11 ressemble à ça : 
 
 ![image menu](https://i.imgur.com/l6MxFzI.png)
@@ -32,7 +32,6 @@ Le clic droit de Windows 11 ressemble à ça :
 Alors oui, c'est très joli y'a des icônes. Mais si je veux utiliser 7zip pour extraire une archive, ou alors accéder à mon panneau nvidia, je suis obligé de cliquer sur "Afficher plus d'options", puis sur ce que je veux. C'est pénible.
 
 On va donc remettre le clic droit de Windows 10, que je trouve plus efficace.
-</details>
 
 ### 1.1/ Modification.
 
@@ -226,3 +225,28 @@ Pour annuler cette modification, il suffira de faire l'inverse et de changer les
 ```reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Dsh" /v AllowNewsAndInterests /f```
 - Vérifier que la réponse confirme que l'opération a bien été effectuée.
 - Redémarrer le PC.
+
+## TLDR (tout d'un coup)
+
+Je mets ici directement la liste de toutes les commandes de ce doc, pour avoir tout d'un coup sans devoir tout lire.
+Pour désactiver : 
+```
+reg add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve
+reg add "HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\AppPrivacy" /v LetAppsRunInBackground /t REG_DWORD /d 00000002 /f
+reg add "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" /v AppCaptureEnabled /t REG_DWORD /d 00000000 /f
+reg add "HKEY_CURRENT_USER\System\GameConfigStore" /v GameDVR_Enabled /t REG_DWORD /d 00000000 /f
+reg add "HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Explorer" /v DisableSearchBoxSuggestions /t REG_DWORD /d 00000001 /f
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Dsh" /v AllowNewsAndInterests /t REG_DWORD /d 00000000 /f 
+```
+
+Et pour réactiver : 
+```
+reg delete "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}" /f
+reg delete "HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\AppPrivacy" /v LetAppsRunInBackground /f
+reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Dsh" /v AllowNewsAndInterests /f
+reg add "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" /v AppCaptureEnabled /t REG_DWORD /d 00000001 /f
+reg add "HKEY_CURRENT_USER\System\GameConfigStore" /v GameDVR_Enabled /t REG_DWORD /d 00000001 /f
+reg add "HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Explorer" /v DisableSearchBoxSuggestions /t REG_DWORD /d 00000000 /f
+```
+
+A noter que certaines parties (les animations, le menu démarrer, les recommendations de bing) ne sont pas modifiées via le registre, et ne sont du coup pas modifiées par les commandes au dessus !
