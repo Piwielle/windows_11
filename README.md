@@ -23,7 +23,8 @@ Avant de commencer, listons joyeuseuement ce qui ne fonctionne pas ou plus avec 
 - (liste non faite parce que l'auteur est un branleur)
 
 ## 1/ Le clic droit.
-
+<details>
+  <summary>Description (cliquer pour dérouler)</summary> 
 Le clic droit de Windows 11 ressemble à ça : 
 
 ![image menu](https://i.imgur.com/l6MxFzI.png)
@@ -31,7 +32,7 @@ Le clic droit de Windows 11 ressemble à ça :
 Alors oui, c'est très joli y'a des icônes. Mais si je veux utiliser 7zip pour extraire une archive, ou alors accéder à mon panneau nvidia, je suis obligé de cliquer sur "Afficher plus d'options", puis sur ce que je veux. C'est pénible.
 
 On va donc remettre le clic droit de Windows 10, que je trouve plus efficace.
-
+</details>
 ### 1.1/ Modification.
 
 Pour récupérer le clic droit de Windows 10, il faut modifier une clé de registre, ce qu'on peut faire via le Terminal.
