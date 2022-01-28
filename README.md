@@ -33,6 +33,7 @@ Alors oui, c'est très joli y'a des icônes. Mais si je veux utiliser 7zip pour 
 
 On va donc remettre le clic droit de Windows 10, que je trouve plus efficace.
 </details>
+
 ### 1.1/ Modification.
 
 Pour récupérer le clic droit de Windows 10, il faut modifier une clé de registre, ce qu'on peut faire via le Terminal.
