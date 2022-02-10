@@ -177,7 +177,7 @@ C'est pénible, je veux le désactiver.
 
 ### 7.1/ Modification.
 
-Pour désactiver la Game Bar, il faut modifier une clé de registre, ce qu'on peut faire via le Terminal.
+Pour désactiver les résultats web dans la recherche, il faut modifier une clé de registre, ce qu'on peut faire via le Terminal.
 - Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
 - Windows Terminal (Admin)
 - Coller la ligne :
