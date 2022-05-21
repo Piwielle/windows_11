@@ -130,13 +130,12 @@ Le menu démarrer de Windows 11 est médiocre, et pas fonctionnel. Je suis limit
 
 Quel enfer.
 
-La meilleure solution que j'ai trouvé pour le moment, c'est d'acheter et d'utiliser start11. https://www.stardock.com/products/start11/
+J'ai essayé Start11 (trop lent), et StartAllBack (pas de possibilités de mettre plusieurs colonnes et groupes), et rien m'a convaincu.
 
-Mon menu démarrer actuel ressemble à ça 
+La meilleure option que je suggère c'est https://github.com/valinet/ExplorerPatcher. Ca remet le menu de Windows 10, c'est rapide, et assez configrable.
+Mon menu démarrer actuel ressemble à ça avec ExplorerPatcher : 
 
-![start menu](https://i.imgur.com/9iqa8nd.png)
-
-C'est mieux, mais c'est payant (6€). Apparemment, une future mise à jour de windows 11 devrait améliorer le menu démarrer, et rajouter une ligne supplémentaire de raccourcis. C'est mieux, mais pas assez à mon goût, et la barre de "recommendations" reste impossible à cacher complètement.
+![explorer patcher](https://i.imgur.com/XM5RZWk.png)
 
 ## 6/ Les résultats web dans la recherche
 Par défaut, Windows affiche des résultats du web dans la recherche du menu démarrer. 
