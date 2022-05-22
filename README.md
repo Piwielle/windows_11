@@ -64,9 +64,13 @@ Elle se lance quand même systématiquement quand on lance un jeu.
 
 ### 2.1/ Modification.
 
-Pour désactiver la Game Bar, il faut modifier une clé de registre, ce qu'on peut faire via le Terminal.
+Pour désactiver la Game Bar, il faut modifier deux clés de registre, ce qu'on peut faire via le Terminal, et désinstaller une application.
 - Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
 - Windows Terminal (Admin)
+- Coller la ligne :
+
+```Get-AppxPackage Microsoft.XboxGamingOverlay | Remove-AppxPackage```
+- Vérifier que la réponse confirme que l'opération a bien été effectuée.
 - Coller la ligne :
 
 ```reg add "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" /v AppCaptureEnabled /t REG_DWORD /d 00000000 /f```
@@ -79,9 +83,13 @@ Pour désactiver la Game Bar, il faut modifier une clé de registre, ce qu'on pe
 
 ### 2.2/ Annuler le changement.
 
-Pour annuler cette modification, il suffira de faire l'inverse et de changer les valeurs.
+Pour annuler cette modification, il suffira de faire l'inverse et de changer les valeurs, et réinstaller l'application.
 - Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
 - Windows Terminal (Admin)
+- Coller la ligne :
+
+```Get-AppxPackage -allusers *Microsoft.XboxGamingOverlay* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register “$($_.InstallLocation)\AppXManifest.xml”}```
+- Vérifier que la réponse confirme que l'opération a bien été effectuée.
 - Coller la ligne 
 
 ```reg add "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" /v AppCaptureEnabled /t REG_DWORD /d 00000001 /f```
