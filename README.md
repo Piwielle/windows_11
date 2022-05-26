@@ -9,12 +9,12 @@ Je vais lister ici les tweaks que j'utilise pour rendre l'OS un peu plus agréab
 ## Table des matières
 
  - [**1/ Le clic droit**](#1-le-clic-droit)
- - [**2/ La Game Bar**](#3-la-game-bar)
- - [**3/ Les animations**](#4-les-animations-de-windows)
- - [**4/ La recommendation de Bing dans Microsoft Edge**](#5-la-recommendation-de-bing-dans-microsoft-edge)
- - [**5/ Le menu démarrer**](#6-le-menu-démarrer)
- - [**6/ Les résultats web dans la recherche**](#7-les-résultats-web-dans-la-recherche)
- - [**7/ Les widgets**](#8-les-widgets)
+ - [**2/ La Game Bar**](#2-la-game-bar)
+ - [**3/ Les animations**](#3-les-animations-de-windows)
+ - [**4/ La recommendation de Bing dans Microsoft Edge**](#4-la-recommendation-de-bing-dans-microsoft-edge)
+ - [**5/ Le menu démarrer**](#5-le-menu-démarrer)
+ - [**6/ Les résultats web dans la recherche**](#6-les-résultats-web-dans-la-recherche)
+ - [**7/ Les widgets**](#7-les-widgets)
  - [**TLDR (tout d'un coup)**](#tldr-tout-dun-coup)
 
 ## Chapitre 0 : Liste des fonctionnalités perdues avec Windows 11
@@ -55,7 +55,7 @@ Pour annuler cette modification, il suffira de faire l'inverse et de supprimer l
 - Redémarrer le PC.
 
 
-## 2/ La Game Bar
+## 2/ La Game Bar.
 Sur Windows 11, le réglage pour désactiver la Game Bar a disparu. La seule chose présente dans les paramètres, c'est une option pour ne pas l'ouvrir en appuyant sur un bouton de manette.
 
 Elle se lance quand même systématiquement quand on lance un jeu. 
