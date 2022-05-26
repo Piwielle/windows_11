@@ -8,13 +8,13 @@ Je vais lister ici les tweaks que j'utilise pour rendre l'OS un peu plus agréab
 
 ## Table des matières
 
- - [**1/ Le clic droit**](#1-le-clic-droit)
- - [**2/ La Game Bar**](#2-la-game-bar)
- - [**3/ Les animations**](#3-les-animations-de-windows)
- - [**4/ La recommendation de Bing dans Microsoft Edge**](#4-la-recommendation-de-bing-dans-microsoft-edge)
- - [**5/ Le menu démarrer**](#5-le-menu-démarrer)
- - [**6/ Les résultats web dans la recherche**](#6-les-résultats-web-dans-la-recherche)
- - [**7/ Les widgets**](#7-les-widgets)
+ - [**Le clic droit**](#le-clic-droit)
+ - [**La Game Bar**](#la-game-bar)
+ - [**Les animations**](#les-animations-de-windows)
+ - [**La recommendation de Bing dans Microsoft Edge**](#la-recommendation-de-bing-dans-microsoft-edge)
+ - [**Le menu démarrer**](#le-menu-démarrer)
+ - [**Les résultats web dans la recherche**](#les-résultats-web-dans-la-recherche)
+ - [**Les widgets**](#les-widgets)
  - [**TLDR (tout d'un coup)**](#tldr-tout-dun-coup)
 
 ## Chapitre 0 : Liste des fonctionnalités perdues avec Windows 11
@@ -22,7 +22,7 @@ Je vais lister ici les tweaks que j'utilise pour rendre l'OS un peu plus agréab
 Avant de commencer, listons joyeuseuement ce qui ne fonctionne pas ou plus avec Windows 11 : 
 - (liste non faite parce que l'auteur est un branleur)
 
-## 1/ Le clic droit.
+## Le clic droit.
 
 Le clic droit de Windows 11 ressemble à ça : 
 
@@ -32,7 +32,7 @@ Alors oui, c'est très joli y'a des icônes. Mais si je veux utiliser 7zip pour 
 
 On va donc remettre le clic droit de Windows 10, que je trouve plus efficace.
 
-### 1.1/ Modification.
+### Modification.
 
 Pour récupérer le clic droit de Windows 10, il faut modifier une clé de registre, ce qu'on peut faire via le Terminal.
 - Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
@@ -43,7 +43,7 @@ Pour récupérer le clic droit de Windows 10, il faut modifier une clé de regis
 - Vérifier que la réponse confirme que l'opération a bien été effectuée.
 - Redémarrer le PC.
 
-### 1.2/ Annuler le changement.
+### Annuler le changement.
 
 Pour annuler cette modification, il suffira de faire l'inverse et de supprimer la clé de registre qu'on a modifié.
 - Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
@@ -55,14 +55,14 @@ Pour annuler cette modification, il suffira de faire l'inverse et de supprimer l
 - Redémarrer le PC.
 
 
-## 2/ La Game Bar.
+## La Game Bar.
 Sur Windows 11, le réglage pour désactiver la Game Bar a disparu. La seule chose présente dans les paramètres, c'est une option pour ne pas l'ouvrir en appuyant sur un bouton de manette.
 
 Elle se lance quand même systématiquement quand on lance un jeu. 
 
 /!\ Certaines personnes utilisent la Game Bar, et trouvent ça utile. Si c'est votre cas, n'appliquez évidemment pas ces modifications, qui vont la désactiver.
 
-### 2.1/ Modification.
+### Modification.
 
 Pour désactiver la Game Bar, il faut modifier deux clés de registre, ce qu'on peut faire via le Terminal, et désinstaller une application.
 - Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
@@ -81,7 +81,7 @@ Pour désactiver la Game Bar, il faut modifier deux clés de registre, ce qu'on 
 - Vérifier que la réponse confirme que l'opération a bien été effectuée.
 - Redémarrer le PC.
 
-### 2.2/ Annuler le changement.
+### Annuler le changement.
 
 Pour annuler cette modification, il suffira de faire l'inverse et de changer les valeurs, et réinstaller l'application.
 - Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
@@ -100,13 +100,13 @@ Pour annuler cette modification, il suffira de faire l'inverse et de changer les
 - Vérifier que la réponse confirme que l'opération a bien été effectuée.
 - Redémarrer le PC.
 
-## 3/ Les animations de Windows
+## Les animations de Windows
 
 Y'a plein d'animations dans Windows 11. Pour le menu démarrer, le scroll, l'ouverture/fermeture des fenêtres. Je les trouve lentes, et je préfère les désactiver.
 
 ![animation](https://i.imgur.com/QqcfhrJ.gif)
 
-### 3.1/ Modification.
+### Modification.
 
 Pour une fois, il s'agit d'un simple paramètre de Windows à changer.
 - Paramètres
@@ -114,7 +114,7 @@ Pour une fois, il s'agit d'un simple paramètre de Windows à changer.
 - -> Effets Visuels
 - Décocher ```Effets d'animation```
 
-### 3.2/ Annuler le changement.
+### Annuler le changement.
 
 Pour une fois, il s'agit d'un simple paramètre de Windows à changer.
 - Paramètres
@@ -122,7 +122,7 @@ Pour une fois, il s'agit d'un simple paramètre de Windows à changer.
 - -> Effets Visuels
 - Cocher ```Effets d'animation```
 
-## 4/ La recommendation de Bing dans Microsoft Edge
+## La recommendation de Bing dans Microsoft Edge
 C'est ce truc là, qui apparaît au moins une fois par semaine. ![bing](https://i.imgur.com/4ywSfS2.png)
 
 Pour le désactiver : 
@@ -145,14 +145,14 @@ Mon menu démarrer actuel ressemble à ça avec ExplorerPatcher :
 
 ![explorer patcher](https://i.imgur.com/XM5RZWk.png)
 
-## 6/ Les résultats web dans la recherche
+## Les résultats web dans la recherche
 Par défaut, Windows affiche des résultats du web dans la recherche du menu démarrer. 
 
 ![recherche](https://i.imgur.com/wnChamT.png)
 
 C'est pénible, je veux le désactiver.
 
-### 6.1/ Modification.
+### Modification.
 
 Pour désactiver les résultats web dans la recherche, il faut modifier une clé de registre, ce qu'on peut faire via le Terminal.
 - Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
@@ -163,7 +163,7 @@ Pour désactiver les résultats web dans la recherche, il faut modifier une clé
 - Vérifier que la réponse confirme que l'opération a bien été effectuée.
 - Redémarrer le PC.
 
-### 6.2/ Annuler le changement.
+### Annuler le changement.
 
 Pour annuler cette modification, il suffira de faire l'inverse et de changer les valeurs.
 - Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
@@ -174,14 +174,14 @@ Pour annuler cette modification, il suffira de faire l'inverse et de changer les
 - Vérifier que la réponse confirme que l'opération a bien été effectuée.
 - Redémarrer le PC.
 
-## 7/ Les widgets
+## Les widgets
 
 Windows a ajouté une fonctionnalité, les widgets.
 ![widgets](https://img.bfmtv.com/c/0/708/dd3/9c94d037cdb46d167b8f1ff98fe49.png)
 
 On peut assez simplement les désactiver dans les paramètres, mais le fait de simplement les désactiver ne suffit pas, et ils tournent toujours en tâche de fond même désactivés. Je souhaite donc vraiment les désactiver, et que plus rien ne tourne.
 
-### 7.1/ Modification.
+### Modification.
 
 Pour désactiver les Widgets, il faut modifier une clé de registre, ce qu'on peut faire via le Terminal.
 - Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
@@ -192,7 +192,7 @@ Pour désactiver les Widgets, il faut modifier une clé de registre, ce qu'on pe
 - Vérifier que la réponse confirme que l'opération a bien été effectuée.
 - Redémarrer le PC.
 
-### 7.2/ Annuler le changement.
+### Annuler le changement.
 
 Pour annuler cette modification, il suffira de faire l'inverse et de changer les valeurs.
 - Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
@@ -208,6 +208,7 @@ Pour annuler cette modification, il suffira de faire l'inverse et de changer les
 Je mets ici directement la liste de toutes les commandes de ce doc, pour avoir tout d'un coup sans devoir tout lire.
 Pour désactiver : 
 ```
+Get-AppxPackage Microsoft.XboxGamingOverlay | Remove-AppxPackage
 reg add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve
 reg add "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" /v AppCaptureEnabled /t REG_DWORD /d 00000000 /f
 reg add "HKEY_CURRENT_USER\System\GameConfigStore" /v GameDVR_Enabled /t REG_DWORD /d 00000000 /f
@@ -218,6 +219,7 @@ reg add "HKEY_CURRENT_USER\Control Panel\Desktop\WindowMetrics" /v MinAnimate /t
 
 Et pour réactiver : 
 ```
+Get-AppxPackage -allusers *Microsoft.XboxGamingOverlay* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register “$($_.InstallLocation)\AppXManifest.xml”}
 reg delete "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}" /f
 reg delete "HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\AppPrivacy" /v LetAppsRunInBackground /f
 reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Dsh" /v AllowNewsAndInterests /f
