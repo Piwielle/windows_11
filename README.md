@@ -9,7 +9,7 @@ Je vais lister ici les tweaks que j'utilise pour rendre l'OS un peu plus agréab
 ## Table des matières
 
  - [**1/ Le clic droit**](#1-le-clic-droit)
- - [**2/ La GameBar**](#3-la-game-bar)
+ - [**2/ La Game Bar**](#3-la-game-bar)
  - [**3/ Les animations**](#4-les-animations-de-windows)
  - [**4/ La recommendation de Bing dans Microsoft Edge**](#5-la-recommendation-de-bing-dans-microsoft-edge)
  - [**5/ Le menu démarrer**](#6-le-menu-démarrer)
