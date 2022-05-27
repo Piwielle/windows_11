@@ -15,7 +15,10 @@ Je vais lister ici les tweaks que j'utilise pour rendre l'OS un peu plus agréab
  - [**Le menu démarrer**](#le-menu-démarrer)
  - [**Les résultats web dans la recherche**](#les-résultats-web-dans-la-recherche)
  - [**Les widgets**](#les-widgets)
+ - [**L'hibernation**](#lhibernation)
+ - [**Service SysMain**](#service-sysmain)
  - [**TLDR (tout d'un coup)**](#tldr-tout-dun-coup)
+
 
 ## Chapitre 0 : Liste des fonctionnalités perdues avec Windows 11
 
@@ -212,6 +215,57 @@ Pour annuler cette modification, il suffira de faire l'inverse et de changer les
 ```reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Dsh" /v AllowNewsAndInterests /f```
 - Vérifier que la réponse confirme que l'opération a bien été effectuée.
 - Redémarrer le PC.
+
+## L'hibernation
+Par défaut, Windows se met en veille prolongée au lieu de vraiment s'éteindre quand on l'éteint. Ca permet d'accélérer un peu le démarrage, mais ça peut causer plein de soucis divers et variés parce que Windows s'éteint jamais vraiment. Je suggère de désactiver cette fonctionnalité, quitte à avoir un PC qui démarre un peu moins vite.
+
+### Modification.
+Pour désactiver l'hibernation, il faut modifier une clé de registre, ce qu'on peut faire via le Terminal.
+- Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
+- Windows Terminal (Admin)
+- Coller les lignes :
+
+```REG ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Power" /v HiberbootEnabled /t REG_DWORD /d 00000000 /f```
+```powercfg -h off```
+- Vérifier que les réponses confirment que les opérations ont bien été effectué.
+- Redémarrer le PC.
+
+### Annuler le changement.
+
+Pour annuler cette modification, il suffira de faire l'inverse et de changer les valeurs.
+- Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
+- Windows Terminal (Admin)
+- Coller les lignes :
+
+```REG ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Power" /v HiberbootEnabled /t REG_DWORD /d 00000001 /f```
+```powercfg -h on```
+- Vérifier que les réponses confirment que les opérations ont bien été effectué.
+- Redémarrer le PC.
+
+## Service SysMain
+C'est un service qui analyse l'utilisation du PC, et qui pré charge des applications dans la RAM, pour permettre de les lancer plus rapidement. Fonctionne souvent bien, mais peut créer des soucis d'utilisation de disque dur, pour un gain qui n'est pas forcément utile.
+
+### Modification.
+Pour désactiver le service, il faut modifier une clé de registre, ce qu'on peut faire via le Terminal.
+- Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
+- Windows Terminal (Admin)
+- Coller la ligne :
+
+```sc stop "SysMain" & sc config "SysMain" start=disabled```
+- Vérifier que la réponse confirme que l'opération a bien été effectuée.
+- Redémarrer le PC.
+
+### Annuler le changement.
+
+Pour annuler cette modification, il suffira de faire l'inverse et de changer les valeurs.
+- Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
+- Windows Terminal (Admin)
+- Coller la ligne :
+
+```sc config "SysMain" start=auto```
+- Vérifier que la réponse confirme que l'opération a bien été effectuée.
+- Redémarrer le PC.
+
 
 ## TLDR (tout d'un coup)
 
