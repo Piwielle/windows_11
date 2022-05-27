@@ -220,6 +220,7 @@ C'est un service qui analyse l'utilisation du PC, et qui pré charge des applica
 Pour désactiver le service, il faut modifier une clé de registre, ce qu'on peut faire via le Terminal.
 - Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
 - Windows Terminal (Admin)
+- CLiquer sur la petite flèche dans la barre du haut, puis ouvrir un **Invite de commande**
 - Coller la ligne :
 
 ```sc stop "SysMain" & sc config "SysMain" start=disabled```
