@@ -126,7 +126,9 @@ Pour une fois, il s'agit d'un simple paramètre de Windows à changer.
 Deux choses. Par défaut, Edge se lance automatiquement au démarrage du PC, et reste en tâche de fond même si le logiciel n'est pas démarré. On peut désactiver ça dans les options.
 
 Il y a aussi la pub pour Bing.
-C'est ce truc là, qui apparaît au moins une fois par semaine. <img src="[https://your-image-url.type](https://i.imgur.com/4ywSfS2.png)" width="100">
+C'est ce truc là, qui apparaît au moins une fois par semaine.
+
+<img src="https://i.imgur.com/4ywSfS2.png" width="300" height="400">
 
 
 Pour désactiver ces deux choses : 
@@ -138,7 +140,7 @@ Pour désactiver ces deux choses :
 - Changer le réglage pour "Désactivé"
 - Redémarrer Edge.
 
-## 5/ le menu démarrer
+## 5/ Le menu démarrer
 
 Le menu démarrer de Windows 11 est médiocre, et pas fonctionnel. Je suis limité à 18 raccourcis affichés maximum (à moins d'utiliser les pages, et de devoir scroll, avec leur scroll pas réactif), on est forcé d'afficher les objets "recommandés" (on peut les cacher, mais dans ce cas on se retrouve avec un cadre vide qui nous dit de les activer...)
 
