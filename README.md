@@ -1,16 +1,13 @@
 # Windows 11
 
-Windows 11, pour l'instant, c'est un peu pourri. Y'a des bugs qui réduisent les performances avec les CPU AMD, la barre des tâches est pas vraiment fonctionnelle, l'interface du menu démarrer non plus.
+Windows 11 c'est l'avenir. Avec les nouvelles sorties de matériel (exemple Alder Lake), et de logiciels/jeux, la meilleure expérience sera sur Windows 11, que ça me plaise ou non.
 
-Mais bon, c'est l'avenir. Avec les nouvelles sorties de matériel (Alder Lake), et de logiciels/jeux, la meilleure expérience sera sur Windows 11, que ça me plaise ou non.
-
-Je vais lister ici les tweaks que j'utilise pour rendre l'OS un peu plus agréable à utiliser, c'est un peu expérimental, et en cours d'évolution.
+Alors voilà la liste des tweaks que je suggère pour Windows 11. Pour chaque modification, il y a une explication brève, et la méthode pour tout inverser si besoin. Lisez attentivement.
 
 ## Table des matières
 
  - [**Le clic droit**](#le-clic-droit)
  - [**La Game Bar**](#la-game-bar)
- - [**Les animations**](#les-animations-de-windows)
  - [**Microsoft Edge**](#microsoft-edge)
  - [**Le menu démarrer**](#le-menu-démarrer)
  - [**Les résultats web dans la recherche**](#les-résultats-web-dans-la-recherche)
@@ -19,11 +16,6 @@ Je vais lister ici les tweaks que j'utilise pour rendre l'OS un peu plus agréab
  - [**Service SysMain**](#service-sysmain)
  - [**TLDR (tout d'un coup)**](#tldr-tout-dun-coup)
 
-
-## Chapitre 0 : Liste des fonctionnalités perdues avec Windows 11
-
-Avant de commencer, listons joyeuseuement ce qui ne fonctionne pas ou plus avec Windows 11 : 
-- (liste non faite parce que l'auteur est un branleur)
 
 ## Le clic droit.
 
@@ -70,18 +62,16 @@ Elle se lance quand même systématiquement quand on lance un jeu.
 Pour désactiver la Game Bar, il faut modifier deux clés de registre, ce qu'on peut faire via le Terminal, et désinstaller une application.
 - Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
 - Windows Terminal (Admin)
-- Coller la ligne :
+- Coller les lignes une par une :
 
 ```Get-AppxPackage Microsoft.XboxGamingOverlay | Remove-AppxPackage```
-- Vérifier que la réponse confirme que l'opération a bien été effectuée.
-- Coller la ligne :
+
 
 ```reg add "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" /v AppCaptureEnabled /t REG_DWORD /d 00000000 /f```
-- Vérifier que la réponse confirme que l'opération a bien été effectuée.
-- Coller la ligne :
+
 
 ```reg add "HKEY_CURRENT_USER\System\GameConfigStore" /v GameDVR_Enabled /t REG_DWORD /d 00000000 /f```
-- Vérifier que la réponse confirme que l'opération a bien été effectuée.
+- Vérifier que les réponses confirment que les opérations ont bien été effectuées.
 - Redémarrer le PC.
 
 ### Annuler le changement.
@@ -89,41 +79,18 @@ Pour désactiver la Game Bar, il faut modifier deux clés de registre, ce qu'on 
 Pour annuler cette modification, il suffira de faire l'inverse et de changer les valeurs, et réinstaller l'application.
 - Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
 - Windows Terminal (Admin)
-- Coller la ligne :
+- Coller les lignes une par une :
 
 ```Get-AppxPackage -allusers *Microsoft.XboxGamingOverlay* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register “$($_.InstallLocation)\AppXManifest.xml”}```
-- Vérifier que la réponse confirme que l'opération a bien été effectuée.
-- Coller la ligne 
+
 
 ```reg add "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" /v AppCaptureEnabled /t REG_DWORD /d 00000001 /f```
-- Vérifier que la réponse confirme que l'opération a bien été effectuée.
-- Coller la ligne 
+
 
 ```reg add "HKEY_CURRENT_USER\System\GameConfigStore" /v GameDVR_Enabled /t REG_DWORD /d 00000001 /f```
-- Vérifier que la réponse confirme que l'opération a bien été effectuée.
+- Vérifier que les réponses confirment que les opérations ont bien été effectuées.
 - Redémarrer le PC.
 
-## Les animations de Windows
-
-Y'a plein d'animations dans Windows 11. Pour le menu démarrer, le scroll, l'ouverture/fermeture des fenêtres. Je les trouve lentes, et je préfère les désactiver.
-
-![animation](https://i.imgur.com/QqcfhrJ.gif)
-
-### Modification.
-
-Pour une fois, il s'agit d'un simple paramètre de Windows à changer.
-- Paramètres
-- -> Accessibilité
-- -> Effets Visuels
-- Décocher ```Effets d'animation```
-
-### Annuler le changement.
-
-Pour une fois, il s'agit d'un simple paramètre de Windows à changer.
-- Paramètres
-- -> Accessibilité
-- -> Effets Visuels
-- Cocher ```Effets d'animation```
 
 ## Microsoft Edge
 Deux choses. Par défaut, Edge se lance automatiquement au démarrage du PC, et reste en tâche de fond même si le logiciel n'est pas démarré. On peut désactiver ça dans les options.
@@ -226,6 +193,8 @@ Pour désactiver l'hibernation, il faut modifier une clé de registre, ce qu'on 
 - Coller les lignes :
 
 ```REG ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Power" /v HiberbootEnabled /t REG_DWORD /d 00000000 /f```
+
+
 ```powercfg -h off```
 - Vérifier que les réponses confirment que les opérations ont bien été effectué.
 - Redémarrer le PC.
@@ -238,8 +207,10 @@ Pour annuler cette modification, il suffira de faire l'inverse et de changer les
 - Coller les lignes :
 
 ```REG ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Power" /v HiberbootEnabled /t REG_DWORD /d 00000001 /f```
+
+
 ```powercfg -h on```
-- Vérifier que les réponses confirment que les opérations ont bien été effectué.
+- Vérifier que les réponses confirment que les opérations ont bien été effectuées.
 - Redémarrer le PC.
 
 ## Service SysMain
@@ -279,6 +250,9 @@ reg add "HKEY_CURRENT_USER\System\GameConfigStore" /v GameDVR_Enabled /t REG_DWO
 reg add "HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Explorer" /v DisableSearchBoxSuggestions /t REG_DWORD /d 00000001 /f
 reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Dsh" /v AllowNewsAndInterests /t REG_DWORD /d 00000000 /f
 reg add "HKEY_CURRENT_USER\Control Panel\Desktop\WindowMetrics" /v MinAnimate /t REG_SZ /d 00000000 /f
+reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Power" /v HiberbootEnabled /t REG_DWORD /d 00000000 /f
+powercfg -h off
+sc stop "SysMain" & sc config "SysMain" start=disabled
 ```
 
 Et pour réactiver : 
@@ -291,6 +265,9 @@ reg add "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" /v
 reg add "HKEY_CURRENT_USER\System\GameConfigStore" /v GameDVR_Enabled /t REG_DWORD /d 00000001 /f
 reg add "HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Explorer" /v DisableSearchBoxSuggestions /t REG_DWORD /d 00000000 /f
 reg add "HKEY_CURRENT_USER\Control Panel\Desktop\WindowMetrics" /v MinAnimate /t REG_SZ /d 00000000 /f
+reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Power" /v HiberbootEnabled /t REG_DWORD /d 00000001 /f
+powercfg -h oon
+sc config "SysMain" start=auto
 ```
 
 A noter que certaines parties (le menu démarrer, les recommendations de bing) ne sont pas modifiées via le registre, et ne sont du coup pas modifiées par les commandes au dessus !
