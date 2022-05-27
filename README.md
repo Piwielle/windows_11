@@ -11,7 +11,7 @@ Je vais lister ici les tweaks que j'utilise pour rendre l'OS un peu plus agréab
  - [**Le clic droit**](#le-clic-droit)
  - [**La Game Bar**](#la-game-bar)
  - [**Les animations**](#les-animations-de-windows)
- - [**La recommendation de Bing dans Microsoft Edge**](#la-recommendation-de-bing-dans-microsoft-edge)
+ - [**Microsoft Edge**](#microsoft-edge)
  - [**Le menu démarrer**](#le-menu-démarrer)
  - [**Les résultats web dans la recherche**](#les-résultats-web-dans-la-recherche)
  - [**Les widgets**](#les-widgets)
@@ -122,7 +122,13 @@ Pour une fois, il s'agit d'un simple paramètre de Windows à changer.
 - -> Effets Visuels
 - Cocher ```Effets d'animation```
 
-## La recommendation de Bing dans Microsoft Edge
+## Microsoft Edge
+Deux choses. Par défaut, Edge se lance automatiquement au démarrage du PC, et reste en tâche de fond même si le logiciel n'est pas démarré. On peut désactiver ça dans les options.
+Pour le faire : 
+- Aller sur l'url (depuis Edge) [`edge://settings/system`](edge://settings/system)
+- Désactiver les options **"démarrage rapide"** et **"Continuer à exécuter les extensions et les applications en arrière plan lorsque Microsft Edge est fermé"**.
+
+Il y a aussi la pub pour Bing.
 C'est ce truc là, qui apparaît au moins une fois par semaine. ![bing](https://i.imgur.com/4ywSfS2.png)
 
 Pour le désactiver : 
