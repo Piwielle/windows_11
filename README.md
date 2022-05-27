@@ -1,6 +1,6 @@
 # Windows 11
 
-Windows 11 c'est l'avenir. Avec les nouvelles sorties de matériel (exemple Alder Lake), et de logiciels/jeux, la meilleure expérience sera sur Windows 11, que ça me plaise ou non.
+Windows 11 c'est l'avenir. Avec les nouvelles sorties de matériel (exemple Alder Lake), et de logiciels/jeux, la meilleure expérience sera sur cette version, que ça me plaise ou non.
 
 Alors voilà la liste des tweaks que je suggère pour Windows 11. Pour chaque modification, il y a une explication brève, et la méthode pour tout inverser si besoin. Lisez attentivement.
 
