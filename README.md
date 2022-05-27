@@ -124,14 +124,16 @@ Pour une fois, il s'agit d'un simple paramètre de Windows à changer.
 
 ## Microsoft Edge
 Deux choses. Par défaut, Edge se lance automatiquement au démarrage du PC, et reste en tâche de fond même si le logiciel n'est pas démarré. On peut désactiver ça dans les options.
-Pour le faire : 
+
+Il y a aussi la pub pour Bing.
+C'est ce truc là, qui apparaît au moins une fois par semaine. <img src="[https://your-image-url.type](https://i.imgur.com/4ywSfS2.png)" width="100">
+
+
+Pour désactiver ces deux choses : 
 - Aller sur l'url (depuis Edge) [`edge://settings/system`](edge://settings/system)
 - Désactiver les options **"démarrage rapide"** et **"Continuer à exécuter les extensions et les applications en arrière plan lorsque Microsft Edge est fermé"**.
 
-Il y a aussi la pub pour Bing.
-C'est ce truc là, qui apparaît au moins une fois par semaine. ![bing](https://i.imgur.com/4ywSfS2.png)
 
-Pour le désactiver : 
 - Aller sur l'url [`edge://flags/#edge-show-feature-recommendations`](edge://flags/#edge-show-feature-recommendations)
 - Changer le réglage pour "Désactivé"
 - Redémarrer Edge.
