@@ -1,4 +1,4 @@
-# Windows 11.
+# Windows 11
 
 Salut. Ici, un guide sur comment bien installer ou réinstaller Windows 11 proprement. De la création d'une clé USB aux paramètres de Windows 11, en passant par un peu d'optimisation, vous devriez tout avoir ici.
 
