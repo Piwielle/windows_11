@@ -1,4 +1,4 @@
-<img src="https://i.imgur.com/lVuDunL.png" height="350" id="img-header">
+<center> <img src="https://i.imgur.com/lVuDunL.png" height="350" id="img-header"> </center>
 
 
 # Installer et optimiser Windows 11
