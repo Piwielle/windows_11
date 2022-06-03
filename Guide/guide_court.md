@@ -49,3 +49,27 @@ Une fois Windows installé et démarré, on va pouvoir télécharger et installe
 Une fois tous les pilotes téléchargés, on peut les extraire et les installer, un par un. Dans la majorité des cas on pourra se contenter de ne redémarrer qu'une seule fois à la fin, mais si on constate des erreurs étranges, redémarrer après chaque pilote peut aider.
 
 Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20"> 3 - Installer ses pilotes](https://youtu.be/olOuIQA1HzY)
+
+## Configurer les paramètres de Windows
+
+Une fois les pilotes installés, on va pouvoir mettre à jour et régler les paramètres de Windows. Le principe est assez simple : 
+- Commencer par mettre complètement à jour Windows. Faire une recherche des MàJ, les installer, redémarrer le PC, et refaire une recherche des MàJ.
+- Faire un tour de tous les paramètres de Windows, catégorie par catégorie, et régler les paramètres selon ce qui semble pertinent. Attention tout de même, on peut avoir envie de décocher beaucoup de choses dans les permissions diverses (dans la catégorie Confidentialité) mais ça n'a aucun intérêt de le faire, et c'est même dangeureux.
+
+Une fois les paramètres réglés, on va aller changer le mode de gestion d'alimentation, en choisissant le meilleur selon le processeur du PC. On chercher "alimentation", et on peut directement clique sur Changer le mode de gestion d'alimentation. On choisit : 
+- CPU AMD Ryzen 3XXX : Le mode de gestion “Ryzen balanced” est le meilleur mode. (il s’installe quand vous installez les pilotes de chipset)
+- CPU AMD Ryzen 5XXX : Le mode de gestion “Utilisation normale” est le meilleur mode (vous pouvez bouger le slider dans Paramètres -> Système -> Alimentation pour un léger gain).
+- Cpu Intel 12XXX : Le mode de gestion "Performances élevées" est le meilleur mode.
+- CPU Intel (tous les autres) : Le mode de gestion "Performances élevées" est le meilleur mode. Vous avez la possibilité d'essayer le mode "Performance ultimes", pour un gain à peu près inexistant. Pour installer ce mode, vous pouvez vous référer à [ce guide de Tenforums](https://www.tenforums.com/tutorials/107613-add-remove-ultimate-performance-power-plan-windows-10-a.html).
+
+Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20"> 4 - Les paramètres de Windows](https://youtu.be/CmdQOGJdFV0)
+
+## Bibliothèques C++
+
+Les bibliothèques C++ (traduction libre) sont nécessaires à beaucoup d'applications et de jeux pour fonctionner. Certains vont les installer automatiquement, d'autres vont juste vous faire des erreurs et ne rien faire. On va donc tout installer maintenant, pour être tranquille.
+
+- On télécharge le pack de bibliothèques C++ sur [le site de TechPowerup](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/).
+- On extrait l'archive téléchargée.
+- On lance **install_all** **en tant qu'administrateur**.
+
+Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20"> 5 - Bibliothèques C++](https://youtu.be/Ck-65Ku7ohg)
