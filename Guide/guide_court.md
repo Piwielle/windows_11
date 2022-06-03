@@ -40,11 +40,11 @@ Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20"> 2 - In
 
 Une fois Windows installé et démarré, on va pouvoir télécharger et installer les pilotes. 
 
-On commence par se rendre sur le site de la carte mère, dans la catégorie support (si le modèle exacte de la carte mère est inconnu, on peut utiliser [UserDiag](https://userdiag.com/) pour le trouver). On télécharge ensuite tous les pilotes disponibles pour la carte mère.
+- On commence par se rendre sur le site de la carte mère, dans la catégorie support (si le modèle exacte de la carte mère est inconnu, on peut utiliser [UserDiag](https://userdiag.com/) pour le trouver). On télécharge ensuite tous les pilotes disponibles pour la carte mère.
 
-On fera quand même attention d'éviter les "utilitaires", qui ne sont pas vraiment des pilotes, mais plutôt des logiciels qui peuvent permettre de contrôler des choses diverses sur le PC, mais qui sont souvent mal faits et très gourmands en ressources.
+- On fera quand même attention d'éviter les "utilitaires", qui ne sont pas vraiment des pilotes, mais plutôt des logiciels qui peuvent permettre de contrôler des choses diverses sur le PC, mais qui sont souvent mal faits et très gourmands en ressources.
 
-On passe également sur le site d'Nvidia ou AMD pour la carte graphique, et sur les sites des fabricants pour les pilotes divers spécifiques à du matériel particulier (logiciel de clavier, pilote de carte son, etc).
+- On passe également sur le site d'Nvidia ou AMD pour la carte graphique, et sur les sites des fabricants pour les pilotes divers spécifiques à du matériel particulier (logiciel de clavier, pilote de carte son, etc).
 
 Une fois tous les pilotes téléchargés, on peut les extraire et les installer, un par un. Dans la majorité des cas on pourra se contenter de ne redémarrer qu'une seule fois à la fin, mais si on constate des erreurs étranges, redémarrer après chaque pilote peut aider.
 
