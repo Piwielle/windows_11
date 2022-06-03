@@ -87,3 +87,15 @@ W10Privacy est un "logiciel de vie privée". Généralement, c'est les logiciels
 Si jamais vous ne voulez pas lire, je propose un [fichier de configuration à importer](https://lien.ctrl-f.io/w10privacy) qui est très basique, et qui devrait convenir à tout le monde. Dans tous les cas, **gardez bien votre sauvegarde**.
 
 Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20"> 6 - W10Privacy](https://youtu.be/2p92Mm-0YTo)
+
+## Optimiser Windows
+
+En plus des paramètres, on peut rajouter quelques optimisations pour Windows 11, pour réduire un peu les ressources utilisées par l'OS pour des choses  inutiles. C'est l'objet d'un autre guide dédié, [consultable ici](https://github.com/Piwielle/windows_11/blob/main/Optis/README.md).
+
+Cette liste d'optimisations est sans risque pour le PC et ses fonctionnalités, mais le guide reste réversible et vous indique comment tout annuler si besoin.
+
+Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20"> 7 - Optimiser Windows](https://youtu.be/oejGj2dcjI8)
+
+## Optimiser une CG Nvidia
+
+Pour optimiser sa CG Nvidia, 
