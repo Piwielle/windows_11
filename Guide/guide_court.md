@@ -11,7 +11,7 @@ Il faut pour ça **une clé USB de 8 Go ou plus** et **accès à un PC sous Wind
 
 La clé va ensuite se créer toute seule. L'opération peut prendre du temps selon la connexion, la clé USB, et le PC.
 
-Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20"> 1 - Créer une clé USB d'installation](https://youtu.be/nidskw_JslQ)
+Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb"> 1 - Créer une clé USB d'installation](https://youtu.be/nidskw_JslQ)
 
 ## Installer Windows
 
@@ -34,7 +34,7 @@ On pourra ensuite attendre la copie et l'installation de Windows. Pendant le com
 
 Ensuite, on passe au réglage des paramètres initial avant de pouvoir accéder à Windows. On peut se laisser guider par l'installateur. Dites non à tout ce qu'il propose, et tout ira bien. Pour utiliser un compte local au lieu du compte Microsoft, on peut simplement entrer l'adresse mail "a" et le mot de passe "a". Après une erreur, on pourra continuer avec un compte local. Si vous choisissez d'utiliser un compte Microsoft (ce qui est très bien), faites attention de bien dire non à l'option pour sauvegarder vos dossiers sur OneDrive.
 
-Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20"> 2 - Installer Windows](https://youtu.be/vSD2ZCxifDY)
+Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb"> 2 - Installer Windows](https://youtu.be/vSD2ZCxifDY)
 
 ## Installer ses pilotes
 
@@ -48,7 +48,7 @@ Une fois Windows installé et démarré, on va pouvoir télécharger et installe
 
 Une fois tous les pilotes téléchargés, on peut les extraire et les installer, un par un. Dans la majorité des cas on pourra se contenter de ne redémarrer qu'une seule fois à la fin, mais si on constate des erreurs étranges, redémarrer après chaque pilote peut aider.
 
-Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20"> 3 - Installer ses pilotes](https://youtu.be/olOuIQA1HzY)
+Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb"> 3 - Installer ses pilotes](https://youtu.be/olOuIQA1HzY)
 
 ## Configurer les paramètres de Windows
 
@@ -62,7 +62,7 @@ Une fois les paramètres réglés, on va aller changer le mode de gestion d'alim
 - Cpu Intel 12XXX : Le mode de gestion "Performances élevées" est le meilleur mode.
 - CPU Intel (tous les autres) : Le mode de gestion "Performances élevées" est le meilleur mode. Vous avez la possibilité d'essayer le mode "Performance ultimes", pour un gain à peu près inexistant. Pour installer ce mode, vous pouvez vous référer à [ce guide de Tenforums](https://www.tenforums.com/tutorials/107613-add-remove-ultimate-performance-power-plan-windows-10-a.html).
 
-Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20"> 4 - Les paramètres de Windows](https://youtu.be/CmdQOGJdFV0)
+Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb"> 4 - Les paramètres de Windows](https://youtu.be/CmdQOGJdFV0)
 
 ## Bibliothèques C++
 
@@ -72,7 +72,7 @@ Les bibliothèques C++ (traduction libre) sont nécessaires à beaucoup d'applic
 - On extrait l'archive téléchargée.
 - On lance **install_all** **en tant qu'administrateur**.
 
-Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20"> 5 - Bibliothèques C++](https://youtu.be/Ck-65Ku7ohg)
+Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb"> 5 - Bibliothèques C++](https://youtu.be/Ck-65Ku7ohg)
 
 ## W10Privacy
 
@@ -86,7 +86,7 @@ W10Privacy est un "logiciel de vie privée". Généralement, c'est les logiciels
 
 Si jamais vous ne voulez pas lire, je propose un [fichier de configuration à importer](https://lien.ctrl-f.io/w10privacy) qui est très basique, et qui devrait convenir à tout le monde. Dans tous les cas, **gardez bien votre sauvegarde**.
 
-Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20"> 6 - W10Privacy](https://youtu.be/2p92Mm-0YTo)
+Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb"> 6 - W10Privacy](https://youtu.be/2p92Mm-0YTo)
 
 ## Optimiser Windows
 
@@ -94,7 +94,7 @@ En plus des paramètres, on peut rajouter quelques optimisations pour Windows 11
 
 Cette liste d'optimisations est sans risque pour le PC et ses fonctionnalités, mais le guide reste réversible et vous indique comment tout annuler si besoin.
 
-Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20"> 7 - Optimiser Windows](https://youtu.be/oejGj2dcjI8)
+Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb"> 7 - Optimiser Windows](https://youtu.be/oejGj2dcjI8)
 
 ## Optimiser une CG Nvidia
 
