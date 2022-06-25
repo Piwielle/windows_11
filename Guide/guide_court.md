@@ -98,4 +98,26 @@ Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="
 
 ## Optimiser une CG Nvidia
 
-Pour optimiser sa CG Nvidia, 
+Pour optimiser sa CG Nvidia, la première étape et d'utiliser [DDU](https://www.wagnardsoft.com/forums/viewforum.php?f=5) et [NVCleanInstall](https://www.techpowerup.com/download/techpowerup-nvcleanstall/) pour supprimer complètement son pilote graphique actuel, et le réinstaller en sélectionnant uniquement les morceaux du driver qu'on veut utiliser, plutôt que de tout installer.
+
+- Télécharger [DDU](https://www.wagnardsoft.com/forums/viewforum.php?f=5), [NVCleanInstall](https://www.techpowerup.com/download/techpowerup-nvcleanstall/).
+- Aller en mode sans échec, et utiliser DDU pour nettoyer le pilote graphique actuel. Désactiver aussi temporairement l'installation des pilotes par Windows Update, dans les paramètres de DDU.
+- Redémarrer le PC, utiliser NVCleanInstall pour installer son pilote graphique. Choisir ce que vous voulez cocher pou non dans la liste, les options sont bien décrites.
+- Relancer DDU, et réactiver l'installation des pilotes par Windows Update.
+
+La seconde étape consiste à aller faire un tour de tous les paramètres du panneau Nvidia, puis cocher pour décocher ce qui vous semble pertinent, selon votre utilisation. Si vous ne savez pas trop quoi faire, la vidéo de ce chapitre a des suggestions.
+
+Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb"> 8 - Optimiser une CG Nvidia](https://youtu.be/kGRlhVB6YmE)
+
+## Les bonnes pratiques
+
+L'installation de Windows est terminée, mais avant de vous laisser, on va parler des bonnes pratiques et des choses à faire sur le PC pour essayer de le garder propre le plus longtemps possible, et éviter les problèmes.
+
+- Eviter les optimisations. Malgré les promesses de gain de performances, d'input lag ou de stabilité, dans 99% des cas, il s'agit de bêtises qui vont vous flinguer Windows complètement, ou vous faire perdre des fonctionnalités pour ne rien gagner. Si ça vous amuse de bidouiller, et que ça vous dérange pas de réinstaller Windows tous les mois, vous pouvez tenter l'aventure, mais sauvegardez vos données, et soyez prêts à perdre du temps.
+- Eviter les logiciels de nettoyage. Les Ccleaner, Iobit SystemCare, Glary utilities, DriversCloud, DriverBooster, etc etc, c'est des saloperies. Ils vendent du vent, et ne vont rien faire de bien sur votre PC. Pour nettoyer les fichiers, le nettoyage de disque intégré à Windows est efficace et moins dangeureux que ces outils.
+- Garder son PC à jour. Ca inclut Windows, Defender, les applications, les jeux. N'allez pas forcément installer toutes les mises à jour de tout dès le premier jour, mais une fois qu'une mise à jour de quelque chose a une semaine, vous pouvez l'installer sans problèmes.
+- Essayez d'installer le moins d'applications possible. Pour garder un PC propre, installer une application seulement si vous en avez vraiment besoin. Dans la mesure du possible, utilisez les versions portables des applications, qui peuvent laisser moins de bordel sur le PC.
+- Eviter les cracks. Essayez d'utiliser des alternatives gratuites, c'est souvent possible, et bien moins dangeureux. Le site [AlternativeTo](https://alternativeto.net/) peut vous aider à trouver des alternative à un logiciel.
+- Installez [uBlock Origin](https://ublockorigin.com/). Quel que soit votre navigateur, c'est essentiel d'avoir un bloqueur de pub efficace pour être tranquille sur internet. uBlock Origin est de loin le meilleur bloqueur de pub, et si vous en utilisez un autre, il est temps de le désinstaller et de changer.
+
+Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb"> 9 - Les bonnes pratiques](https://youtu.be/SEdYm2gLgYk)
