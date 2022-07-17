@@ -16,6 +16,10 @@ Si vous souhaitez gratter le 1% restant faites-le, mais sachez que c’est à vo
 ## Aide supplémentaire
 Si jamais vous avez besoin d'une aide supplémentaire ou que vous avez un problème quelconque avec votre PC, je vous encourage à rejoindre le [<img src="https://i.imgur.com/b8g1o9k.png" width="20" height="20" alt="Logo discord" class="img-logo-discord">Discord d'entraide informatique](https://discord.gg/informatique )
 
+
+## La compatibilité avec Windows 11
+Avant de pouvoir commencer l'installation et l'utilisation de Windows 11, 
+
 ## Liens vers les guides
 
 Le guide existe en plusieurs versions, pour convenir aux préférences de chacun.
