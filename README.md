@@ -18,7 +18,7 @@ Si jamais vous avez besoin d'une aide supplémentaire ou que vous avez un probl�
 
 
 ## La compatibilité avec Windows 11
-Avant de pouvoir commencer l'installation et l'utilisation de Windows 11, 
+Avant de pouvoir commencer l'installation et l'utilisation de Windows 11, **blabla à rajouter**
 
 ## Liens vers les guides
 
