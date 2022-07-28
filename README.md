@@ -6,9 +6,9 @@
 Ce site présente un guide sur comment bien installer ou réinstaller Windows 11 proprement. Il s'agit d'un guide complet, que vous devriez pouvoir suivre sans souci quel que soit votre niveau en informatique.
 
 ## Pourquoi ce guide
-Il existe énormément de tweaks, optimisations, tutoriels, scripts et logiciels sur internet qui vont vous promettre de doubler vos FPS, réduire votre latence, stabiliser vos FPS et je ne sais quoi d’autre. La majorité de ces tweaks sont faux, plus à jour, dangeureux, n’améliorent rien, et peuvent même endommager votre PC. 
+Il existe énormément de tweaks, optimisations, tutoriels, scripts et logiciels sur internet qui vont vous promettre de doubler vos FPS, réduire votre latence, stabiliser vos FPS et je ne sais quoi d’autre. La majorité de ces tweaks sont faux, plus à jour, dangereux, n’améliorent rien, et peuvent même endommager votre PC. 
 
-Je propose ici un guide simple et efficace, afin d'avoir un PC performant et optimisé, mais avec tout qui fonctionne. En le suivant, vous aurez effectué 99% de ce qui est possible en terms d'optimisation de PC.
+Je propose ici un guide simple et efficace, afin d'avoir un PC performant et optimisé, mais avec tout qui fonctionne. En le suivant, vous aurez effectué 99% de ce qui est possible en termes d'optimisation de PC.
 
 
 Si vous souhaitez gratter le 1% restant faites-le, mais sachez que c’est à vos risques et périls, que vous allez forcément à un moment faire une connerie et devoir réinstaller windows. Tout ça pour un gain de performances qui sera invisible.
