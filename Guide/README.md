@@ -20,7 +20,7 @@ La clé étant créée, on va pouvoir l'utiliser pour formater le PC et installe
 Pour faire ça: 
 - Mettre la clé dans un des ports à l'arrière du PC, directement sur la carte mère.
 - Démarrer le PC, et spammer la touche **F11** pendant le démarrage.
-- Choisir la clé USB dans le menu de démarrage qui s'ouvre (en UEFI si il y en a plusieurs).
+- Choisir la clé USB dans le menu de démarrage qui s'ouvre (en UEFI s'il y en a plusieurs).
 - Se laisser guider par l'installateur de Windows.
 
 **Attention ! Lors du choix du lecteur sur lequel installer Windows, il faut être très attentif, c'est ici que vous allez formater vos disques, en faisant pas attention vous allez formater des choses que vous vouliez garder !**
@@ -40,7 +40,7 @@ Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="
 
 Une fois Windows installé et démarré, on va pouvoir télécharger et installer les pilotes. 
 
-- On commence par se rendre sur le site de la carte mère, dans la catégorie support (si le modèle exacte de la carte mère est inconnu, on peut utiliser [UserDiag](https://userdiag.com/) pour le trouver). On télécharge ensuite tous les pilotes disponibles pour la carte mère.
+- On commence par se rendre sur le site de la carte mère, dans la catégorie support (si le modèle exact de la carte mère est inconnu, on peut utiliser [UserDiag](https://userdiag.com/) pour le trouver). On télécharge ensuite tous les pilotes disponibles pour la carte mère.
 
 - On fera quand même attention d'éviter les "utilitaires", qui ne sont pas vraiment des pilotes, mais plutôt des logiciels qui peuvent permettre de contrôler des choses diverses sur le PC, mais qui sont souvent mal faits et très gourmands en ressources.
 
@@ -54,9 +54,9 @@ Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="
 
 Une fois les pilotes installés, on va pouvoir mettre à jour et régler les paramètres de Windows. Le principe est assez simple : 
 - Commencer par mettre complètement à jour Windows. Faire une recherche des MàJ, les installer, redémarrer le PC, et refaire une recherche des MàJ.
-- Faire un tour de tous les paramètres de Windows, catégorie par catégorie, et régler les paramètres selon ce qui semble pertinent. Attention tout de même, on peut avoir envie de décocher beaucoup de choses dans les permissions diverses (dans la catégorie Confidentialité) mais ça n'a aucun intérêt de le faire, et c'est même dangeureux.
+- Faire un tour de tous les paramètres de Windows, catégorie par catégorie, et régler les paramètres selon ce qui semble pertinent. Attention tout de même, on peut avoir envie de décocher beaucoup de choses dans les permissions diverses (dans la catégorie Confidentialité) mais ça n'a aucun intérêt de le faire, et c'est même dangereux.
 
-Une fois les paramètres réglés, on va aller changer le mode de gestion d'alimentation, en choisissant le meilleur selon le processeur du PC. On chercher "alimentation", et on peut directement clique sur Changer le mode de gestion d'alimentation. On choisit : 
+Une fois les paramètres réglés, on va aller changer le mode de gestion d'alimentation, en choisissant le meilleur selon le processeur du PC. On cherche "alimentation", et on peut directement clique sur Changer le mode de gestion d'alimentation. On choisit : 
 - CPU AMD Ryzen 3XXX : Le mode de gestion “Ryzen balanced” est le meilleur mode. (il s’installe quand vous installez les pilotes de chipset)
 - CPU AMD Ryzen 5XXX : Le mode de gestion “Utilisation normale” est le meilleur mode (vous pouvez bouger le slider dans Paramètres -> Système -> Alimentation pour un léger gain).
 - Cpu Intel 12XXX : Le mode de gestion "Performances élevées" est le meilleur mode.
@@ -66,7 +66,7 @@ Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="
 
 ## Bibliothèques C++
 
-Les bibliothèques C++ (traduction libre) sont nécessaires à beaucoup d'applications et de jeux pour fonctionner. Certains vont les installer automatiquement, d'autres vont juste vous faire des erreurs et ne rien faire. On va donc tout installer maintenant, pour être tranquille.
+Les bibliothèques C++ (traduction libre) sont nécessaires à beaucoup d'applications et de jeux pour fonctionner. Certains vont les installer automatiquement, d'autres vont vous faire des erreurs et ne rien faire. On va donc tout installer maintenant, pour être tranquille.
 
 - On télécharge le pack de bibliothèques C++ sur [le site de TechPowerup](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/).
 - On extrait l'archive téléchargée.
@@ -98,7 +98,7 @@ Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="
 
 ## Optimiser une CG Nvidia
 
-Pour optimiser sa CG Nvidia, la première étape et d'utiliser [DDU](https://www.wagnardsoft.com/forums/viewforum.php?f=5) et [NVCleanInstall](https://www.techpowerup.com/download/techpowerup-nvcleanstall/) pour supprimer complètement son pilote graphique actuel, et le réinstaller en sélectionnant uniquement les morceaux du driver qu'on veut utiliser, plutôt que de tout installer.
+Pour optimiser sa CG Nvidia, la première étape est d'utiliser les logiciels [DDU](https://www.wagnardsoft.com/forums/viewforum.php?f=5) et [NVCleanInstall](https://www.techpowerup.com/download/techpowerup-nvcleanstall/) pour supprimer complètement son pilote graphique actuel, et le réinstaller en sélectionnant uniquement les morceaux du driver qu'on veut utiliser, plutôt que de tout installer.
 
 - Télécharger [DDU](https://www.wagnardsoft.com/forums/viewforum.php?f=5), [NVCleanInstall](https://www.techpowerup.com/download/techpowerup-nvcleanstall/).
 - Aller en mode sans échec, et utiliser DDU pour nettoyer le pilote graphique actuel. Désactiver aussi temporairement l'installation des pilotes par Windows Update, dans les paramètres de DDU.
@@ -114,10 +114,10 @@ Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="
 L'installation de Windows est terminée, mais avant de vous laisser, on va parler des bonnes pratiques et des choses à faire sur le PC pour essayer de le garder propre le plus longtemps possible, et éviter les problèmes.
 
 - Eviter les optimisations. Malgré les promesses de gain de performances, d'input lag ou de stabilité, dans 99% des cas, il s'agit de bêtises qui vont vous flinguer Windows complètement, ou vous faire perdre des fonctionnalités pour ne rien gagner. Si ça vous amuse de bidouiller, et que ça vous dérange pas de réinstaller Windows tous les mois, vous pouvez tenter l'aventure, mais sauvegardez vos données, et soyez prêts à perdre du temps.
-- Eviter les logiciels de nettoyage. Les Ccleaner, Iobit SystemCare, Glary utilities, DriversCloud, DriverBooster, etc etc, c'est des saloperies. Ils vendent du vent, et ne vont rien faire de bien sur votre PC. Pour nettoyer les fichiers, le nettoyage de disque intégré à Windows est efficace et moins dangeureux que ces outils.
-- Garder son PC à jour. Ca inclut Windows, Defender, les applications, les jeux. N'allez pas forcément installer toutes les mises à jour de tout dès le premier jour, mais une fois qu'une mise à jour de quelque chose a une semaine, vous pouvez l'installer sans problèmes.
+- Eviter les logiciels de nettoyage. Les Ccleaner, Iobit SystemCare, Glary utilities, DriversCloud, DriverBooster, etc etc, c'est des saloperies. Ils vendent du vent, et ne vont rien faire de bien sur votre PC. Pour nettoyer les fichiers, le nettoyage de disque intégré à Windows est efficace et moins dangereux que ces outils.
+- Garder son PC à jour. Ca inclut Windows, Defender, les applications, les jeux. N'allez pas forcément installer toutes les mises à jour de tout dès le premier jour, mais une fois qu'une mise à jour de quelque chose a une semaine, vous pouvez l'installer sans problème.
 - Essayez d'installer le moins d'applications possible. Pour garder un PC propre, installer une application seulement si vous en avez vraiment besoin. Dans la mesure du possible, utilisez les versions portables des applications, qui peuvent laisser moins de bordel sur le PC.
-- Eviter les cracks. Essayez d'utiliser des alternatives gratuites, c'est souvent possible, et bien moins dangeureux. Le site [AlternativeTo](https://alternativeto.net/) peut vous aider à trouver des alternative à un logiciel.
+- Eviter les cracks. Essayez d'utiliser des alternatives gratuites, c'est souvent possible, et bien moins dangereux. Le site [AlternativeTo](https://alternativeto.net/) peut vous aider à trouver des alternatives à un logiciel.
 - Installez [uBlock Origin](https://ublockorigin.com/). Quel que soit votre navigateur, c'est essentiel d'avoir un bloqueur de pub efficace pour être tranquille sur internet. uBlock Origin est de loin le meilleur bloqueur de pub, et si vous en utilisez un autre, il est temps de le désinstaller et de changer.
 
 Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb"> 9 - Les bonnes pratiques](https://youtu.be/SEdYm2gLgYk)
