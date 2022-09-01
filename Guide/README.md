@@ -11,7 +11,7 @@ Il faut pour ça **une clé USB de 8 Go ou plus** et **accès à un PC sous Wind
 
 La clé va ensuite se créer toute seule. L'opération peut prendre du temps selon la connexion, la clé USB, et le PC.
 
-Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb"> 1 - Créer une clé USB d'installation](https://youtu.be/nidskw_JslQ)
+Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb"> 1 - Créer une clé USB d'installation](https://www.youtube.com/watch?v=nidskw_JslQ&list=PLRdiFZZ8Od_IiEq4nCgEe-vfwQ2KV2O0m&index=1)
 
 ## Installer Windows
 
@@ -34,7 +34,7 @@ On pourra ensuite attendre la copie et l'installation de Windows. Pendant le com
 
 Ensuite, on passe au réglage des paramètres initial avant de pouvoir accéder à Windows. On peut se laisser guider par l'installateur. Dites non à tout ce qu'il propose, et tout ira bien. Pour utiliser un compte local au lieu du compte Microsoft, on peut simplement entrer l'adresse mail "a" et le mot de passe "a". Après une erreur, on pourra continuer avec un compte local. Si vous choisissez d'utiliser un compte Microsoft (ce qui est très bien), faites attention de bien dire non à l'option pour sauvegarder vos dossiers sur OneDrive.
 
-Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb"> 2 - Installer Windows](https://youtu.be/vSD2ZCxifDY)
+Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb"> 2 - Installer Windows](https://www.youtube.com/watch?v=vSD2ZCxifDY&list=PLRdiFZZ8Od_IiEq4nCgEe-vfwQ2KV2O0m&index=2)
 
 ## Installer ses pilotes
 
@@ -48,7 +48,7 @@ Une fois Windows installé et démarré, on va pouvoir télécharger et installe
 
 Une fois tous les pilotes téléchargés, on peut les extraire et les installer, un par un. Dans la majorité des cas on pourra se contenter de ne redémarrer qu'une seule fois à la fin, mais si on constate des erreurs étranges, redémarrer après chaque pilote peut aider.
 
-Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb"> 3 - Installer ses pilotes](https://youtu.be/olOuIQA1HzY)
+Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb"> 3 - Installer ses pilotes](https://www.youtube.com/watch?v=olOuIQA1HzY&list=PLRdiFZZ8Od_IiEq4nCgEe-vfwQ2KV2O0m&index=3)
 
 ## Configurer les paramètres de Windows
 
@@ -62,7 +62,7 @@ Une fois les paramètres réglés, on va aller changer le mode de gestion d'alim
 - Cpu Intel 12XXX : Le mode de gestion "Performances élevées" est le meilleur mode.
 - CPU Intel (tous les autres) : Le mode de gestion "Performances élevées" est le meilleur mode. Vous avez la possibilité d'essayer le mode "Performance ultimes", pour un gain à peu près inexistant. Pour installer ce mode, vous pouvez vous référer à [ce guide de Tenforums](https://www.tenforums.com/tutorials/107613-add-remove-ultimate-performance-power-plan-windows-10-a.html).
 
-Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb"> 4 - Les paramètres de Windows](https://youtu.be/CmdQOGJdFV0)
+Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb"> 4 - Les paramètres de Windows](https://www.youtube.com/watch?v=CmdQOGJdFV0&list=PLRdiFZZ8Od_IiEq4nCgEe-vfwQ2KV2O0m&index=4)
 
 ## Bibliothèques C++
 
@@ -72,7 +72,7 @@ Les bibliothèques C++ (traduction libre) sont nécessaires à beaucoup d'applic
 - On extrait l'archive téléchargée.
 - On lance **install_all** **en tant qu'administrateur**.
 
-Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb"> 5 - Bibliothèques C++](https://youtu.be/Ck-65Ku7ohg)
+Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb"> 5 - Bibliothèques C++](https://www.youtube.com/watch?v=Ck-65Ku7ohg&list=PLRdiFZZ8Od_IiEq4nCgEe-vfwQ2KV2O0m&index=5)
 
 ## W10Privacy
 
@@ -86,7 +86,7 @@ W10Privacy est un "logiciel de vie privée". Généralement, c'est les logiciels
 
 Si jamais vous ne voulez pas lire, je propose un [fichier de configuration à importer](https://lien.ctrl-f.io/w10privacy) qui est très basique, et qui devrait convenir à tout le monde. Dans tous les cas, **gardez bien votre sauvegarde**.
 
-Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb"> 6 - W10Privacy](https://youtu.be/2p92Mm-0YTo)
+Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb"> 6 - W10Privacy](https://www.youtube.com/watch?v=2p92Mm-0YTo&list=PLRdiFZZ8Od_IiEq4nCgEe-vfwQ2KV2O0m&index=6)
 
 ## Optimiser Windows
 
@@ -94,7 +94,7 @@ En plus des paramètres, on peut rajouter quelques optimisations pour Windows 11
 
 Cette liste d'optimisations est sans risque pour le PC et ses fonctionnalités, mais le guide reste réversible et vous indique comment tout annuler si besoin.
 
-Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb"> 7 - Optimiser Windows](https://youtu.be/oejGj2dcjI8)
+Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb"> 7 - Optimiser Windows](https://www.youtube.com/watch?v=oejGj2dcjI8&list=PLRdiFZZ8Od_IiEq4nCgEe-vfwQ2KV2O0m&index=7)
 
 ## Optimiser une CG Nvidia
 
@@ -107,7 +107,7 @@ Pour optimiser sa CG Nvidia, la première étape est d'utiliser les logiciels [D
 
 La seconde étape consiste à aller faire un tour de tous les paramètres du panneau Nvidia, puis cocher pour décocher ce qui vous semble pertinent, selon votre utilisation. Si vous ne savez pas trop quoi faire, la vidéo de ce chapitre a des suggestions.
 
-Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb"> 8 - Optimiser une CG Nvidia](https://youtu.be/kGRlhVB6YmE)
+Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb"> 8 - Optimiser une CG Nvidia](https://www.youtube.com/watch?v=kGRlhVB6YmE&list=PLRdiFZZ8Od_IiEq4nCgEe-vfwQ2KV2O0m&index=8)
 
 ## Les bonnes pratiques
 
@@ -120,4 +120,4 @@ L'installation de Windows est terminée, mais avant de vous laisser, on va parle
 - Eviter les cracks. Essayez d'utiliser des alternatives gratuites, c'est souvent possible, et bien moins dangereux. Le site [AlternativeTo](https://alternativeto.net/) peut vous aider à trouver des alternatives à un logiciel.
 - Installez [uBlock Origin](https://ublockorigin.com/). Quel que soit votre navigateur, c'est essentiel d'avoir un bloqueur de pub efficace pour être tranquille sur internet. uBlock Origin est de loin le meilleur bloqueur de pub, et si vous en utilisez un autre, il est temps de le désinstaller et de changer.
 
-Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb"> 9 - Les bonnes pratiques](https://youtu.be/SEdYm2gLgYk)
+Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb"> 9 - Les bonnes pratiques](https://www.youtube.com/watch?v=SEdYm2gLgYk&list=PLRdiFZZ8Od_IiEq4nCgEe-vfwQ2KV2O0m&index=9)
