@@ -32,7 +32,7 @@ Pour faire ça:
 
 On pourra ensuite attendre la copie et l'installation de Windows. Pendant le compte à rebours de 10 secondes avant de redémarrer le PC, pensez à retirer la clé USB du PC. Ca évitera de redémarrer encore sur la clé et de recommencer l'installation en boucle.
 
-Ensuite, on passe au réglage des paramètres initiaux avant de pouvoir accéder à Windows. On peut se laisser guider par l'installateur. Dites non à tout ce qu'il propose, et tout ira bien. Pour utiliser un compte local au lieu du compte Microsoft, on peut simplement entrer l'adresse mail "a" et le mot de passe "a". Après une erreur, on pourra continuer avec un compte local. Si vous choisissez d'utiliser un compte Microsoft (ce qui est très bien), faites attention de bien dire non à l'option pour sauvegarder vos dossiers sur OneDrive.
+Ensuite, on passe au réglage des paramètres initiaux avant de pouvoir accéder à Windows. On peut se laisser guider par l'installateur. Dites non à tout ce qu'il propose et tout ira bien. Pour utiliser un compte local au lieu du compte Microsoft, on peut simplement entrer l'adresse mail "a" et le mot de passe "a". Après une erreur, on pourra continuer avec un compte local. Si vous choisissez d'utiliser un compte Microsoft (ce qui est très bien), faites attention de bien dire non à l'option pour sauvegarder vos dossiers sur OneDrive.
 
 Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb"> 2 - Installer Windows](https://www.youtube.com/watch?v=vSD2ZCxifDY&list=PLRdiFZZ8Od_IiEq4nCgEe-vfwQ2KV2O0m&index=2)
 
@@ -44,7 +44,7 @@ Une fois Windows installé et démarré, on va pouvoir télécharger et installe
 
 - On fera quand même attention d'éviter les "utilitaires", qui ne sont pas vraiment des pilotes, mais plutôt des logiciels qui peuvent permettre de contrôler des choses diverses sur le PC, mais qui sont souvent mal faits et très gourmands en ressources.
 
-- On passe également sur le site d'Nvidia ou AMD pour la carte graphique, et sur les sites des fabricants pour les pilotes divers spécifiques à du matériel particulier (logiciel de clavier, pilote de carte son, etc).
+- On passe également sur le site d'Nvidia ou AMD pour la carte graphique et sur les sites des fabricants pour les pilotes spécifiques à du matériel particulier (logiciel de clavier, pilote de carte son, etc).
 
 Une fois tous les pilotes téléchargés, on peut les extraire et les installer, un par un. Dans la majorité des cas on pourra se contenter de ne redémarrer qu'une seule fois à la fin, mais si on constate des erreurs étranges, redémarrer après chaque pilote peut aider.
 
@@ -54,7 +54,7 @@ Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="
 
 Une fois les pilotes installés, on va pouvoir mettre à jour et régler les paramètres de Windows. Le principe est assez simple : 
 - Commencer par mettre complètement à jour Windows. Faire une recherche des MàJ, les installer, redémarrer le PC, et refaire une recherche des MàJ.
-- Faire un tour de tous les paramètres de Windows, catégorie par catégorie, et régler les paramètres selon ce qui semble pertinent. Attention tout de même, on peut avoir envie de décocher beaucoup de choses dans les permissions diverses (dans la catégorie Confidentialité) mais ça n'a aucun intérêt de le faire, et c'est même dangereux.
+- Faire un tour de tous les paramètres de Windows, catégorie par catégorie, et régler les paramètres selon ce qui semble pertinent. Attention tout de même, on peut avoir envie de décocher beaucoup de choses dans les permissions diverses (dans la catégorie Confidentialité) mais ça n'a aucun intérêt de le faire et c'est même dangereux.
 
 Une fois les paramètres réglés, on va aller changer le mode de gestion d'alimentation, en choisissant le meilleur selon le processeur du PC. On cherche "alimentation", et on peut directement clique sur Changer le mode de gestion d'alimentation. On choisit : 
 - CPU AMD Ryzen 3XXX : Le mode de gestion “Ryzen balanced” est le meilleur mode. (il s’installe quand vous installez les pilotes de chipset)
@@ -76,7 +76,7 @@ Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="
 
 ## W10Privacy
 
-W10Privacy est un "logiciel de vie privée". Généralement, c'est les logiciels qui sont déconseillés, parce que ça change des choses au hasard dans Windows, et c'est souvent n'importe quoi. Ceci dit, W10Privacy est un logiciel assez bien fait, donne des descriptions précises des options proposées, et permet de revenir en arrière assez facilement. On peut donc envisager de l'utiliser (mais c'est complètement facultatif).
+W10Privacy est un "logiciel de vie privée". Généralement, c'est les logiciels qui sont déconseillés, parce que ça change des choses au hasard dans Windows et c'est souvent n'importe quoi. Ceci dit, W10Privacy est un logiciel assez bien fait, donne des descriptions précises des options proposées et permet de revenir en arrière assez facilement. On peut donc envisager de l'utiliser (mais c'est complètement facultatif).
 
 - Télécharger le logiciel [sur le site officiel](https://www.w10privacy.de/deutsch-start/download/).
 - L'installer, ou utiliser la version portable, selon les préférences (le choix est disponible pendant l'installation).
@@ -84,7 +84,7 @@ W10Privacy est un "logiciel de vie privée". Généralement, c'est les logiciels
 - **Créer une sauvegarde des paramètres actuels. Aller dans le menu "Configuration" -> Choisir "Enregistrer sous" -> Cliquer sur "Choisir le chemin" et sauvegarder la configuration dans un endroit sûr. Cliquer sur "Enregistrer" pour l'enregistrer. Il s'agit de la sauvegarde à utiliser en cas de problème, faites attention.**
 - Lire et régler les paramètres de son choix, puis les appliquer et redémarrer le PC.
 
-Si jamais vous ne voulez pas lire, je propose un [fichier de configuration à importer](https://lien.ctrl-f.io/w10privacy) qui est très basique, et qui devrait convenir à tout le monde. Dans tous les cas, **gardez bien votre sauvegarde**.
+Si jamais vous ne voulez pas lire, je propose un [fichier de configuration à importer](https://lien.ctrl-f.io/w10privacy) qui est très basique et qui devrait convenir à tout le monde. Dans tous les cas, **gardez bien votre sauvegarde**.
 
 Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb"> 6 - W10Privacy](https://www.youtube.com/watch?v=2p92Mm-0YTo&list=PLRdiFZZ8Od_IiEq4nCgEe-vfwQ2KV2O0m&index=6)
 
@@ -98,12 +98,12 @@ Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="
 
 ## Optimiser une CG Nvidia
 
-Pour optimiser sa CG Nvidia, la première étape est d'utiliser les logiciels [DDU](https://www.wagnardsoft.com/forums/viewforum.php?f=5) et [NVCleanInstall](https://www.techpowerup.com/download/techpowerup-nvcleanstall/) pour supprimer complètement son pilote graphique actuel, et le réinstaller en sélectionnant uniquement les morceaux du driver qu'on veut utiliser, plutôt que de tout installer.
+Pour optimiser sa CG Nvidia, la première étape est d'utiliser les logiciels [DDU](https://www.wagnardsoft.com/forums/viewforum.php?f=5) et [NVCleanInstall](https://www.techpowerup.com/download/techpowerup-nvcleanstall/) pour supprimer complètement son pilote graphique actuel et le réinstaller en sélectionnant uniquement les morceaux du driver qu'on veut utiliser, plutôt que de tout installer.
 
 - Télécharger [DDU](https://www.wagnardsoft.com/forums/viewforum.php?f=5), [NVCleanInstall](https://www.techpowerup.com/download/techpowerup-nvcleanstall/).
-- Aller en mode sans échec, et utiliser DDU pour nettoyer le pilote graphique actuel. Désactiver aussi temporairement l'installation des pilotes par Windows Update, dans les paramètres de DDU.
-- Redémarrer le PC, utiliser NVCleanInstall pour installer son pilote graphique. Choisir ce que vous voulez cocher pou non dans la liste, les options sont bien décrites.
-- Relancer DDU, et réactiver l'installation des pilotes par Windows Update.
+- Aller en mode sans échec et utiliser DDU pour nettoyer le pilote graphique actuel. Désactiver aussi temporairement l'installation des pilotes par Windows Update, dans les paramètres de DDU.
+- Redémarrer le PC, utiliser NVCleanInstall pour installer son pilote graphique. Choisir ce que vous voulez cocher ou non dans la liste, les options sont bien décrites.
+- Relancer DDU et réactiver l'installation des pilotes par Windows Update.
 
 La seconde étape consiste à aller faire un tour de tous les paramètres du panneau Nvidia, puis cocher pour décocher ce qui vous semble pertinent, selon votre utilisation. Si vous ne savez pas trop quoi faire, la vidéo de ce chapitre a des suggestions.
 
@@ -111,13 +111,13 @@ Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="
 
 ## Les bonnes pratiques
 
-L'installation de Windows est terminée, mais avant de vous laisser, on va parler des bonnes pratiques et des choses à faire sur le PC pour essayer de le garder propre le plus longtemps possible, et éviter les problèmes.
+L'installation de Windows est terminée, mais avant de vous laisser, on va parler des bonnes pratiques et des choses à faire sur le PC pour essayer de le garder propre le plus longtemps possible et éviter les problèmes.
 
-- Eviter les optimisations. Malgré les promesses de gain de performances, d'input lag ou de stabilité, dans 99% des cas, il s'agit de bêtises qui vont vous flinguer Windows complètement, ou vous faire perdre des fonctionnalités pour ne rien gagner. Si ça vous amuse de bidouiller, et que ça vous dérange pas de réinstaller Windows tous les mois, vous pouvez tenter l'aventure, mais sauvegardez vos données, et soyez prêts à perdre du temps.
-- Eviter les logiciels de nettoyage. Les Ccleaner, Iobit SystemCare, Glary utilities, DriversCloud, DriverBooster, etc etc, c'est des saloperies. Ils vendent du vent, et ne vont rien faire de bien sur votre PC. Pour nettoyer les fichiers, le nettoyage de disque intégré à Windows est efficace et moins dangereux que ces outils.
-- Garder son PC à jour. Ca inclut Windows, Defender, les applications, les jeux. N'allez pas forcément installer toutes les mises à jour de tout dès le premier jour, mais une fois qu'une mise à jour de quelque chose a une semaine, vous pouvez l'installer sans problème.
+- Eviter les optimisations. Malgré les promesses de gain de performances, d'input lag ou de stabilité, dans 99% des cas, il s'agit de bêtises qui vont vous flinguer Windows complètement, ou vous faire perdre des fonctionnalités pour ne rien gagner. Si ça vous amuse de bidouiller et que ça vous dérange pas de réinstaller Windows tous les mois, vous pouvez tenter l'aventure. Sauvegardez vos données, et soyez prêts à perdre du temps.
+- Eviter les logiciels de nettoyage. Les Ccleaner, Iobit SystemCare, Glary utilities, DriversCloud, DriverBooster, etc etc, c'est des saloperies. Ils vendent du vent et ne vont rien faire de bien sur votre PC. Pour nettoyer les fichiers, le nettoyage de disque intégré à Windows est efficace et moins dangereux que ces outils.
+- Garder son PC à jour. Ca inclut Windows, les applications, les jeux et tout ce qui est sur le PC. N'allez pas forcément installer toutes les mises à jour de tout dès le premier jour, mais une fois qu'une mise à jour de quelque chose a une semaine, vous pouvez l'installer sans problème.
 - Essayez d'installer le moins d'applications possible. Pour garder un PC propre, installer une application seulement si vous en avez vraiment besoin. Dans la mesure du possible, utilisez les versions portables des applications, qui peuvent laisser moins de bordel sur le PC.
-- Eviter les cracks. Essayez d'utiliser des alternatives gratuites, c'est souvent possible, et bien moins dangereux. Le site [AlternativeTo](https://alternativeto.net/) peut vous aider à trouver des alternatives à un logiciel.
+- Eviter les cracks. Essayez d'utiliser des alternatives gratuites, c'est souvent possible et bien moins dangereux. Le site [AlternativeTo](https://alternativeto.net/) peut vous aider à trouver des alternatives à un logiciel.
 - Installez [uBlock Origin](https://ublockorigin.com/). Quel que soit votre navigateur, c'est essentiel d'avoir un bloqueur de pub efficace pour être tranquille sur internet. uBlock Origin est de loin le meilleur bloqueur de pub, et si vous en utilisez un autre, il est temps de le désinstaller et de changer.
 
 Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb"> 9 - Les bonnes pratiques](https://www.youtube.com/watch?v=SEdYm2gLgYk&list=PLRdiFZZ8Od_IiEq4nCgEe-vfwQ2KV2O0m&index=9)
