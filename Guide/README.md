@@ -11,7 +11,7 @@ Il faut pour ça **une clé USB de 8 Go ou plus** et **accès à un PC sous Wind
 
 La clé va ensuite se créer toute seule. L'opération peut prendre du temps selon la connexion, la clé USB, et le PC.
 
-Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb"> 1 - Créer une clé USB d'installation](https://www.youtube.com/watch?v=nidskw_JslQ&list=PLRdiFZZ8Od_IiEq4nCgEe-vfwQ2KV2O0m&index=1)
+Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb"> 1 - Créer une clé USB d'installation](https://www.youtube.com/watch?v=nidskw_JslQ)
 
 ## Installer Windows
 
