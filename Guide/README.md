@@ -19,7 +19,7 @@ La clé étant créée, on va pouvoir l'utiliser pour formater le PC et installe
 
 Pour faire ça: 
 - Mettre la clé dans un des ports USB, si sur un PC fixe préférablement directement sur un des ports à l'arrière, directement sur la carte mère.
-- Démarrer le PC, et spammer la touche <kbd>F11</kbd> pendant le démarrage (elle peut varier selon votre marque de carte mère, il est commun aussi de devoir utiliser les touches <kbd>F12</kbd>  ou <kbd>DEL</kbd>, ou "SUPPR" en français).
+- Démarrer le PC, et spammer la touche <kbd>F11</kbd> pendant le démarrage (des fois <kbd>F12</kbd>, selon la marque de la carte mère).
 - Choisir la clé USB dans le menu de démarrage qui s'ouvre (en UEFI s'il y en a plusieurs).
 - Se laisser guider par l'installateur de Windows.
 
