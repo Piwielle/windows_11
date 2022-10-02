@@ -18,12 +18,14 @@ Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="
 La clé étant créée, on va pouvoir l'utiliser pour formater le PC et installer une version fraîche de Windows.
 
 Pour faire ça: 
-- Mettre la clé dans un des ports à l'arrière du PC, directement sur la carte mère.
-- Démarrer le PC, et spammer la touche **F11** pendant le démarrage.
+- Mettre la clé dans un des ports USB, si sur un PC fixe préférablement directement sur un des ports à l'arrière, directement sur la carte mère.
+- Démarrer le PC, et spammer la touche <kbd>F11</kbd> pendant le démarrage (elle peut varier selon votre marque de carte mère, il est commun aussi de devoir utiliser les touches <kbd>F12</kbd>  ou <kbd>DEL</kbd>, ou "SUPPR" en français).
 - Choisir la clé USB dans le menu de démarrage qui s'ouvre (en UEFI s'il y en a plusieurs).
 - Se laisser guider par l'installateur de Windows.
 
-**Attention ! Lors du choix du lecteur sur lequel installer Windows, il faut être très attentif, c'est ici que vous allez formater vos disques, en faisant pas attention vous allez formater des choses que vous vouliez garder !**
+> **Warning**
+> 
+> Attention ! Lors du choix du lecteur sur lequel installer Windows, il faut être très attentif, c'est ici que vous allez formater vos disques, en faisant pas attention vous allez formater des choses que vous vouliez garder !
 
 - Chaque SSD ou disque dur dans le PC correspond à un lecteur sur l'interface.
 - Déterminer sur quel disque (lecteur) l'installation de Windows sera faite (on pourra s'aider de la taille pour les reconnaître).
@@ -32,21 +34,21 @@ Pour faire ça:
 
 On pourra ensuite attendre la copie et l'installation de Windows. Pendant le compte à rebours de 10 secondes avant de redémarrer le PC, pensez à retirer la clé USB du PC. Ca évitera de redémarrer encore sur la clé et de recommencer l'installation en boucle.
 
-Ensuite, on passe au réglage des paramètres initiaux avant de pouvoir accéder à Windows. On peut se laisser guider par l'installateur. Dites non à tout ce qu'il propose et tout ira bien. Pour utiliser un compte local au lieu du compte Microsoft, on peut simplement entrer l'adresse mail "a" et le mot de passe "a". Après une erreur, on pourra continuer avec un compte local. Si vous choisissez d'utiliser un compte Microsoft (ce qui est très bien), faites attention de bien dire non à l'option pour sauvegarder vos dossiers sur OneDrive.
+Ensuite, on passe au réglage des paramètres initiaux avant de pouvoir accéder à Windows. On peut se laisser guider par l'installateur. Dites non à tout ce qu'il propose (ex. localisation, personnalisation des publicités..) et tout ira bien. Pour utiliser un compte local au lieu du compte Microsoft, on peut simplement entrer l'adresse mail "a" et le mot de passe "a". Après une erreur, on pourra continuer avec un compte local. Si vous choisissez d'utiliser un compte Microsoft (ce qui est très bien), faites attention de bien dire non à l'option pour sauvegarder vos dossiers sur OneDrive.
 
 Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb"> 2 - Installer Windows](https://www.youtube.com/watch?v=vSD2ZCxifDY&list=PLRdiFZZ8Od_IiEq4nCgEe-vfwQ2KV2O0m&index=2)
 
 ## Installer ses pilotes
 
-Une fois Windows installé et démarré, on va pouvoir télécharger et installer les pilotes. 
+Une fois Windows installé et démarré, on va pouvoir télécharger et installer les pilotes (drivers). 
 
 - On commence par se rendre sur le site de la carte mère, dans la catégorie support (si le modèle exact de la carte mère est inconnu, on peut utiliser [UserDiag](https://userdiag.com/) pour le trouver). On télécharge ensuite tous les pilotes disponibles pour la carte mère.
 
 - On fera quand même attention d'éviter les "utilitaires", qui ne sont pas vraiment des pilotes, mais plutôt des logiciels qui peuvent permettre de contrôler des choses diverses sur le PC, mais qui sont souvent mal faits et très gourmands en ressources.
 
-- On passe également sur le site d'Nvidia ou AMD pour la carte graphique et sur les sites des fabricants pour les pilotes spécifiques à du matériel particulier (logiciel de clavier, pilote de carte son, etc).
+- On passe également sur le site d'[Nvidia](https://www.nvidia.com/Download/index.aspx) ou [AMD](https://www.amd.com/support) pour la carte graphique et sur les sites des fabricants pour les pilotes spécifiques à du matériel particulier (logiciel de clavier, pilote de carte son, etc).
 
-Une fois tous les pilotes téléchargés, on peut les extraire et les installer, un par un. Dans la majorité des cas on pourra se contenter de ne redémarrer qu'une seule fois à la fin, mais si on constate des erreurs étranges, redémarrer après chaque pilote peut aider.
+Une fois tous les pilotes téléchargés, on peut les dézipper et les installer, un par un. Dans la majorité des cas on pourra se contenter de ne redémarrer qu'une seule fois à la fin, mais si on constate des erreurs étranges, redémarrer après chaque pilote peut aider.
 
 Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb"> 3 - Installer ses pilotes](https://www.youtube.com/watch?v=olOuIQA1HzY&list=PLRdiFZZ8Od_IiEq4nCgEe-vfwQ2KV2O0m&index=3)
 
@@ -66,7 +68,7 @@ Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="
 
 ## Bibliothèques C++
 
-Les bibliothèques C++ (traduction libre) sont nécessaires à beaucoup d'applications et de jeux pour fonctionner. Certains vont les installer automatiquement, d'autres vont vous faire des erreurs et ne rien faire. On va donc tout installer maintenant, pour être tranquille.
+Les bibliothèques C++ (traduction libre) sont nécessaires à beaucoup d'applications et de jeux pour fonctionner. Certains vont les installer automatiquement, d'autres vont vous faire des erreurs et ne pas vous laisser les installer/lancer (souvent avec un message d'erreur qui aide pas trop). On va donc tout installer maintenant, pour être tranquille.
 
 - On télécharge le pack de bibliothèques C++ sur [le site de TechPowerup](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/).
 - On extrait l'archive téléchargée.
@@ -98,7 +100,7 @@ Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="
 
 ## Optimiser une CG Nvidia
 
-Pour optimiser sa CG Nvidia, la première étape est d'utiliser les logiciels [DDU](https://www.wagnardsoft.com/forums/viewforum.php?f=5) et [NVCleanInstall](https://www.techpowerup.com/download/techpowerup-nvcleanstall/) pour supprimer complètement son pilote graphique actuel et le réinstaller en sélectionnant uniquement les morceaux du driver qu'on veut utiliser, plutôt que de tout installer.
+Pour optimiser sa CG (carte graphique) Nvidia, la première étape est d'utiliser les logiciels [DDU](https://www.wagnardsoft.com/forums/viewforum.php?f=5) et [NVCleanInstall](https://www.techpowerup.com/download/techpowerup-nvcleanstall/) pour supprimer complètement son pilote graphique actuel et le réinstaller en sélectionnant uniquement les modules/composants du driver qu'on veut utiliser, plutôt que de tout installer (GeForce Experience, audio via HDMI, PhysX...)
 
 - Télécharger [DDU](https://www.wagnardsoft.com/forums/viewforum.php?f=5), [NVCleanInstall](https://www.techpowerup.com/download/techpowerup-nvcleanstall/).
 - Aller en mode sans échec et utiliser DDU pour nettoyer le pilote graphique actuel. Désactiver aussi temporairement l'installation des pilotes par Windows Update, dans les paramètres de DDU.
