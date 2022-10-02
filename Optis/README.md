@@ -17,7 +17,7 @@ Alors voilà la liste des tweaks que je suggère pour Windows 11. Pour chaque mo
  - [**TLDR (tout d'un coup)**](#tldr-tout-dun-coup)
 
 
-## Le clic droit.
+## Le clic droit
 
 Le clic droit de Windows 11 ressemble à ça : 
 
@@ -27,7 +27,7 @@ Alors oui, c'est très joli y'a des icônes. Mais si je veux utiliser 7zip pour 
 
 On va donc remettre le clic droit de Windows 10, que je trouve plus efficace.
 
-### <img src="https://i.imgur.com/SovjFmL.png" width="20" height="20">Modification.
+### <img src="https://i.imgur.com/qYLxcc4.png" width="20" height="20">Modification
 
 Pour récupérer le clic droit de Windows 10, il faut modifier une clé de registre, ce qu'on peut faire via le Terminal.
 - Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
@@ -38,7 +38,7 @@ Pour récupérer le clic droit de Windows 10, il faut modifier une clé de regis
 - Vérifier que la réponse confirme que l'opération a bien été effectuée.
 - Redémarrer le PC.
 
-### <img src="https://i.imgur.com/84owGvZ.png" width="20" height="20">Annuler le changement.
+### <img src="https://i.imgur.com/QTT9CPI.png" width="20" height="20">Annuler le changement
 
 Pour annuler cette modification, il suffira de faire l'inverse et de supprimer la clé de registre qu'on a modifié.
 - Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
@@ -50,14 +50,14 @@ Pour annuler cette modification, il suffira de faire l'inverse et de supprimer l
 - Redémarrer le PC.
 
 
-## La Game Bar.
+## La Game Bar
 Sur Windows 11, le réglage pour désactiver la Game Bar a disparu. La seule chose présente dans les paramètres, c'est une option pour ne pas l'ouvrir en appuyant sur un bouton de manette.
 
 Elle se lance quand même systématiquement quand on lance un jeu. 
 
 /!\ Certaines personnes utilisent la Game Bar, et trouvent ça utile. Si c'est votre cas, n'appliquez évidemment pas ces modifications, qui vont la désactiver.
 
-### <img src="https://i.imgur.com/SovjFmL.png" width="20" height="20">Modification.
+### <img src="https://i.imgur.com/qYLxcc4.png" width="20" height="20">Modification
 
 Pour désactiver la Game Bar, il faut modifier deux clés de registre, ce qu'on peut faire via le Terminal, et désinstaller une application.
 - Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
@@ -74,7 +74,7 @@ Pour désactiver la Game Bar, il faut modifier deux clés de registre, ce qu'on 
 - Vérifier que les réponses confirment que les opérations ont bien été effectuées.
 - Redémarrer le PC.
 
-### <img src="https://i.imgur.com/84owGvZ.png" width="20" height="20">Annuler le changement.
+### <img src="https://i.imgur.com/QTT9CPI.png" width="20" height="20">Annuler le changement
 
 Pour annuler cette modification, il suffira de faire l'inverse et de changer les valeurs, et réinstaller l'application.
 - Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
@@ -110,7 +110,7 @@ Pour désactiver ces deux choses :
 - Changer le réglage pour "Désactivé"
 - Redémarrer Edge.
 
-## 5/ Le menu démarrer
+## Le menu démarrer
 
 Le menu démarrer de Windows 11 est médiocre, et pas fonctionnel. Je suis limité à 18 raccourcis affichés maximum (à moins d'utiliser les pages, et de devoir scroll, avec leur scroll pas réactif), on est forcé d'afficher les objets "recommandés" (on peut les cacher, mais dans ce cas on se retrouve avec un cadre vide qui nous dit de les activer...)
 
@@ -120,7 +120,7 @@ Quel enfer.
 
 J'ai essayé Start11 (trop lent), et StartAllBack (pas de possibilités de mettre plusieurs colonnes et groupes), et rien m'a convaincu.
 
-La meilleure option que je suggère c'est https://github.com/valinet/ExplorerPatcher. Ca remet le menu de Windows 10, c'est rapide, et assez configrable.
+La meilleure option que je suggère c'est https://github.com/valinet/ExplorerPatcher. Ca remet le menu de Windows 10, c'est rapide, et assez configurable.
 Mon menu démarrer actuel ressemble à ça avec ExplorerPatcher : 
 
 ![explorer patcher](https://i.imgur.com/XM5RZWk.png)
@@ -132,10 +132,10 @@ Par défaut, Windows affiche des résultats du web dans la recherche du menu dé
 
 C'est pénible, je veux le désactiver.
 
-### <img src="https://i.imgur.com/SovjFmL.png" width="20" height="20">Modification.
+### <img src="https://i.imgur.com/qYLxcc4.png" width="20" height="20">Modification
 
 Pour désactiver les résultats web dans la recherche, il faut modifier une clé de registre, ce qu'on peut faire via le Terminal.
-- Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
+- Clic droit sur ![menu démarrer](https://i.imgur.com/z4piDV6.png)
 - Windows Terminal (Admin)
 - Coller la ligne :
 
@@ -143,7 +143,7 @@ Pour désactiver les résultats web dans la recherche, il faut modifier une clé
 - Vérifier que la réponse confirme que l'opération a bien été effectuée.
 - Redémarrer le PC.
 
-### <img src="https://i.imgur.com/84owGvZ.png" width="20" height="20">Annuler le changement.
+### <img src="https://i.imgur.com/QTT9CPI.png" width="20" height="20">Annuler le changement
 
 Pour annuler cette modification, il suffira de faire l'inverse et de changer les valeurs.
 - Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
@@ -161,7 +161,7 @@ Windows a ajouté une fonctionnalité, les widgets.
 
 On peut assez simplement les désactiver dans les paramètres, mais le fait de simplement les désactiver ne suffit pas, et ils tournent toujours en tâche de fond même désactivés. Je souhaite donc vraiment les désactiver, et que plus rien ne tourne.
 
-### <img src="https://i.imgur.com/SovjFmL.png" width="20" height="20">Modification.
+### <img src="https://i.imgur.com/qYLxcc4.png" width="20" height="20">Modification
 
 Pour désactiver les Widgets, il faut modifier une clé de registre, ce qu'on peut faire via le Terminal.
 - Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
@@ -172,7 +172,7 @@ Pour désactiver les Widgets, il faut modifier une clé de registre, ce qu'on pe
 - Vérifier que la réponse confirme que l'opération a bien été effectuée.
 - Redémarrer le PC.
 
-### <img src="https://i.imgur.com/84owGvZ.png" width="20" height="20">Annuler le changement.
+### <img src="https://i.imgur.com/QTT9CPI.png" width="20" height="20">Annuler le changement
 
 Pour annuler cette modification, il suffira de faire l'inverse et de changer les valeurs.
 - Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
@@ -186,7 +186,7 @@ Pour annuler cette modification, il suffira de faire l'inverse et de changer les
 ## L'hibernation
 Par défaut, Windows se met en veille prolongée au lieu de vraiment s'éteindre quand on l'éteint. Ca permet d'accélérer un peu le démarrage, mais ça peut causer plein de soucis divers et variés parce que Windows s'éteint jamais vraiment. Je suggère de désactiver cette fonctionnalité, quitte à avoir un PC qui démarre un peu moins vite.
 
-### <img src="https://i.imgur.com/SovjFmL.png" width="20" height="20">Modification.
+### <img src="https://i.imgur.com/qYLxcc4.png" width="20" height="20">Modification
 Pour désactiver l'hibernation, il faut modifier une clé de registre, ce qu'on peut faire via le Terminal.
 - Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
 - Windows Terminal (Admin)
@@ -199,7 +199,7 @@ Pour désactiver l'hibernation, il faut modifier une clé de registre, ce qu'on 
 - Vérifier que les réponses confirment que les opérations ont bien été effectué.
 - Redémarrer le PC.
 
-### <img src="https://i.imgur.com/84owGvZ.png" width="20" height="20">Annuler le changement.
+### <img src="https://i.imgur.com/QTT9CPI.png" width="20" height="20">Annuler le changement
 
 Pour annuler cette modification, il suffira de faire l'inverse et de changer les valeurs.
 - Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
@@ -216,7 +216,7 @@ Pour annuler cette modification, il suffira de faire l'inverse et de changer les
 ## Service SysMain
 C'est un service qui analyse l'utilisation du PC, et qui pré charge des applications dans la RAM, pour permettre de les lancer plus rapidement. Fonctionne souvent bien, mais peut créer des soucis d'utilisation de disque dur, pour un gain qui n'est pas forcément utile.
 
-### <img src="https://i.imgur.com/SovjFmL.png" width="20" height="20">Modification.
+### <img src="https://i.imgur.com/qYLxcc4.png" width="20" height="20">Modification
 Pour désactiver le service, il faut modifier une clé de registre, ce qu'on peut faire via le Terminal.
 - Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
 - Windows Terminal (Admin)
@@ -227,7 +227,7 @@ Pour désactiver le service, il faut modifier une clé de registre, ce qu'on peu
 - Vérifier que la réponse confirme que l'opération a bien été effectuée.
 - Redémarrer le PC.
 
-### <img src="https://i.imgur.com/84owGvZ.png" width="20" height="20">Annuler le changement.
+### <img src="https://i.imgur.com/QTT9CPI.png" width="20" height="20">Annuler le changement
 
 Pour annuler cette modification, il suffira de faire l'inverse et de changer les valeurs.
 - Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
