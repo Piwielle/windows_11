@@ -38,4 +38,5 @@ Si jamais vous avez besoin d'une aide supplémentaire ou que vous avez un probl�
 
 ## Crédits
 Les vidéos et le guide ont été créés par [@Piwielle](https://twitter.com/piwielle)
+
 Le site a entièrement été fait par [Asthox](https://github.com/Asthox) et [Sonny](https://github.com/Sonny93), merci à eux !
