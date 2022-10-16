@@ -1,6 +1,6 @@
 <center> <img src="https://i.imgur.com/lVuDunL.png" height="350" width="866" id="img-header" alt="Logo Windows 11"> </center>
 
-*Dernière mise à jour : 01/09/2022*
+*Dernière mise à jour : 16/10/2022*
 # Installer et optimiser Windows 11
 
 Ce site présente un guide sur comment bien installer ou réinstaller Windows 11 proprement. Il s'agit d'un guide complet, que vous devriez pouvoir suivre sans souci quel que soit votre niveau en informatique.
@@ -35,3 +35,7 @@ Bon courage !
 
 ## Aide supplémentaire
 Si jamais vous avez besoin d'une aide supplémentaire ou que vous avez un problème quelconque avec votre PC, je vous encourage à rejoindre le [<img src="https://i.imgur.com/b8g1o9k.png" width="20" height="20" alt="Logo discord" class="img-logo-discord"> Discord d'entraide informatique](https://discord.gg/informatique )
+
+## Crédits
+Les vidéos et le guide ont été créés par [@Piwielle](https://twitter.com/piwielle)
+Le site a entièrement été fait par [Asthox](https://github.com/Asthox) et [Sonny](https://github.com/Sonny93), merci à eux !
