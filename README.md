@@ -28,8 +28,8 @@ Le guide existe en plusieurs versions, pour convenir aux préférences de chacun
 - [Guide en version vidéo](https://installerwindows.fr/videos)
 - [Guide en version texte](https://installerwindows.fr/texte)
 
-Le guide vidéo est détaillé, et conviendra quel que soit le niveau de la personne qui l'utilise.
-Le guide texte est lui plus résumé, et destiné aux utilisateurs avancés. Vous pouvez utiliser un mix des deux, les chapitres sont communs.
+Le guide vidéo est détaillé et conviendra quel que soit le niveau de la personne qui l'utilise.
+Le guide texte est plus résumé et destiné aux utilisateurs avancés. Vous pouvez utiliser un mix des deux, les chapitres sont communs.
 
 Bon courage !
 
