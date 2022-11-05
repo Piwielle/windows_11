@@ -1,6 +1,13 @@
 # Windows 11
 Un guide d'installation et d'optimisation complet et sans risques.
 
+## La compatibilité avec Windows 11
+Avant de pouvoir commencer l'installation et l'utilisation de Windows 11, il faut s'assurer de la compatibilité du PC avec Windows 11.
+
+Pour vérifier ça, on peut utiliser [l'outil de Microsoft](https://aka.ms/GetPCHealthCheckApp). Il précise les détails de ce qui est compatible ou pas.
+
+Cette vidéo peut aussi vous aider à vous y retrouver : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb"> TPM ? Secure boot ? W11 ? Valorant ? Explications.](https://youtu.be/arWlC6HZpTY)
+
 ## Créer une clé USB d'installation
 La première étape, c'est de créer une clé USB d'installation de Windows, qu'on pourra utiliser pour formater un PC et réinstaller Windows proprement.
 
