@@ -1,6 +1,6 @@
 <center> <img src="https://i.imgur.com/lVuDunL.png" height="350" width="866" id="img-header" alt="Logo Windows 11"> </center>
 
-*Dernière mise à jour : 16/10/2022*
+*Dernière mise à jour : 05/11/2022*
 # Installer et optimiser Windows 11
 
 Ce site présente un guide sur comment bien installer ou réinstaller Windows 11 proprement. Il s'agit d'un guide complet, que vous devriez pouvoir suivre sans souci quel que soit votre niveau en informatique.
