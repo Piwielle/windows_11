@@ -19,7 +19,7 @@ Avant de pouvoir commencer l'installation et l'utilisation de Windows 11, il fau
 
 Pour vérifier ça, on utilise [l'outil de Microsoft](https://aka.ms/GetPCHealthCheckApp). Il précise les détails de ce qui est compatible ou pas.
 
-Cette vidéo peut aussi vous aider à vous y retrouver : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb"> Vidéo à faire et rajouter mdr :s](https://google.fr)
+Cette vidéo peut aussi vous aider à vous y retrouver : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb"> TPM ? Secure boot ? W11 ? Valorant ? Explications.](https://youtu.be/arWlC6HZpTY)
 
 ## Liens vers les guides
 
