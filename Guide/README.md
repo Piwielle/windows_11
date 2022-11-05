@@ -32,7 +32,7 @@ Pour faire ça:
 
 > **Warning**
 > 
-> Attention ! Lors du choix du lecteur sur lequel installer Windows, il faut être très attentif, c'est ici que vous allez formater vos disques, en faisant pas attention vous allez formater des choses que vous vouliez garder !
+> **Attention ! Lors du choix du lecteur sur lequel installer Windows, il faut être très attentif, c'est ici que vous allez formater vos disques. Si vous n'êtes pas très attentifs, vous allez formater des choses que vous vouliez garder !**
 
 - Chaque SSD ou disque dur dans le PC correspond à un lecteur sur l'interface.
 - Déterminer sur quel disque (lecteur) l'installation de Windows sera faite (on pourra s'aider de la taille pour les reconnaître).
