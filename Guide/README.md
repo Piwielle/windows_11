@@ -1,7 +1,7 @@
-# Windows 11
-Un guide d'installation et d'optimisation complet et sans risques.
+# Guide écrit
+Un guide d'installation et d'optimisation de Windows 11 complet et sans risques.
 
-## La compatibilité avec Windows 11
+## Vérifier la compatibilité
 Avant de pouvoir commencer l'installation et l'utilisation de Windows 11, il faut s'assurer de la compatibilité du PC avec Windows 11.
 
 Pour vérifier ça, on peut utiliser [l'outil de Microsoft](https://aka.ms/GetPCHealthCheckApp). Il précise les détails de ce qui est compatible ou pas.
