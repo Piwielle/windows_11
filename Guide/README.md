@@ -87,7 +87,7 @@ Les bibliothèques C++ (traduction libre) sont nécessaires à beaucoup d'applic
 
 Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb"> 5 - Bibliothèques C++](https://youtu.be/Ck-65Ku7ohg)
 
-## W10Privacy
+## W10Privacy (facultatif)
 
 W10Privacy est un "logiciel de vie privée". Généralement, c'est les logiciels qui sont déconseillés, parce que ça change des choses au hasard dans Windows et c'est souvent n'importe quoi. Ceci dit, W10Privacy est un logiciel assez bien fait, donne des descriptions précises des options proposées et permet de revenir en arrière assez facilement. On peut donc envisager de l'utiliser (mais c'est complètement facultatif).
 
