@@ -99,7 +99,7 @@ W10Privacy est un "logiciel de vie privée". Généralement, c'est les logiciels
 
 Si jamais vous ne voulez pas lire, je propose un [fichier de configuration à importer](https://lien.ctrl-f.io/w10privacy) qui est très basique et qui devrait convenir à tout le monde. Dans tous les cas, **gardez bien votre sauvegarde**.
 
-Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb"> 6 - W10Privacy](https://youtu.be/2p92Mm-0YTo)
+Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb"> 6 - Optionnel : W10Privacy](https://youtu.be/2p92Mm-0YTo)
 
 ## Optimiser Windows
 
