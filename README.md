@@ -1,4 +1,4 @@
-<center> <img src="https://i.imgur.com/lVuDunL.png" height="263" width="650" id="img-header" alt="Logo Windows 11"> </center>
+<center> <img src="https://i.imgur.com/lVuDunL.png" height="280" width="693" id="img-header" alt="Logo Windows 11"> </center>
 
 *Dernière mise à jour : 18/12/2022*
 # Installer et optimiser Windows 11
