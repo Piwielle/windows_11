@@ -21,7 +21,7 @@ Le guide texte est plus succinct et destiné aux utilisateurs avancés. Vous pou
 ## Windows 10
 Si jamais vous préférez Windows 10 (supporté par Microsoft jusqu'en 2025), mon ancien guide reste disponible. Il sera moins mis à jour, mais reste fonctionnel.
 
-- [Guide d'installation de Windows 10](https://github.com/Piwielle/windows_10/blob/master/README.md)
+- [Guide Windows 10](https://github.com/Piwielle/windows_10/blob/master/README.md)
 
 ## Aide supplémentaire
 Si jamais vous avez besoin d'une aide supplémentaire ou que vous avez un problème quelconque avec votre PC, je vous encourage à rejoindre le [<img src="https://i.imgur.com/b8g1o9k.png" width="20" height="20" alt="Logo discord" class="img-logo-discord"> Discord d'entraide informatique](https://discord.gg/informatique )
