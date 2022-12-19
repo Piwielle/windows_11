@@ -134,3 +134,8 @@ L'installation de Windows est terminée, mais avant de vous laisser, on va parle
 - Installez [uBlock Origin](https://ublockorigin.com/). Quel que soit votre navigateur, c'est essentiel d'avoir un bloqueur de pub efficace pour être tranquille sur internet. uBlock Origin est de loin le meilleur bloqueur de pub, et si vous en utilisez un autre, il est temps de le désinstaller et de changer.
 
 Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb"> 9 - Les bonnes pratiques](https://youtu.be/SEdYm2gLgYk)
+
+## Fin
+C'est terminé, bravo.
+
+Si par hasard tu souhaites contribuer à mes achats de cartes graphiques, tu peux le faire via le sponsoring à droite de la page Github du projet, en euros ou en crypto. https://github.com/Piwielle/windows_11
