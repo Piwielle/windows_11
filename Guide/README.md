@@ -135,4 +135,7 @@ Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="
 ## Fin
 C'est terminé, bravo.
 
-Si par hasard tu souhaites contribuer à mes achats de cartes graphiques, tu peux le faire via le sponsoring à droite de la page Github du projet, en euros ou en crypto. https://github.com/Piwielle/windows_11
+Si par hasard tu souhaites contribuer à mes achats de cartes graphiques, tu peux le faire via le sponsoring à droite de la page Github du projet, en euros ou en crypto, là :
+
+- [https://github.com/Piwielle/windows_11](https://github.com/Piwielle/windows_11)
+
