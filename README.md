@@ -1,6 +1,6 @@
 <center> <img src="https://i.imgur.com/lVuDunL.png" height="280" width="693" id="img-header" alt="Logo Windows 11"> </center>
 
-*Dernière mise à jour : 18/12/2022*
+*Dernière mise à jour : 17/02/2023*
 # Installer et optimiser Windows 11
 
 Ce site est un guide sur l'installation ou la réinstallation propre de Windows 11. Il s'agit d'un guide complet, que vous devriez pouvoir suivre quel que soit votre niveau en informatique.
