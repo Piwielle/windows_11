@@ -84,20 +84,6 @@ Les bibliothèques C++ (traduction libre) sont nécessaires à beaucoup d'applic
 
 Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb"> 5 - Bibliothèques C++](https://youtu.be/Ck-65Ku7ohg)
 
-## W10Privacy (facultatif)
-
-W10Privacy est un "logiciel de vie privée". Généralement, c'est les logiciels qui sont déconseillés, parce que ça change des choses au hasard dans Windows et c'est souvent n'importe quoi. Ceci dit, W10Privacy est un logiciel assez bien fait, donne des descriptions précises des options proposées et permet de revenir en arrière assez facilement. On peut donc envisager de l'utiliser (mais c'est complètement facultatif).
-
-- Télécharger le logiciel [sur le site officiel](https://www.w10privacy.de/deutsch-start/download/).
-- L'installer, ou utiliser la version portable, selon les préférences (le choix est disponible pendant l'installation).
-- Le lancer en tant qu'administrateur.
-- **Créer une sauvegarde des paramètres actuels. Aller dans le menu "Configuration" -> Choisir "Enregistrer sous" -> Cliquer sur "Choisir le chemin" et sauvegarder la configuration dans un endroit sûr. Cliquer sur "Enregistrer" pour l'enregistrer. Il s'agit de la sauvegarde à utiliser en cas de problème, faites attention.**
-- Lire et régler les paramètres de son choix, puis les appliquer et redémarrer le PC.
-
-Si jamais vous ne voulez pas lire, je propose un [fichier de configuration à importer](https://lien.ctrl-f.io/w10privacy) qui est très basique et qui devrait convenir à tout le monde. Dans tous les cas, **gardez bien votre sauvegarde**.
-
-Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb"> 6 - Optionnel : W10Privacy](https://youtu.be/2p92Mm-0YTo)
-
 ## Optimiser Windows
 
 En plus des paramètres, on peut rajouter quelques optimisations pour Windows 11, pour réduire un peu les ressources utilisées par l'OS pour des choses  inutiles. C'est l'objet d'un autre guide dédié, [consultable ici](https://github.com/Piwielle/windows_11/blob/main/Optis/README.md).
