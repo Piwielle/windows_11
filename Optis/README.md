@@ -4,7 +4,7 @@ Windows 11 c'est l'avenir. Avec les nouvelles sorties de matériel (exemple Alde
 
 Alors voilà la liste des tweaks que je suggère pour Windows 11. Pour chaque modification, il y a une explication brève, et la méthode pour tout inverser si besoin. Lisez attentivement.
 
-## Table des matières tweaks
+## Liste des tweaks
 
  - [**Le clic droit**](#le-clic-droit)
  - [**La Game Bar**](#la-game-bar)
@@ -16,7 +16,7 @@ Alors voilà la liste des tweaks que je suggère pour Windows 11. Pour chaque mo
  - [**Service SysMain**](#service-sysmain)
  - [**TLDR (tout d'un coup)**](#tldr-tout-dun-coup)
 
-## Table des matières inverser les tweaks
+## Annuler les tweaks
 
  - [**Inverser le clic droit**](#inverser-le-clic-droit)
  - [**Inverser la Game Bar**](#inverser-la-game-bar)
