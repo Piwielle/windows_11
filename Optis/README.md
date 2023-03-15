@@ -120,6 +120,13 @@ Pour désactiver ça :
 - Vérifier que les réponses confirment que les opérations ont bien été effectuées.
 - Redémarrer le navigateur.
 
+/!\ En faisant ça, on modifie des stratégies de groupe, c'est une manière de faire qui est plutôt destinée aux entreprises, mais c'est la seule qui fonctionne pour ce bouton. Pour signaler qu'on a fait ça, Edge va afficher un bandeau dans les paramètres qui dit que le navigateur est géré par une organisation.
+
+<img src="https://i.imgur.com/lwkhX9E.png">
+
+C'est normal, et c'est uniquement les modifications qu'on a fait, le navigateur n'est pas réellement géré par une organisation. Pour supprimer ce message, il faut inverser les modifications qu'on a fait, et il disparaîtra.
+
+
 ## Le menu démarrer
 
 Le menu démarrer de Windows 11 est médiocre, et pas fonctionnel. Je suis limité à 18 raccourcis affichés maximum (à moins d'utiliser les pages, et de devoir scroll, avec leur scroll pas réactif), on est forcé d'afficher les objets "recommandés" (on peut les cacher, mais dans ce cas on se retrouve avec un cadre vide qui nous dit de les activer...)
@@ -262,6 +269,8 @@ reg add "HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Explorer" /v Disa
 reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Dsh" /v AllowNewsAndInterests /t REG_DWORD /d 00000000 /f
 reg add "HKEY_CURRENT_USER\Control Panel\Desktop\WindowMetrics" /v MinAnimate /t REG_SZ /d 00000000 /f
 reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Power" /v HiberbootEnabled /t REG_DWORD /d 00000000 /f
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge" /v HubsSidebarEnabled /t REG_DWORD /d 00000000 /f
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge" /v ShowRecommendationsEnabled /t REG_DWORD /d 00000000 /f
 powercfg -h off
 sc stop "SysMain" & sc config "SysMain" start=disabled
 ```
@@ -277,6 +286,8 @@ reg add "HKEY_CURRENT_USER\System\GameConfigStore" /v GameDVR_Enabled /t REG_DWO
 reg add "HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Explorer" /v DisableSearchBoxSuggestions /t REG_DWORD /d 00000000 /f
 reg add "HKEY_CURRENT_USER\Control Panel\Desktop\WindowMetrics" /v MinAnimate /t REG_SZ /d 00000000 /f
 reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Power" /v HiberbootEnabled /t REG_DWORD /d 00000001 /f
+reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge" /v HubsSidebarEnabled /f
+reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge" /v ShowRecommendationsEnabled /f
 powercfg -h on
 sc config "SysMain" start=auto
 ```
