@@ -93,22 +93,32 @@ Pour annuler cette modification, il suffira de faire l'inverse et de changer les
 
 
 ## Microsoft Edge
-Deux choses. Par défaut, Edge se lance automatiquement au démarrage du PC, et reste en tâche de fond même si le logiciel n'est pas démarré. On peut désactiver ça dans les options.
+Plusieurs choses. Par défaut, Edge se lance automatiquement au démarrage du PC, et reste en tâche de fond même si le logiciel n'est pas démarré. On peut désactiver ça dans les options.
 
 Il y a aussi la pub pour Bing.
 C'est ce truc là, qui apparaît au moins une fois par semaine.
 
 <img src="https://i.imgur.com/4ywSfS2.png" width="300" height="400">
 
+Et récemment, Microsoft a eu la joyeuse idée de rajouter un gros bouton Bing qui s'ouvre dès qu'on passe la souris dessus, sans cliquer. Quelle horreur.
 
-Pour désactiver ces deux choses : 
+<img src="https://i.imgur.com/G40UvD5.png">
+
+Pour désactiver ça : 
 - Aller sur l'url (depuis Edge) [`edge://settings/system`](edge://settings/system)
 - Désactiver les options **"démarrage rapide"** et **"Continuer à exécuter les extensions et les applications en arrière plan lorsque Microsft Edge est fermé"**.
 
+- Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
+- Windows Terminal (Admin)
+- Coller les lignes une par une :
 
-- Aller sur l'url [`edge://flags/#edge-show-feature-recommendations`](edge://flags/#edge-show-feature-recommendations)
-- Changer le réglage pour "Désactivé"
-- Redémarrer Edge.
+```reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge" /v HubsSidebarEnabled /t REG_DWORD /d 00000000 /f```
+
+
+```reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge" /v ShowRecommendationsEnabled /t REG_DWORD /d 00000000 /f```
+
+- Vérifier que les réponses confirment que les opérations ont bien été effectuées.
+- Redémarrer le navigateur.
 
 ## Le menu démarrer
 
