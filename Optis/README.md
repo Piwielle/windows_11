@@ -4,7 +4,7 @@ Windows 11 c'est l'avenir. Avec les nouvelles sorties de matériel (exemple Alde
 
 Alors voilà la liste des tweaks que je suggère pour Windows 11. Pour chaque modification, il y a une explication brève, et la méthode pour tout inverser si besoin. Lisez attentivement.
 
-## Table des matières
+## Table des matières tweaks
 
  - [**Le clic droit**](#le-clic-droit)
  - [**La Game Bar**](#la-game-bar)
@@ -16,6 +16,17 @@ Alors voilà la liste des tweaks que je suggère pour Windows 11. Pour chaque mo
  - [**Service SysMain**](#service-sysmain)
  - [**TLDR (tout d'un coup)**](#tldr-tout-dun-coup)
 
+## Table des matières inverser les tweaks
+
+ - [**Inverser le clic droit**](#inverser-le-clic-droit)
+ - [**Inverser la Game Bar**](#inverser-la-game-bar)
+ - [**Inverser Microsoft Edge**](#inverser-microsoft-edge)
+ - [**Inverser le menu démarrer**](#inverser-le-menu-démarrer)
+ - [**Inverser les résultats web dans la recherche**](#inverser-les-résultats-web-dans-la-recherche)
+ - [**Inverser les widgets**](#inverser-les-widgets)
+ - [**Inverser l'hibernation**](#inverser-lhibernation)
+ - [**Inverser service SysMain**](#inverser-service-sysmain)
+ - [**Inverser TLDR (tout d'un coup)**](#inverser-tldr-tout-dun-coup)
 
 ## Le clic droit
 
@@ -37,18 +48,6 @@ Pour récupérer le clic droit de Windows 10, il faut modifier une clé de regis
 ```reg add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve```
 - Vérifier que la réponse confirme que l'opération a bien été effectuée.
 - Redémarrer le PC.
-
-### <img src="https://i.imgur.com/QTT9CPI.png" width="20" height="20">Annuler le changement
-
-Pour annuler cette modification, il suffira de faire l'inverse et de supprimer la clé de registre qu'on a modifié.
-- Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
-- Windows Terminal (Admin)
-- Coller la ligne :
-
-```reg delete "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}" /f```
-- Vérifier que la réponse confirme que l'opération a bien été effectuée.
-- Redémarrer le PC.
-
 
 ## La Game Bar
 Sur Windows 11, le réglage pour désactiver la Game Bar a disparu. La seule chose présente dans les paramètres, c'est une option pour ne pas l'ouvrir en appuyant sur un bouton de manette.
@@ -73,24 +72,6 @@ Pour désactiver la Game Bar, il faut modifier deux clés de registre, ce qu'on 
 ```reg add "HKEY_CURRENT_USER\System\GameConfigStore" /v GameDVR_Enabled /t REG_DWORD /d 00000000 /f```
 - Vérifier que les réponses confirment que les opérations ont bien été effectuées.
 - Redémarrer le PC.
-
-### <img src="https://i.imgur.com/QTT9CPI.png" width="20" height="20">Annuler le changement
-
-Pour annuler cette modification, il suffira de faire l'inverse et de changer les valeurs, et réinstaller l'application.
-- Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
-- Windows Terminal (Admin)
-- Coller les lignes une par une :
-
-```Get-AppxPackage -allusers *Microsoft.XboxGamingOverlay* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register “$($_.InstallLocation)\AppXManifest.xml”}```
-
-
-```reg add "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" /v AppCaptureEnabled /t REG_DWORD /d 00000001 /f```
-
-
-```reg add "HKEY_CURRENT_USER\System\GameConfigStore" /v GameDVR_Enabled /t REG_DWORD /d 00000001 /f```
-- Vérifier que les réponses confirment que les opérations ont bien été effectuées.
-- Redémarrer le PC.
-
 
 ## Microsoft Edge
 Plusieurs choses. Par défaut, Edge se lance automatiquement au démarrage du PC, et reste en tâche de fond même si le logiciel n'est pas démarré. On peut désactiver ça dans les options.
@@ -160,17 +141,6 @@ Pour désactiver les résultats web dans la recherche, il faut modifier une clé
 - Vérifier que la réponse confirme que l'opération a bien été effectuée.
 - Redémarrer le PC.
 
-### <img src="https://i.imgur.com/QTT9CPI.png" width="20" height="20">Annuler le changement
-
-Pour annuler cette modification, il suffira de faire l'inverse et de changer les valeurs.
-- Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
-- Windows Terminal (Admin)
-- Coller la ligne 
-
-```reg add "HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Explorer" /v DisableSearchBoxSuggestions /t REG_DWORD /d 00000000 /f```
-- Vérifier que la réponse confirme que l'opération a bien été effectuée.
-- Redémarrer le PC.
-
 ## Les widgets
 
 Windows a ajouté une fonctionnalité, les widgets.
@@ -186,17 +156,6 @@ Pour désactiver les Widgets, il faut modifier une clé de registre, ce qu'on pe
 - Coller la ligne :
 
 ```reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Dsh" /v AllowNewsAndInterests /t REG_DWORD /d 00000000 /f```
-- Vérifier que la réponse confirme que l'opération a bien été effectuée.
-- Redémarrer le PC.
-
-### <img src="https://i.imgur.com/QTT9CPI.png" width="20" height="20">Annuler le changement
-
-Pour annuler cette modification, il suffira de faire l'inverse et de changer les valeurs.
-- Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
-- Windows Terminal (Admin)
-- Coller la ligne 
-
-```reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Dsh" /v AllowNewsAndInterests /f```
 - Vérifier que la réponse confirme que l'opération a bien été effectuée.
 - Redémarrer le PC.
 
@@ -216,20 +175,6 @@ Pour désactiver l'hibernation, il faut modifier une clé de registre, ce qu'on 
 - Vérifier que les réponses confirment que les opérations ont bien été effectué.
 - Redémarrer le PC.
 
-### <img src="https://i.imgur.com/QTT9CPI.png" width="20" height="20">Annuler le changement
-
-Pour annuler cette modification, il suffira de faire l'inverse et de changer les valeurs.
-- Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
-- Windows Terminal (Admin)
-- Coller les lignes :
-
-```REG ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Power" /v HiberbootEnabled /t REG_DWORD /d 00000001 /f```
-
-
-```powercfg -h on```
-- Vérifier que les réponses confirment que les opérations ont bien été effectuées.
-- Redémarrer le PC.
-
 ## Service SysMain
 C'est un service qui analyse l'utilisation du PC, et qui pré charge des applications dans la RAM, pour permettre de les lancer plus rapidement. Fonctionne souvent bien, mais peut créer des soucis d'utilisation de disque dur, pour un gain qui n'est pas forcément utile.
 
@@ -244,22 +189,11 @@ Pour désactiver le service, il faut modifier une clé de registre, ce qu'on peu
 - Vérifier que la réponse confirme que l'opération a bien été effectuée.
 - Redémarrer le PC.
 
-### <img src="https://i.imgur.com/QTT9CPI.png" width="20" height="20">Annuler le changement
-
-Pour annuler cette modification, il suffira de faire l'inverse et de changer les valeurs.
-- Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
-- Windows Terminal (Admin)
-- Coller la ligne :
-
-```sc config "SysMain" start=auto```
-- Vérifier que la réponse confirme que l'opération a bien été effectuée.
-- Redémarrer le PC.
-
 
 ## TLDR (tout d'un coup)
 
-Je mets ici directement la liste de toutes les commandes de ce doc, pour avoir tout d'un coup sans devoir tout lire.
-Pour désactiver : 
+Je mets ici directement la liste de toutes les commandes de ce doc, pour avoir tout d'un coup sans devoir tout lire. A utiliser uniquement si vous avez lu, et que vous savez ce que fait chaque modification, sinon vous risquez des mauvaises surprises.
+
 ```
 Get-AppxPackage Microsoft.XboxGamingOverlay | Remove-AppxPackage
 reg add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve
@@ -275,11 +209,128 @@ powercfg -h off
 sc stop "SysMain" & sc config "SysMain" start=disabled
 ```
 
-Et pour réactiver : 
+A noter que certaines parties (le menu démarrer par exemple) ne sont pas modifiées via le registre, et ne sont du coup pas modifiées par les commandes au dessus !
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Inverser le clic droit
+
+Pour annuler cette modification, il suffira de faire l'inverse et de supprimer la clé de registre qu'on a modifié.
+- Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
+- Windows Terminal (Admin)
+- Coller la ligne :
+
+```reg delete "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}" /f```
+- Vérifier que la réponse confirme que l'opération a bien été effectuée.
+- Redémarrer le PC.
+
+
+## Inverser la Game Bar
+
+
+Pour annuler cette modification, il suffira de faire l'inverse et de changer les valeurs, et réinstaller l'application.
+- Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
+- Windows Terminal (Admin)
+- Coller les lignes une par une :
+
+```reg add "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" /v AppCaptureEnabled /t REG_DWORD /d 00000001 /f```
+
+
+```reg add "HKEY_CURRENT_USER\System\GameConfigStore" /v GameDVR_Enabled /t REG_DWORD /d 00000001 /f```
+- Vérifier que les réponses confirment que les opérations ont bien été effectuées.
+- Aller sur le Store re télécharger l'application Xbox Game Bar : https://apps.microsoft.com/store/detail/xbox-game-bar/9NZKPSTSNW4P
+- Redémarrer le PC.
+
+
+## Inverser Microsoft Edge
+
+- Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
+- Windows Terminal (Admin)
+- Coller les lignes une par une :
+```reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge" /v HubsSidebarEnabled /f```
+
+```reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge" /v ShowRecommendationsEnabled /f```
+
+- Vérifier que les réponses confirment que les opérations ont bien été effectuées.
+- Redémarrer le navigateur.
+
+
+## Inverser le menu démarrer
+
+Il suffit de désinstaller ExplorerPatcher, et le menu démarrer de Windows 11 reviendra tout seul.
+
+## Inverser les résultats web dans la recherche
+
+Pour annuler cette modification, il suffira de faire l'inverse et de changer les valeurs.
+- Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
+- Windows Terminal (Admin)
+- Coller la ligne 
+
+```reg add "HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Explorer" /v DisableSearchBoxSuggestions /t REG_DWORD /d 00000000 /f```
+- Vérifier que la réponse confirme que l'opération a bien été effectuée.
+- Redémarrer le PC.
+
+## Inverser les widgets
+Pour annuler cette modification, il suffira de faire l'inverse et de changer les valeurs.
+- Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
+- Windows Terminal (Admin)
+- Coller la ligne 
+
+```reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Dsh" /v AllowNewsAndInterests /f```
+- Vérifier que la réponse confirme que l'opération a bien été effectuée.
+- Redémarrer le PC.
+
+## Inverser l'hibernation
+
+Pour annuler cette modification, il suffira de faire l'inverse et de changer les valeurs.
+- Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
+- Windows Terminal (Admin)
+- Coller les lignes :
+
+```REG ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Power" /v HiberbootEnabled /t REG_DWORD /d 00000001 /f```
+
+
+```powercfg -h on```
+- Vérifier que les réponses confirment que les opérations ont bien été effectuées.
+- Redémarrer le PC.
+
+## Inverser service SysMain
+
+Pour annuler cette modification, il suffira de faire l'inverse et de changer les valeurs.
+- Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
+- Windows Terminal (Admin)
+- Coller la ligne :
+
+```sc config "SysMain" start=auto```
+- Vérifier que la réponse confirme que l'opération a bien été effectuée.
+- Redémarrer le PC.
+
+
+## Inverser TLDR (tout d'un coup)
+
+Pour réactiver d'un coup tout ce qu'on a désactivé :
 ```
-Get-AppxPackage -allusers *Microsoft.XboxGamingOverlay* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register “$($_.InstallLocation)\AppXManifest.xml”}
 reg delete "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}" /f
-reg delete "HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\AppPrivacy" /v LetAppsRunInBackground /f
 reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Dsh" /v AllowNewsAndInterests /f
 reg add "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" /v AppCaptureEnabled /t REG_DWORD /d 00000001 /f
 reg add "HKEY_CURRENT_USER\System\GameConfigStore" /v GameDVR_Enabled /t REG_DWORD /d 00000001 /f
@@ -292,4 +343,7 @@ powercfg -h on
 sc config "SysMain" start=auto
 ```
 
-A noter que certaines parties (le menu démarrer, les recommendations de bing) ne sont pas modifiées via le registre, et ne sont du coup pas modifiées par les commandes au dessus !
+A noter que certaines parties (le menu démarrer par exemple) ne sont pas modifiées via le registre, et ne sont du coup pas modifiées par les commandes au dessus !
+
+
+
