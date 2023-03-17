@@ -50,21 +50,16 @@ Pour récupérer le clic droit de Windows 10, il faut modifier une clé de regis
 - Redémarrer le PC.
 
 ## La Game Bar
-Sur Windows 11, le réglage pour désactiver la Game Bar a disparu. La seule chose présente dans les paramètres, c'est une option pour ne pas l'ouvrir en appuyant sur un bouton de manette.
+La game bar est un overlay qui permet de régler des paramètres et d'afficher des choses par dessus son jeu. C'est quelque chose d'assez efficace, que je recommande de laisser. Voir [cette vidéo pour plus de détails](https://www.youtube.com/watch?v=ATPLXIPtDMg).
 
-Elle se lance quand même systématiquement quand on lance un jeu. 
-
-/!\ Certaines personnes utilisent la Game Bar, et trouvent ça utile. Si c'est votre cas, n'appliquez évidemment pas ces modifications, qui vont la désactiver.
+Ceci dit, la fonctionnalité d'enregistrement permanent des jeux de cette Game Bar impacte les performances du PC. Heureusement, on peut la désactiver.
 
 ### <img src="https://i.imgur.com/qYLxcc4.png" width="20" height="20">Modification
 
-Pour désactiver la Game Bar, il faut modifier deux clés de registre, ce qu'on peut faire via le Terminal, et désinstaller une application.
+Pour désactiver cette option, il faut modifier deux clés de registre, ce qu'on peut faire via le Terminal, et désinstaller une application.
 - Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
 - Windows Terminal (Admin)
 - Coller les lignes une par une :
-
-```Get-AppxPackage Microsoft.XboxGamingOverlay | Remove-AppxPackage```
-
 
 ```reg add "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" /v AppCaptureEnabled /t REG_DWORD /d 00000000 /f```
 
@@ -195,7 +190,6 @@ Pour désactiver le service, il faut modifier une clé de registre, ce qu'on peu
 Je mets ici directement la liste de toutes les commandes de ce doc, pour avoir tout d'un coup sans devoir tout lire. A utiliser uniquement si vous avez lu, et que vous savez ce que fait chaque modification, sinon vous risquez des mauvaises surprises.
 
 ```
-Get-AppxPackage Microsoft.XboxGamingOverlay | Remove-AppxPackage
 reg add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve
 reg add "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" /v AppCaptureEnabled /t REG_DWORD /d 00000000 /f
 reg add "HKEY_CURRENT_USER\System\GameConfigStore" /v GameDVR_Enabled /t REG_DWORD /d 00000000 /f
@@ -248,7 +242,7 @@ Pour annuler cette modification, il suffira de faire l'inverse et de supprimer l
 ## Inverser la Game Bar
 
 
-Pour annuler cette modification, il suffira de faire l'inverse et de changer les valeurs, et réinstaller l'application.
+Pour annuler cette modification, il suffira de faire l'inverse et de changer les valeurs.
 - Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
 - Windows Terminal (Admin)
 - Coller les lignes une par une :
@@ -258,7 +252,6 @@ Pour annuler cette modification, il suffira de faire l'inverse et de changer les
 
 ```reg add "HKEY_CURRENT_USER\System\GameConfigStore" /v GameDVR_Enabled /t REG_DWORD /d 00000001 /f```
 - Vérifier que les réponses confirment que les opérations ont bien été effectuées.
-- Aller sur le Store re télécharger l'application Xbox Game Bar : https://apps.microsoft.com/store/detail/xbox-game-bar/9NZKPSTSNW4P
 - Redémarrer le PC.
 
 
