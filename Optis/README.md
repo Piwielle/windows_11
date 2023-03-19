@@ -139,6 +139,7 @@ Pour désactiver les résultats web dans la recherche, il faut modifier une clé
 ## Les widgets
 
 Windows a ajouté une fonctionnalité, les widgets.
+
 <img src="https://i.imgur.com/auGcKRH.png" width="570" height="670">
 
 On peut assez simplement les désactiver dans les paramètres, mais le fait de simplement les désactiver ne suffit pas, et ils tournent toujours en tâche de fond même désactivés. Je souhaite donc vraiment les désactiver, et que plus rien ne tourne.
