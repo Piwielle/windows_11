@@ -13,7 +13,7 @@ Je propose ici un guide simple et efficace pour avoir un PC performant et optimi
 ## Liens vers les guides
 
 - [Guide en version vidéo](https://installerwindows.fr/videos)
-- [Guide en version texte](https://installerwindows.fr/texte)
+- [Guide en version texte](https://installerwindows.fr/guide/windows-11)
 
 Le guide vidéo est détaillé et conviendra quel que soit le niveau de la personne qui l'utilise.
 Le guide texte est plus succinct et destiné aux utilisateurs avancés. Vous pouvez utiliser un mix des deux, les chapitres sont communs.
