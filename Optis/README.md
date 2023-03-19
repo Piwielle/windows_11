@@ -32,7 +32,7 @@ Alors voilà la liste des tweaks que je suggère pour Windows 11. Pour chaque mo
 
 Le clic droit de Windows 11 ressemble à ça : 
 
-![image menu](https://i.imgur.com/l6MxFzI.png)
+<img src="https://i.imgur.com/l6MxFzI.png" width="280" height="330">
 
 Alors oui, c'est très joli y'a des icônes. Mais si je veux utiliser 7zip pour extraire une archive, ou alors accéder à mon panneau nvidia, je suis obligé de cliquer sur "Afficher plus d'options", puis sur ce que je veux. C'est pénible.
 
@@ -41,7 +41,7 @@ On va donc remettre le clic droit de Windows 10, que je trouve plus efficace.
 ### <img src="https://i.imgur.com/qYLxcc4.png" width="20" height="20">Modification
 
 Pour récupérer le clic droit de Windows 10, il faut modifier une clé de registre, ce qu'on peut faire via le Terminal.
-- Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
+- Clic droit sur <img src="https://i.imgur.com/QfAQiaL.png" width="30" height="30">
 - Windows Terminal (Admin)
 - Coller la ligne :
 
@@ -57,7 +57,7 @@ Ceci dit, la fonctionnalité d'enregistrement permanent des jeux de cette Game B
 ### <img src="https://i.imgur.com/qYLxcc4.png" width="20" height="20">Modification
 
 Pour désactiver cette option, il faut modifier deux clés de registre, ce qu'on peut faire via le Terminal, et désinstaller une application.
-- Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
+- Clic droit sur <img src="https://i.imgur.com/QfAQiaL.png" width="30" height="30">
 - Windows Terminal (Admin)
 - Coller les lignes une par une :
 
@@ -78,13 +78,13 @@ C'est ce truc là, qui apparaît au moins une fois par semaine.
 
 Et récemment, Microsoft a eu la joyeuse idée de rajouter un gros bouton Bing qui s'ouvre dès qu'on passe la souris dessus, sans cliquer. Quelle horreur.
 
-<img src="https://i.imgur.com/G40UvD5.png">
+<img src="https://i.imgur.com/G40UvD5.png" width="162" height="126">
 
 Pour désactiver ça : 
 - Aller sur l'url (depuis Edge) [`edge://settings/system`](edge://settings/system)
 - Désactiver les options **"démarrage rapide"** et **"Continuer à exécuter les extensions et les applications en arrière plan lorsque Microsft Edge est fermé"**.
 
-- Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
+- Clic droit sur <img src="https://i.imgur.com/QfAQiaL.png" width="30" height="30">
 - Windows Terminal (Admin)
 - Coller les lignes une par une :
 
@@ -98,7 +98,7 @@ Pour désactiver ça :
 
 /!\ En faisant ça, on modifie des stratégies de groupe, c'est une manière de faire qui est plutôt destinée aux entreprises, mais c'est la seule qui fonctionne pour ce bouton. Pour signaler qu'on a fait ça, Edge va afficher un bandeau dans les paramètres qui dit que le navigateur est géré par une organisation.
 
-<img src="https://i.imgur.com/lwkhX9E.png">
+<img src="https://i.imgur.com/lwkhX9E.png" width="337" height="45">
 
 C'est normal, et c'est uniquement les modifications qu'on a fait, le navigateur n'est pas réellement géré par une organisation. Pour supprimer ce message, il faut inverser les modifications qu'on a fait, et il disparaîtra.
 
@@ -107,7 +107,7 @@ C'est normal, et c'est uniquement les modifications qu'on a fait, le navigateur 
 
 Le menu démarrer de Windows 11 est médiocre, et pas fonctionnel. Je suis limité à 18 raccourcis affichés maximum (à moins d'utiliser les pages, et de devoir scroll, avec leur scroll pas réactif), on est forcé d'afficher les objets "recommandés" (on peut les cacher, mais dans ce cas on se retrouve avec un cadre vide qui nous dit de les activer...)
 
-![start menu](https://i.imgur.com/XCvE4fq.png)
+<img src="https://i.imgur.com/XCvE4fq.png" width="660" height="730">
 
 Quel enfer.
 
@@ -116,19 +116,19 @@ J'ai essayé Start11 (trop lent), et StartAllBack (pas de possibilités de mettr
 La meilleure option que je suggère c'est https://github.com/valinet/ExplorerPatcher. Ca remet le menu de Windows 10, c'est rapide, et assez configurable.
 Mon menu démarrer actuel ressemble à ça avec ExplorerPatcher : 
 
-![explorer patcher](https://i.imgur.com/XM5RZWk.png)
+<img src="https://i.imgur.com/XM5RZWk.png" width="1010" height="600">
 
 ## Les résultats web dans la recherche
 Par défaut, Windows affiche des résultats du web dans la recherche du menu démarrer. 
 
-![recherche](https://i.imgur.com/wnChamT.png)
+<img src="https://i.imgur.com/wnChamT.png" width="790" height="740">
 
 C'est pénible, je veux le désactiver.
 
 ### <img src="https://i.imgur.com/qYLxcc4.png" width="20" height="20">Modification
 
 Pour désactiver les résultats web dans la recherche, il faut modifier une clé de registre, ce qu'on peut faire via le Terminal.
-- Clic droit sur ![menu démarrer](https://i.imgur.com/z4piDV6.png)
+- Clic droit sur <img src="https://i.imgur.com/QfAQiaL.png" width="30" height="30">
 - Windows Terminal (Admin)
 - Coller la ligne :
 
@@ -139,14 +139,14 @@ Pour désactiver les résultats web dans la recherche, il faut modifier une clé
 ## Les widgets
 
 Windows a ajouté une fonctionnalité, les widgets.
-![widgets](https://img.bfmtv.com/c/0/708/dd3/9c94d037cdb46d167b8f1ff98fe49.png)
+<img src="https://i.imgur.com/auGcKRH.png" width="570" height="670">
 
 On peut assez simplement les désactiver dans les paramètres, mais le fait de simplement les désactiver ne suffit pas, et ils tournent toujours en tâche de fond même désactivés. Je souhaite donc vraiment les désactiver, et que plus rien ne tourne.
 
 ### <img src="https://i.imgur.com/qYLxcc4.png" width="20" height="20">Modification
 
 Pour désactiver les Widgets, il faut modifier une clé de registre, ce qu'on peut faire via le Terminal.
-- Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
+- Clic droit sur <img src="https://i.imgur.com/QfAQiaL.png" width="30" height="30">
 - Windows Terminal (Admin)
 - Coller la ligne :
 
@@ -159,7 +159,7 @@ Par défaut, Windows se met en veille prolongée au lieu de vraiment s'éteindre
 
 ### <img src="https://i.imgur.com/qYLxcc4.png" width="20" height="20">Modification
 Pour désactiver l'hibernation, il faut modifier une clé de registre, ce qu'on peut faire via le Terminal.
-- Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
+- Clic droit sur <img src="https://i.imgur.com/QfAQiaL.png" width="30" height="30">
 - Windows Terminal (Admin)
 - Coller les lignes :
 
@@ -175,7 +175,7 @@ C'est un service qui analyse l'utilisation du PC, et qui pré charge des applica
 
 ### <img src="https://i.imgur.com/qYLxcc4.png" width="20" height="20">Modification
 Pour désactiver le service, il faut modifier une clé de registre, ce qu'on peut faire via le Terminal.
-- Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
+- Clic droit sur <img src="https://i.imgur.com/QfAQiaL.png" width="30" height="30">
 - Windows Terminal (Admin)
 - CLiquer sur la petite flèche dans la barre du haut, puis ouvrir un **Invite de commande**
 - Coller la ligne :
@@ -230,7 +230,7 @@ A noter que certaines parties (le menu démarrer par exemple) ne sont pas modifi
 ## Inverser le clic droit
 
 Pour annuler cette modification, il suffira de faire l'inverse et de supprimer la clé de registre qu'on a modifié.
-- Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
+- Clic droit sur <img src="https://i.imgur.com/QfAQiaL.png" width="30" height="30">
 - Windows Terminal (Admin)
 - Coller la ligne :
 
@@ -243,7 +243,7 @@ Pour annuler cette modification, il suffira de faire l'inverse et de supprimer l
 
 
 Pour annuler cette modification, il suffira de faire l'inverse et de changer les valeurs.
-- Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
+- Clic droit sur <img src="https://i.imgur.com/QfAQiaL.png" width="30" height="30">
 - Windows Terminal (Admin)
 - Coller les lignes une par une :
 
@@ -257,7 +257,7 @@ Pour annuler cette modification, il suffira de faire l'inverse et de changer les
 
 ## Inverser Microsoft Edge
 
-- Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
+- Clic droit sur <img src="https://i.imgur.com/QfAQiaL.png" width="30" height="30">
 - Windows Terminal (Admin)
 - Coller les lignes une par une :
 ```reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge" /v HubsSidebarEnabled /f```
@@ -275,7 +275,7 @@ Il suffit de désinstaller ExplorerPatcher, et le menu démarrer de Windows 11 r
 ## Inverser les résultats web dans la recherche
 
 Pour annuler cette modification, il suffira de faire l'inverse et de changer les valeurs.
-- Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
+- Clic droit sur <img src="https://i.imgur.com/QfAQiaL.png" width="30" height="30">
 - Windows Terminal (Admin)
 - Coller la ligne 
 
@@ -285,7 +285,7 @@ Pour annuler cette modification, il suffira de faire l'inverse et de changer les
 
 ## Inverser les widgets
 Pour annuler cette modification, il suffira de faire l'inverse et de changer les valeurs.
-- Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
+- Clic droit sur <img src="https://i.imgur.com/QfAQiaL.png" width="30" height="30">
 - Windows Terminal (Admin)
 - Coller la ligne 
 
@@ -296,7 +296,7 @@ Pour annuler cette modification, il suffira de faire l'inverse et de changer les
 ## Inverser l'hibernation
 
 Pour annuler cette modification, il suffira de faire l'inverse et de changer les valeurs.
-- Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
+- Clic droit sur <img src="https://i.imgur.com/QfAQiaL.png" width="30" height="30">
 - Windows Terminal (Admin)
 - Coller les lignes :
 
@@ -310,7 +310,7 @@ Pour annuler cette modification, il suffira de faire l'inverse et de changer les
 ## Inverser service SysMain
 
 Pour annuler cette modification, il suffira de faire l'inverse et de changer les valeurs.
-- Clic droit sur ![menu démarrer](https://i.imgur.com/QfAQiaL.png)
+- Clic droit sur <img src="https://i.imgur.com/QfAQiaL.png" width="30" height="30">
 - Windows Terminal (Admin)
 - Coller la ligne :
 
