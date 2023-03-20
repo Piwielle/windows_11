@@ -49,6 +49,7 @@ Pour annuler cette modification, il suffira de faire l'inverse et de changer les
 - Clic droit sur <img src="https://i.imgur.com/QfAQiaL.png" width="30" height="30">
 - Windows Terminal (Admin)
 - Coller les lignes une par une :
+
 ```reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge" /v HubsSidebarEnabled /f```
 
 ```reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge" /v ShowRecommendationsEnabled /f```
