@@ -1,6 +1,6 @@
 <center> <img src="https://i.imgur.com/lVuDunL.png" height="280" width="693" id="img-header" alt="Logo Windows 11"> </center>
 
-_Dernière mise à jour : 01/04/2023_
+_Dernière mise à jour : 08/05/2023_
 
 # Guides Windows et optimisations saines
 
