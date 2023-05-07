@@ -12,7 +12,8 @@ Pour vérifier :
 
 - Appuyer sur entrée.
 - Dans la fenêtre qui s'ouvre, chercher la ligne **Mode BIOS**
-https://i.imgur.com/uGYD4Qd.png
+
+<img src="https://i.imgur.com/uGYD4Qd.png" width="775" height="290">
 
 Si la ligne dit **Mode BIOS : UEFI** -> Parfait, ton Windows est compatible, tu peux aller activer le Secure boot en allant regarder [la vidéo de la dernière étape.](#activation-du-secure-boot)
 
