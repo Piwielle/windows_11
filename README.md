@@ -35,11 +35,6 @@ Je propose ici un guide simple et efficace pour avoir un PC performant et optimi
     </p>
     <ul>
         <li>
-            <a href="/#" disabled>
-                Non disponible
-            </a>
-        </li>
-        <li>
             <a href="https://installerwindows.fr/guide/windows-10">Guide en version texte</a>
         </li>
     </li>
