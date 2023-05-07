@@ -25,7 +25,6 @@ Pour effectuer cette conversion, quelques étapes assez simples :
 - Windows Terminal (Admin)
 - Copie-colle cette ligne : 
 
-<kbd>CTRL</kbd>+<kbd>C</kbd>
 > **mbr2gpt /validate /allowFullOS**
 
 L'invite de commande devrait répondre ces lignes :
@@ -38,7 +37,6 @@ MBR2GPT: Validation completed successfully
 
 Une fois que tu as vu ces 4 lignes, et que tout a marché, tu peux passer à la conversion en coopiant-collant cette ligne : 
 
-<kbd>CTRL</kbd>+<kbd>C</kbd>
 > **mbr2gpt /convert /allowFullOS**
 
 L'invite de commande répondra ça :
