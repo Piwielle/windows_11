@@ -8,7 +8,8 @@ Pour vérifier :
 - Appuyer sur les touches <img src="https://i.imgur.com/QfAQiaL.png" width="30" height="30"> + <kbd>R</kbd> en même temps pour ouvrir la fenêtre Run.
 - Taper dans la fenêtre :
 
-```msinfo32```
+> **msinfo32**
+
 - Appuyer sur entrée.
 - Dans la fenêtre qui s'ouvre, chercher la ligne **Mode BIOS**
 https://i.imgur.com/uGYD4Qd.png
