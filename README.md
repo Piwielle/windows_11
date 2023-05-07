@@ -4,7 +4,7 @@ _Dernière mise à jour : 08/05/2023_
 
 # Guides Windows et optimisations saines
 
-Ce site est un site avec différents guides pour apprendre à (ré)installer Windows 10/11 au propre et faire des optimisations saines pour votre machine. Il s'agit de plusieurs guides complets, que vous devriez pouvoir suivre quel que soit votre niveau en informatique.
+Ce site propose différents guides pour apprendre à (ré)installer Windows 10/11 proprement, avec des optimisations saines pour votre machine. Il s'agit de guides complets que vous devriez pouvoir suivre quel que soit votre niveau en informatique.
 
 ## Pourquoi ce guide
 
@@ -43,8 +43,3 @@ Je propose ici un guide simple et efficace pour avoir un PC performant et optimi
 ## Aide supplémentaire
 
 Si jamais vous avez besoin d'une aide supplémentaire ou que vous avez un problème quelconque avec votre PC, je vous encourage à rejoindre le [<img src="https://i.imgur.com/b8g1o9k.png" width="20" height="20" alt="Logo discord" class="img-logo-discord"> Discord d'entraide informatique](https://discord.gg/informatique)
-
-## Crédits
-
-Les vidéos et les guides ont été créés par [@Piwielle](https://twitter.com/piwielle).
-Le site a entièrement été fait par [Asthox](https://github.com/Asthox) et [Sonny](https://www.sonny.dev/), merci à eux !
