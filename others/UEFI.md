@@ -1,4 +1,4 @@
-# Activation du Secure boot
+# Convertir Windows d'hérité vers UEFI
 
 De base, Windows n'est pas forcément installé en mode UEFI, et donc n'est pas forcément compatible avec le Secure boot. Si vous activez le Secure boot sans que Windows soit en mode UEFI, le PC ne démarrera pas. Ce tuto permet de vérifier et régler ça.
 
