@@ -2,8 +2,6 @@
 
 _Dernière mise à jour : 08/05/2023_
 
-# Guides Windows et optimisations saines
-
 Ce site propose différents guides pour apprendre à (ré)installer Windows 10/11 proprement, avec des optimisations saines pour votre machine. Il s'agit de guides complets que vous devriez pouvoir suivre quel que soit votre niveau en informatique.
 
 ## Pourquoi ce guide
