@@ -12,6 +12,7 @@ Ici la liste des commandes et isntructions pour inverser simplement tout ce qu'o
  - [**Inverser les widgets**](#inverser-les-widgets)
  - [**Inverser l'hibernation**](#inverser-lhibernation)
  - [**Inverser service SysMain**](#inverser-service-sysmain)
+ - [**Inverser intégrité de la mémoire**](#inverser-intégrité-de-la-mémoire)
  - [**Inverser TLDR (tout d'un coup)**](#inverser-tldr-tout-dun-coup)
 
 
@@ -108,6 +109,21 @@ Pour annuler cette modification, il suffira de faire l'inverse et de changer les
 - Vérifier que la réponse confirme que l'opération a bien été effectuée.
 - Redémarrer le PC.
 
+## Inverser intégrité de la mémoire
+
+L'intégrité de la mémoire est une option de sécurité de Windows. Elle permet d'augmenter un peu la sécurité, au prix d'une réduction de performances. Désactiver cette option est un compromis, mais permet de gagner des performances en jeu pour une réduction minime de sécurité. Personnellement, je le fais. A chacun de décider selon ses préférences.
+
+### <img src="https://i.imgur.com/qYLxcc4.png" width="20" height="20">Modification
+Pour réactiver l'option, il faut modifier une clé de registre, ce qu'on peut faire via le Terminal.
+- Clic droit sur <img src="https://i.imgur.com/QfAQiaL.png" width="30" height="30">
+- Windows Terminal (Admin)
+- CLiquer sur la petite flèche dans la barre du haut, puis ouvrir un **Invite de commande**
+- Coller la ligne :
+
+```reg add "HKLM\System\CurrentControlSet\Control\DeviceGuard\Scenarios\HypervisorEnforcedCodeIntegrity" /v Enabled /t REG_DWORD /d 1 /f```
+- Vérifier que la réponse confirme que l'opération a bien été effectuée.
+- Redémarrer le PC.
+
 
 ## Inverser TLDR (tout d'un coup)
 
@@ -124,6 +140,7 @@ reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge" /v HubsSidebarE
 reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge" /v ShowRecommendationsEnabled /f
 powercfg -h on
 sc config "SysMain" start=auto
+reg add "HKLM\System\CurrentControlSet\Control\DeviceGuard\Scenarios\HypervisorEnforcedCodeIntegrity" /v Enabled /t REG_DWORD /d 1 /f
 ```
 
 A noter que certaines parties (le menu démarrer par exemple) ne sont pas modifiées via le registre, et ne sont du coup pas modifiées par les commandes au dessus !
