@@ -1,6 +1,6 @@
 <center> <img src="https://i.imgur.com/lVuDunL.png" height="280" width="693" id="img-header" alt="Logo Windows 11"> </center>
 
-_Dernière mise à jour : 08/05/2023_
+_Dernière mise à jour : 01/07/2023_
 
 Ce site propose différents guides pour apprendre à (ré)installer Windows 10/11 proprement, avec des optimisations saines pour votre machine. Il s'agit de guides complets que vous pouvez suivre quel que soit votre niveau en informatique.
 
