@@ -105,6 +105,18 @@ La seconde étape consiste à aller faire un tour de tous les paramètres du pan
 
 Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb"> 8 - Optimiser une CG Nvidia](https://youtu.be/kGRlhVB6YmE)
 
+## Optimiser une CG AMD
+Pour optimiser sa CG (carte graphique) Nvidia, la première étape est d'utiliser le logiciel [DDU](https://www.wagnardsoft.com/forums/viewforum.php?f=5) pour supprimer complètement son pilote graphique actuel et réinstalelr la dernière version proprement de 0.
+
+- Télécharger [DDU](https://www.wagnardsoft.com/forums/viewforum.php?f=5), [NVCleanInstall](https://www.techpowerup.com/download/techpowerup-nvcleanstall/).
+- Aller en mode sans échec et utiliser DDU pour nettoyer le pilote graphique actuel. Désactiver aussi temporairement l'installation des pilotes par Windows Update, dans les paramètres de DDU.
+- Redémarrer le PC, réinstaller son pilote en choisissant l'installation complète ou minimale selon les préférences.
+- Relancer DDU et réactiver l'installation des pilotes par Windows Update.
+
+La seconde étape consiste à aller faire un tour de tous les paramètres du panneau AMD, puis cocher pour décocher ce qui vous semble pertinent, selon votre utilisation. Si vous ne savez pas trop quoi faire, la vidéo de ce chapitre a des suggestions.
+
+Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb">Optimiser une CG AMD](https://www.youtube.com/watch?v=Ej8Jj4X_6IU)
+
 ## Les bonnes pratiques
 
 L'installation de Windows est terminée, mais avant de vous laisser, on va parler des bonnes pratiques et des choses à faire sur le PC pour essayer de le garder propre le plus longtemps possible et éviter les problèmes.
@@ -121,7 +133,8 @@ Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="
 ## Fin
 C'est terminé, bravo.
 
-Si par hasard tu souhaites contribuer à mes achats de cartes graphiques, tu peux le faire via le sponsoring à droite de la page Github du projet, en euros ou en crypto, là :
+Si par hasard tu souhaites contribuer à mes achats de cartes graphiques, tu peux le faire via Youtube avec le soutien à la chaîne, ou via le sponsoring à droite de la page Github :
 
+- [https://www.youtube.com/@Piwi](https://www.youtube.com/@Piwi)
 - [https://github.com/Piwielle/windows_11](https://github.com/Piwielle/windows_11)
 
