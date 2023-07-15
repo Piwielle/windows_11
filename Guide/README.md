@@ -106,7 +106,7 @@ La seconde étape consiste à aller faire un tour de tous les paramètres du pan
 Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb"> 8 - Optimiser une CG Nvidia](https://youtu.be/kGRlhVB6YmE)
 
 ## Optimiser une CG AMD
-Pour optimiser sa CG (carte graphique) Nvidia, la première étape est d'utiliser le logiciel [DDU](https://www.wagnardsoft.com/forums/viewforum.php?f=5) pour supprimer complètement son pilote graphique actuel et réinstalelr la dernière version proprement de 0.
+Pour optimiser sa CG (carte graphique) AMD, la première étape est d'utiliser le logiciel [DDU](https://www.wagnardsoft.com/forums/viewforum.php?f=5) pour supprimer complètement son pilote graphique actuel et réinstaller la dernière version proprement de 0.
 
 - Télécharger [DDU](https://www.wagnardsoft.com/forums/viewforum.php?f=5).
 - Aller en mode sans échec et utiliser DDU pour nettoyer le pilote graphique actuel. Désactiver aussi temporairement l'installation des pilotes par Windows Update, dans les paramètres de DDU.
