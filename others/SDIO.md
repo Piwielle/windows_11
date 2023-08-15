@@ -10,16 +10,16 @@ Cependant, des fois ça marche pas, et un outil peut aider. Dans ces cas, SDI Or
 - Extraire l'archive (clic droit -> extraire tout -> extraire)
 - Le dossier extrait s'ouvre. Lancer le logiciel en double cliquant sur **SDIO_x64_R756**
 - Le logiciel s'ouvre. Accepter le contract de licence comme indiqué dans l'image
-<img src="https://i.imgur.com/OfED9GI.png">
+<img src="https://i.imgur.com/OfED9GI.png" width="1074" height="765">
 
 - Télécharger uniquement les indexes en cliquant sur le bouton indiqué dans l'image
-<img src="https://i.imgur.com/Vdr6OgW.png">
+<img src="https://i.imgur.com/Vdr6OgW.png" width="1077" height="767">
 
 - Attendre que le téléchargement des indexes se termine : 
-<img src="https://i.imgur.com/J28VKSM.png">
+<img src="https://i.imgur.com/J28VKSM.png" width="888" height="130">
 
 - Une liste de pilotes s'affiche. L'objectif est de sélectionner ceux qui nous intéressent, puis de cliquer sur le bouton Installer à gauche.
-<img src="https://i.imgur.com/dW25BRR.png">
+<img src="https://i.imgur.com/dW25BRR.png" width="1074" height="769">
 
 - Attendre que toutes les installations se terminent, puis redémarrer le PC.
 
