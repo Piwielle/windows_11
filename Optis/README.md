@@ -17,6 +17,7 @@ Pour annuler n'importe laquelle de ces modifications, la procédure est décrite
  - [**L'hibernation**](#lhibernation)
  - [**Service SysMain**](#service-sysmain)
  - [**Intégrité de la mémoire**](#intégrité-de-la-mémoire)
+ - [**Windows Copilot**](#windows-copilot)
  - [**TLDR (tout d'un coup)**](#tldr-tout-dun-coup)
 
 ## Le clic droit
@@ -191,6 +192,20 @@ Pour désactiver l'option, il faut modifier une clé de registre, ce qu'on peut 
 - Vérifier que la réponse confirme que l'opération a bien été effectuée.
 - Redémarrer le PC.
 
+## Windows Copilot
+Le nouvel assistant "AI" de Windows. Il n'est pas désactivable via les paramètres pour le moment, on peut uniquement cacher son icône.
+
+Pour désactiver l'option, il faut modifier une clé de registre, ce qu'on peut faire via le Terminal.
+- Clic droit sur <img src="https://i.imgur.com/QfAQiaL.png" width="30" height="30">
+- Windows Terminal (Admin)
+- CLiquer sur la petite flèche dans la barre du haut, puis ouvrir un **Invite de commande**
+- Coller la ligne :
+
+```reg add "HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\WindowsCopilot" /v TurnOffWindowsCopilot /t REG_DWORD /d 1 /f```
+- Vérifier que la réponse confirme que l'opération a bien été effectuée.
+- Redémarrer le PC.
+
+
 ## TLDR (tout d'un coup)
 
 Je mets ici directement la liste de toutes les commandes de ce doc, pour avoir tout d'un coup sans devoir tout lire. A utiliser uniquement si vous avez lu, et que vous savez ce que fait chaque modification, sinon vous risquez des mauvaises surprises.
@@ -208,6 +223,7 @@ reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge" /v ShowRecommendat
 powercfg -h off
 sc stop "SysMain" & sc config "SysMain" start=disabled
 reg add "HKLM\System\CurrentControlSet\Control\DeviceGuard\Scenarios\HypervisorEnforcedCodeIntegrity" /v Enabled /t REG_DWORD /d 0 /f
+reg add "HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\WindowsCopilot" /v TurnOffWindowsCopilot /t REG_DWORD /d 1 /f
 ```
 
 A noter que certaines parties (le menu démarrer par exemple) ne sont pas modifiées via le registre, et ne sont du coup pas modifiées par les commandes au dessus !
