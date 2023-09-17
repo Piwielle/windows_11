@@ -13,6 +13,7 @@ Ici la liste des commandes et isntructions pour inverser simplement tout ce qu'o
  - [**Inverser l'hibernation**](#inverser-lhibernation)
  - [**Inverser service SysMain**](#inverser-service-sysmain)
  - [**Inverser intégrité de la mémoire**](#inverser-intégrité-de-la-mémoire)
+ - [**Inverser Windows Copilot**](#inverser-windows-copilot)
  - [**Inverser TLDR (tout d'un coup)**](#inverser-tldr-tout-dun-coup)
 
 
