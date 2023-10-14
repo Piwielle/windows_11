@@ -74,7 +74,7 @@ Et récemment, Microsoft a eu la joyeuse idée de rajouter un gros bouton Bing q
 
 Pour désactiver ça : 
 - Aller sur l'url (depuis Edge) [`edge://settings/system`](edge://settings/system)
-- Désactiver les options **"démarrage rapide"** et **"Continuer à exécuter les extensions et les applications en arrière plan lorsque Microsft Edge est fermé"**.
+- Désactiver les options **"démarrage rapide"** et **"Continuer à exécuter les extensions et les applications en arrière plan lorsque Microsoft Edge est fermé"**.
 
 - Clic droit sur <img src="https://i.imgur.com/QfAQiaL.png" width="30" height="30">
 - Windows Terminal (Admin)
