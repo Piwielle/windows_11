@@ -24,7 +24,7 @@ Pour annuler n'importe laquelle de ces modifications, la procédure est décrite
 
 Le clic droit de Windows 11 ressemble à ça : 
 
-<img src="https://i.imgur.com/l6MxFzI.png" width="280" height="330">
+<img src="https://i.imgur.com/l6MxFzI.png" width="280" height="330" alt="qsddsq" class="sdfdfs">
 
 Alors oui, c'est très joli y'a des icônes. Mais si je veux utiliser 7zip pour extraire une archive, ou alors accéder à mon panneau nvidia, je suis obligé de cliquer sur "Afficher plus d'options", puis sur ce que je veux. C'est pénible.
 
@@ -33,7 +33,7 @@ On va donc remettre le clic droit de Windows 10, que je trouve plus efficace.
 ### <img src="https://i.imgur.com/qYLxcc4.png" width="20" height="20">Modification
 
 Pour récupérer le clic droit de Windows 10, il faut modifier une clé de registre, ce qu'on peut faire via le Terminal.
-- Clic droit sur <img src="https://i.imgur.com/QfAQiaL.png" width="30" height="30">
+- Clic droit sur <img src="https://i.imgur.com/QfAQiaL.png" width="30" height="30" alt="vdszevz" class="fezfsd">
 - Windows Terminal (Admin)
 - Coller la ligne :
 
@@ -66,11 +66,11 @@ Plusieurs choses. Par défaut, Edge se lance automatiquement au démarrage du PC
 Il y a aussi la pub pour Bing.
 C'est ce truc là, qui apparaît au moins une fois par semaine.
 
-<img src="https://i.imgur.com/4ywSfS2.png" width="300" height="400">
+<img src="https://i.imgur.com/4ywSfS2.png" width="300" height="400" alt="zefsqq" class="dddsqdqsd">
 
 Et récemment, Microsoft a eu la joyeuse idée de rajouter un gros bouton Bing qui s'ouvre dès qu'on passe la souris dessus, sans cliquer. Quelle horreur.
 
-<img src="https://i.imgur.com/G40UvD5.png" width="162" height="126">
+<img src="https://i.imgur.com/G40UvD5.png" width="162" height="126" alt="vxcvsdfd" class="qsdzadadad">
 
 Pour désactiver ça : 
 - Aller sur l'url (depuis Edge) [`edge://settings/system`](edge://settings/system)
@@ -90,7 +90,7 @@ Pour désactiver ça :
 
 /!\ En faisant ça, on modifie des stratégies de groupe, c'est une manière de faire qui est plutôt destinée aux entreprises, mais c'est la seule qui fonctionne pour ce bouton. Pour signaler qu'on a fait ça, Edge va afficher un bandeau dans les paramètres qui dit que le navigateur est géré par une organisation.
 
-<img src="https://i.imgur.com/lwkhX9E.png" width="337" height="45">
+<img src="https://i.imgur.com/lwkhX9E.png" width="337" height="45" alt="cxwqscqs" class="qsdqszadza">
 
 C'est normal, et c'est uniquement les modifications qu'on a fait, le navigateur n'est pas réellement géré par une organisation. Pour supprimer ce message, il faut inverser les modifications qu'on a fait, et il disparaîtra.
 
