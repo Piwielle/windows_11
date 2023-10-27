@@ -13,7 +13,7 @@ Il s'agit d'une option de Windows qui permet (en simplifiant) de superposer des 
 - TDR
 Il s'agit (en gros) d'une option de windows qui permet de récupérer le contrôle du PC en cas de plantage de la CG ou de son pilote. Connu pour être parfois trop agressif, et déclarer un problème alors que tout va bien. [Plus de détails](https://learn.microsoft.com/en-us/windows-hardware/drivers/display/timeout-detection-and-recovery).
 - HAGS
-En très gros, ça permet à la CG de décider toute seule comment prioriser les tâches selon les application. Connu poru causer des problèmes avec les jeux et le streaming. [Plus de détails](https://devblogs.microsoft.com/directx/hardware-accelerated-gpu-scheduling/). 
+En très gros, ça permet à la CG de décider toute seule comment prioriser les tâches selon les application. Connu pour causer des problèmes avec les jeux et le streaming. [Plus de détails](https://devblogs.microsoft.com/directx/hardware-accelerated-gpu-scheduling/). 
 - ULPS
 C'est une option spécifique aux pilotes AMD qui permet en théorie d'économiser de l'énergie. Connu pour causer des crashs et des soucis de performances.
 
