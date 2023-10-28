@@ -21,8 +21,8 @@ Pour désactiver ces 4 options, on va utiliser un logiciel nommé [MPO-GPU-FIX](
 
 - Télécharger le logiciel : [clique ici](https://github.com/RedDot-3ND7355/MPO-GPU-FIX/releases/download/Update4/MPOGPUFIX.zip)
 - Extrais le logiciel de l'archive (clic droit -> extraire)
-- Lance le logiciel puis coche les 4 options, il faut que tout soit rose comme sur l'image.
-<img src="https://i.imgur.com/9CIqIme.png" height="304" width="364" alt="Logiciel MPO" class="img-mpo">
+- Lance le logiciel puis décoche ULPS et coche les 3 autres cases, il faut que tout soit comme sur l'image.
+<img src="https://i.imgur.com/Eahxfle.png" height="307" width="362" alt="Logiciel MPO" class="img-mpo">
 
 Il faut ensuite redémarrer le PC.
 
