@@ -48,6 +48,7 @@ Dans certains cas, les problèmes peuvent être causés par des connexions élec
 - Tant que la CG est retirée, on peut vérifier les connecteurs d'alimentation. Si ta CG n'a qu'un connecteur pour câble d'alim, tu n'as rien à faire c'est forcément bon. Si par contre ta CG a 2 connecteurs, il faut vérifier que tu utilises bien un câble dédié par connecteur de la CG. L'image te montre clairement les choses à faire et à ne pas faire :
 
 <img src="https://i.imgur.com/kZkvhN7.png" height="635" width="757"  alt="cables" class="cables">
+
 - Corrige ensuite les câbles d'alimentation pour en utiliser des séparés, puis remet ta CG dans le PC.
 
 ## Autres
