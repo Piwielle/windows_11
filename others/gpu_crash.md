@@ -22,6 +22,7 @@ Pour désactiver ces 4 options, on va utiliser un logiciel nommé [MPO-GPU-FIX](
 - Télécharger le logiciel : [clique ici](https://github.com/RedDot-3ND7355/MPO-GPU-FIX/releases/download/Update4/MPOGPUFIX.zip)
 - Extrais le logiciel de l'archive (clic droit -> extraire)
 - Lance le logiciel puis décoche ULPS et coche les 3 autres cases, il faut que tout soit comme sur l'image.
+  
 <img src="https://i.imgur.com/Eahxfle.png" height="307" width="362" alt="Logiciel MPO" class="img-mpo">
 
 Il faut ensuite redémarrer le PC.
@@ -34,6 +35,7 @@ Pour le désactiver :
 - Aller dans les paramètres
 - Cliquer sur l'onglet "Gaming" puis le menu "Captures"
 - Décocher la case "Enregistrer ce qui se passe"
+  
 <img src="https://i.imgur.com/3gH4HBP.png" height="367" width="1053"  alt="captures" class="ccapture">
 
 Il faut ensuite redémarrer le PC.
