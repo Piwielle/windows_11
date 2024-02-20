@@ -18,6 +18,7 @@ Pour annuler n'importe laquelle de ces modifications, la procédure est décrite
  - [**Service SysMain**](#service-sysmain)
  - [**Intégrité de la mémoire**](#intégrité-de-la-mémoire)
  - [**Windows Copilot**](#windows-copilot)
+ - [**Google Chrome**](#google-chrome)
  - [**TLDR (tout d'un coup)**](#tldr-tout-dun-coup)
 
 ## Le clic droit
@@ -205,6 +206,15 @@ Pour désactiver l'option, il faut modifier une clé de registre, ce qu'on peut 
 - Vérifier que la réponse confirme que l'opération a bien été effectuée.
 - Redémarrer le PC.
 
+## Google Chrome
+Cette section est une section rapide sur quelques trucs de google chrome que je trouve intéressants.
+- Désactiver le refresh visuel (remettre les icônes de dossiers de favoris en jaune)
+  
+  ```chrome://flags/#chrome-refresh-2023```
+
+- Désactiver le "reading mode"
+  
+  ```chrome://flags/#read-anything```
 
 ## TLDR (tout d'un coup)
 
