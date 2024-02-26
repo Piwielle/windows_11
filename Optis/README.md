@@ -18,7 +18,6 @@ Pour annuler n'importe laquelle de ces modifications, la procédure est décrite
  - [**Service SysMain**](#service-sysmain)
  - [**Intégrité de la mémoire**](#intégrité-de-la-mémoire)
  - [**Windows Copilot**](#windows-copilot)
- - [**Google Chrome**](#google-chrome)
  - [**TLDR (tout d'un coup)**](#tldr-tout-dun-coup)
 
 ## Le clic droit
@@ -73,10 +72,15 @@ Et récemment, Microsoft a eu la joyeuse idée de rajouter un gros bouton Bing q
 
 <img src="https://i.imgur.com/G40UvD5.png" width="162" height="126" alt="vxcvsdfd" class="qsdzadadad">
 
+Et maintenant, Edge se met à suggérer régulièrement de changer de moteur de recherche pour passer à Bing (modr).
+
 Pour désactiver ça : 
 - Aller sur l'url (depuis Edge) [`edge://settings/system`](edge://settings/system)
 - Désactiver les options **"démarrage rapide"** et **"Continuer à exécuter les extensions et les applications en arrière plan lorsque Microsoft Edge est fermé"**.
 
+- Aller sur l'url (depuis Edge) [`edge://flags/#edge-show-feature-recommendations`](edge://flags/#edge-show-feature-recommendations)
+- Désactiver l'option **Show feature and workflow recommendations**
+  
 - Clic droit sur <img src="https://i.imgur.com/QfAQiaL.png" width="30" height="30">
 - Windows Terminal (Admin)
 - Coller les lignes une par une :
@@ -94,6 +98,8 @@ Pour désactiver ça :
 <img src="https://i.imgur.com/lwkhX9E.png" width="337" height="45" alt="cxwqscqs" class="qsdqszadza">
 
 C'est normal, et c'est uniquement les modifications qu'on a fait, le navigateur n'est pas réellement géré par une organisation. Pour supprimer ce message, il faut inverser les modifications qu'on a fait, et il disparaîtra.
+
+Ensuite, il faut 
 
 
 ## Le menu démarrer
@@ -206,15 +212,6 @@ Pour désactiver l'option, il faut modifier une clé de registre, ce qu'on peut 
 - Vérifier que la réponse confirme que l'opération a bien été effectuée.
 - Redémarrer le PC.
 
-## Google Chrome
-Cette section est une section rapide sur quelques trucs de google chrome que je trouve intéressants.
-- Désactiver le refresh visuel (remettre les icônes de dossiers de favoris en jaune)
-  
-  ```chrome://flags/#chrome-refresh-2023```
-
-- Désactiver le "reading mode"
-  
-  ```chrome://flags/#read-anything```
 
 ## TLDR (tout d'un coup)
 
