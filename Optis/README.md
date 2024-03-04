@@ -72,7 +72,7 @@ Et récemment, Microsoft a eu la joyeuse idée de rajouter un gros bouton Bing q
 
 <img src="https://i.imgur.com/G40UvD5.png" width="162" height="126" alt="vxcvsdfd" class="qsdzadadad">
 
-Et maintenant, Edge se met à suggérer régulièrement de changer de moteur de recherche pour passer à Bing (modr).
+Et maintenant, Edge se met à suggérer régulièrement de changer de moteur de recherche pour passer à Bing (mdr).
 
 Pour désactiver ça : 
 - Aller sur l'url (depuis Edge) [`edge://settings/system`](edge://settings/system)
