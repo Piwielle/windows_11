@@ -86,7 +86,7 @@ Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="
 
 ## Optimiser Windows
 
-En plus des paramètres, on peut rajouter quelques optimisations pour Windows 11, pour réduire un peu les ressources utilisées par l'OS pour des choses  inutiles. C'est l'objet d'un autre guide dédié, [consultable ici](https://github.com/Piwielle/windows_11/blob/main/Optis/README.md).
+En plus des paramètres, on peut rajouter quelques optimisations pour Windows 11, pour réduire un peu les ressources utilisées par l'OS pour des choses  inutiles. C'est l'objet d'un autre guide dédié, [consultable ici](https://www.installerwindows.fr/guide/optimisation).
 
 Cette liste d'optimisations est sans risque pour le PC et ses fonctionnalités, mais le guide reste réversible et vous indique comment tout annuler si besoin.
 
