@@ -80,6 +80,10 @@ Pour désactiver ça :
 
 - Aller sur l'url (depuis Edge) [`edge://flags/#edge-show-feature-recommendations`](edge://flags/#edge-show-feature-recommendations)
 - Désactiver l'option **Show feature and workflow recommendations**
+
+- Aller sur l'url (depuis Edge) [`edge://flags/#edge-msb-all-dse`](edge://flags/#edge-msb-all-dse)
+- Désactiver l'option **edge://flags/#edge-msb-all-dse**
+-  
   
 - Clic droit sur <img src="https://i.imgur.com/QfAQiaL.png" width="30" height="30">
 - Windows Terminal (Admin)
