@@ -78,9 +78,6 @@ Pour désactiver ça :
 - Aller sur l'url (depuis Edge) [`edge://settings/system`](edge://settings/system)
 - Désactiver les options **"démarrage rapide"** et **"Continuer à exécuter les extensions et les applications en arrière plan lorsque Microsoft Edge est fermé"**.
 
-- Aller sur l'url (depuis Edge) [`edge://flags/#edge-show-feature-recommendations`](edge://flags/#edge-show-feature-recommendations)
-- Désactiver l'option **Show feature and workflow recommendations**
-
 - Aller sur l'url (depuis Edge) [`edge://flags/#edge-msb-all-dse`](edge://flags/#edge-msb-all-dse)
 - Désactiver l'option **edge://flags/#edge-msb-all-dse**
 -  
