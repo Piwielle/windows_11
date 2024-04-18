@@ -46,7 +46,7 @@ Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="
 
 Une fois Windows installé et démarré, on va pouvoir télécharger et installer les pilotes (drivers). 
 
-- On commence par se rendre sur le site de la carte mère, dans la catégorie support (si le modèle exact de la carte mère est inconnu, on peut utiliser [UserDiag](https://userdiag.com/) pour le trouver). On télécharge ensuite tous les pilotes disponibles pour la carte mère.
+- On commence par se rendre sur le site de la carte mère, dans la catégorie support (si le modèle exact de la carte mère est inconnu, on peut utiliser `msinfo32` pour le trouver). On télécharge ensuite tous les pilotes disponibles pour la carte mère.
 
 - On fera quand même attention d'éviter les "utilitaires", qui ne sont pas vraiment des pilotes, mais plutôt des logiciels qui peuvent permettre de contrôler des choses diverses sur le PC, mais qui sont souvent mal faits et très gourmands en ressources.
 
