@@ -50,7 +50,7 @@ Une fois Windows installé et démarré, on va pouvoir télécharger et installe
 
 - On fera quand même attention d'éviter les "utilitaires", qui ne sont pas vraiment des pilotes, mais plutôt des logiciels qui peuvent permettre de contrôler des choses diverses sur le PC, mais qui sont souvent mal faits et très gourmands en ressources.
 
-- On passe également sur le site d'[Nvidia](https://www.nvidia.com/Download/index.aspx) ou [AMD](https://www.amd.com/support) pour la carte graphique et sur les sites des fabricants pour les pilotes spécifiques à du matériel particulier (logiciel de clavier, pilote de carte son, etc).
+- On passe également sur le site d'[Nvidia](https://www.nvidia.com/Download/index.aspx), [Intel](https://www.intel.fr/content/www/fr/fr/download-center/home.html) ou [AMD](https://www.amd.com/support) pour la carte graphique et sur les sites des fabricants pour les pilotes spécifiques à du matériel particulier (logiciel de clavier, pilote de carte son, etc).
 
 Une fois tous les pilotes téléchargés, on peut les dézipper et les installer, un par un. Dans la majorité des cas on pourra se contenter de ne redémarrer qu'une seule fois à la fin, mais si on constate des erreurs étranges, redémarrer après chaque pilote peut aider.
 
