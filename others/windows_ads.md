@@ -177,5 +177,6 @@ reg add "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Privacy" /v
 reg add "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v Start_IrisRecommendations /t REG_DWORD /d 00000001 /f
 ```
 
+## Support vidéo
 [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb">Y'a pas de vidéo pour le moment, alors voilà une photo de mon chat](https://i.imgur.com/gv9hWgA.png)
 
