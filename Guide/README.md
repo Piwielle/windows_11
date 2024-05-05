@@ -117,6 +117,12 @@ La seconde étape consiste à aller faire un tour de tous les paramètres du pan
 
 Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb">Optimiser une CG AMD](https://www.youtube.com/watch?v=Ej8Jj4X_6IU)
 
+## Optimiser une CG Intel
+J'ai pas d'expérience personnelle avec les CG Intel. Ceci dit, quelques trucs qui sont importants : 
+
+- Tu peux toujours utiliser [DDU](https://www.wagnardsoft.com/forums/viewforum.php?f=5) pour nettoyer proprement les pilotes de la CG. C'est peut-être quelque chose que tu devrais envisager plus souvent qu'avec les autres marques, vu la jeunesse des pilotes.
+- Il est probable que les mises à jour de pilotes apportent des gains de performances, et des correctifs de bugs importants. Les pilotes des CG Intel ARC sont téléchargeables par ici : https://www.intel.com/content/www/us/en/products/docs/discrete-gpus/arc/software/drivers.html (privilégier les pilotes dédiés aux jeux) 
+
 ## Les bonnes pratiques
 
 L'installation de Windows est terminée, mais avant de vous laisser, on va parler des bonnes pratiques et des choses à faire sur le PC pour essayer de le garder propre le plus longtemps possible et éviter les problèmes.
