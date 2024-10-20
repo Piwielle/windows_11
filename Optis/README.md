@@ -16,7 +16,7 @@ Pour annuler n'importe laquelle de ces modifications, la procédure est décrite
  - [**Les widgets**](#les-widgets)
  - [**L'hibernation**](#lhibernation)
  - [**Service SysMain**](#service-sysmain)
- - [**Intégrité de la mémoire**](#intégrité-de-la-mémoire)
+ - [**VBS**](#VBS)
  - [**Windows Copilot**](#windows-copilot)
  - [**TLDR (tout d'un coup)**](#tldr-tout-dun-coup)
 
@@ -185,9 +185,9 @@ Pour désactiver le service, il faut modifier une clé de registre, ce qu'on peu
 - Vérifier que la réponse confirme que l'opération a bien été effectuée.
 - Redémarrer le PC.
 
-## Intégrité de la mémoire
+## VBS
 
-L'intégrité de la mémoire est une option de sécurité de Windows. Elle permet d'augmenter un peu la sécurité, au prix d'une réduction de performances. Désactiver cette option est un compromis, mais permet de gagner des performances en jeu pour une réduction minime de sécurité. Personnellement, je le fais. A chacun de décider selon ses préférences.
+La VBS (Virtualization Based Security) est une option de sécurité de Windows. Elle permet d'augmenter un peu la sécurité, au prix d'une réduction de performances. Désactiver cette option est un compromis, mais permet de gagner des performances en jeu pour une réduction minime de sécurité. Personnellement, je le fais. A chacun de décider selon ses préférences.
 
 ### <img src="https://i.imgur.com/qYLxcc4.png" width="20" height="20">Modification
 Pour désactiver l'option, il faut modifier une clé de registre, ce qu'on peut faire via le Terminal.
@@ -196,7 +196,7 @@ Pour désactiver l'option, il faut modifier une clé de registre, ce qu'on peut 
 - CLiquer sur la petite flèche dans la barre du haut, puis ouvrir un **Invite de commande**
 - Coller la ligne :
 
-```reg add "HKLM\System\CurrentControlSet\Control\DeviceGuard\Scenarios\HypervisorEnforcedCodeIntegrity" /v Enabled /t REG_DWORD /d 0 /f```
+```reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\DeviceGuard" /v EnableVirtualizationBasedSecurity /t REG_DWORD /d 0 /f```
 - Vérifier que la réponse confirme que l'opération a bien été effectuée.
 - Redémarrer le PC.
 
