@@ -196,6 +196,8 @@ Pour désactiver l'option, il faut modifier une clé de registre, ce qu'on peut 
 - CLiquer sur la petite flèche dans la barre du haut, puis ouvrir un **Invite de commande**
 - Coller la ligne :
 
+```reg add "HKLM\System\CurrentControlSet\Control\DeviceGuard\Scenarios\HypervisorEnforcedCodeIntegrity" /v Enabled /t REG_DWORD /d 0 /f```
+
 ```reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\DeviceGuard" /v EnableVirtualizationBasedSecurity /t REG_DWORD /d 0 /f```
 - Vérifier que la réponse confirme que l'opération a bien été effectuée.
 - Redémarrer le PC.
