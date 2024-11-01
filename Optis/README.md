@@ -16,7 +16,7 @@ Pour annuler n'importe laquelle de ces modifications, la procédure est décrite
  - [**Les widgets**](#les-widgets)
  - [**L'hibernation**](#lhibernation)
  - [**Service SysMain**](#service-sysmain)
- - [**VBS**](#VBS)
+ - [**VBS**](#vbs)
  - [**Windows Copilot**](#windows-copilot)
  - [**TLDR (tout d'un coup)**](#tldr-tout-dun-coup)
 
