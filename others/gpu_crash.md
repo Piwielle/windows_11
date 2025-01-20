@@ -8,13 +8,13 @@ La première étape consiste à utiliser DDU pour nettoyer proprement ton ancien
 
 Cette vidéo te guidera sur la bonne utilisation de DDU: [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb">Utiliser DDU pour nettoyer proprement son pilote de CG](https://youtu.be/efAjIwAuqYg)
 ## MPO / TDR / HAGS / ULPS
-- MPO
+- **MPO** : 
 Il s'agit d'une option de Windows qui permet (en simplifiant) de superposer des images 2D et 3D plus rapidement. Connue pour causer des problèmes sur les jeux, des fois. [Plus de détails](https://learn.microsoft.com/en-us/windows-hardware/drivers/display/multiplane-overlay-support). 
-- TDR
+- **TDR** : 
 Il s'agit (en gros) d'une option de windows qui permet de récupérer le contrôle du PC en cas de plantage de la CG ou de son pilote. Connu pour être parfois trop agressif, et déclarer un problème alors que tout va bien. [Plus de détails](https://learn.microsoft.com/en-us/windows-hardware/drivers/display/timeout-detection-and-recovery).
-- HAGS
+- **HAGS** : 
 En très gros, ça permet à la CG de décider toute seule comment prioriser les tâches selon les application. Connu pour causer des problèmes avec les jeux et le streaming. [Plus de détails](https://devblogs.microsoft.com/directx/hardware-accelerated-gpu-scheduling/). 
-- ULPS
+- **ULPS** : 
 C'est une option spécifique aux pilotes AMD qui permet en théorie d'économiser de l'énergie. Connu pour causer des crashs et des soucis de performances.
 
 Pour désactiver ces 4 options, on va utiliser un logiciel nommé [MPO-GPU-FIX](https://github.com/RedDot-3ND7355/MPO-GPU-FIX)
