@@ -28,10 +28,8 @@ Le clic droit de Windows 11 ressemble à ça :
 <img src="https://i.imgur.com/l6MxFzI.png" width="280" height="330" alt="qsddsq" class="sdfdfs">
 
 Alors oui, c'est très joli y'a des icônes. Mais si je veux utiliser 7zip pour extraire une archive, ou alors accéder à mon panneau nvidia, je suis obligé de cliquer sur "Afficher plus d'options", puis sur ce que je veux. C'est pénible.
+On va donc remettre le clic droit de Windows 10.
 
-On va donc remettre le clic droit de Windows 10, que je trouve plus efficace.
-
-### <img src="https://i.imgur.com/qYLxcc4.png" width="20" height="20">Modification
 
 Pour récupérer le clic droit de Windows 10, il faut modifier une clé de registre, ce qu'on peut faire via le Terminal.
 - Clic droit sur <img src="https://i.imgur.com/QfAQiaL.png" width="30" height="30" alt="vdszevz" class="fezfsd">
@@ -46,8 +44,6 @@ Pour récupérer le clic droit de Windows 10, il faut modifier une clé de regis
 La game bar est un overlay qui permet de régler des paramètres et d'afficher des choses par dessus son jeu. C'est quelque chose d'assez efficace, que je recommande de laisser. Voir [cette vidéo pour plus de détails](https://www.youtube.com/watch?v=ATPLXIPtDMg).
 
 Ceci dit, la fonctionnalité d'enregistrement permanent des jeux de cette Game Bar impacte les performances du PC. Heureusement, on peut la désactiver.
-
-### <img src="https://i.imgur.com/qYLxcc4.png" width="20" height="20">Modification
 
 Pour désactiver cette option, il faut modifier deux clés de registre, ce qu'on peut faire via le Terminal, et désinstaller une application.
 - Clic droit sur <img src="https://i.imgur.com/QfAQiaL.png" width="30" height="30">
@@ -126,8 +122,6 @@ Par défaut, Windows affiche des résultats du web dans la recherche du menu dé
 
 C'est pénible, je veux le désactiver.
 
-### <img src="https://i.imgur.com/qYLxcc4.png" width="20" height="20">Modification
-
 Pour désactiver les résultats web dans la recherche, il faut modifier une clé de registre, ce qu'on peut faire via le Terminal.
 - Clic droit sur <img src="https://i.imgur.com/QfAQiaL.png" width="30" height="30">
 - Windows Terminal (Admin)
@@ -145,8 +139,6 @@ Windows a ajouté une fonctionnalité, les widgets.
 
 On peut assez simplement les désactiver dans les paramètres, mais le fait de simplement les désactiver ne suffit pas, et ils tournent toujours en tâche de fond même désactivés. Je souhaite donc vraiment les désactiver, et que plus rien ne tourne.
 
-### <img src="https://i.imgur.com/qYLxcc4.png" width="20" height="20">Modification
-
 Pour désactiver les Widgets, il faut modifier une clé de registre, ce qu'on peut faire via le Terminal.
 - Clic droit sur <img src="https://i.imgur.com/QfAQiaL.png" width="30" height="30">
 - Windows Terminal (Admin)
@@ -159,7 +151,6 @@ Pour désactiver les Widgets, il faut modifier une clé de registre, ce qu'on pe
 ## L'hibernation
 Par défaut, Windows se met en veille prolongée au lieu de vraiment s'éteindre quand on l'éteint. Ca permet d'accélérer un peu le démarrage, mais ça peut causer plein de soucis divers et variés parce que Windows s'éteint jamais vraiment. Je suggère de désactiver cette fonctionnalité, quitte à avoir un PC qui démarre un peu moins vite.
 
-### <img src="https://i.imgur.com/qYLxcc4.png" width="20" height="20">Modification
 Pour désactiver l'hibernation, il faut modifier une clé de registre, ce qu'on peut faire via le Terminal.
 - Clic droit sur <img src="https://i.imgur.com/QfAQiaL.png" width="30" height="30">
 - Windows Terminal (Admin)
@@ -175,7 +166,6 @@ Pour désactiver l'hibernation, il faut modifier une clé de registre, ce qu'on 
 ## Service SysMain
 C'est un service qui analyse l'utilisation du PC, et qui pré charge des applications dans la RAM, pour permettre de les lancer plus rapidement. Fonctionne souvent bien, mais peut créer des soucis d'utilisation de disque dur, pour un gain qui n'est pas forcément utile.
 
-### <img src="https://i.imgur.com/qYLxcc4.png" width="20" height="20">Modification
 Pour désactiver le service, il faut modifier une clé de registre, ce qu'on peut faire via le Terminal.
 - Clic droit sur <img src="https://i.imgur.com/QfAQiaL.png" width="30" height="30">
 - Windows Terminal (Admin)
@@ -190,7 +180,6 @@ Pour désactiver le service, il faut modifier une clé de registre, ce qu'on peu
 
 La VBS (Virtualization Based Security) est une option de sécurité de Windows. Elle permet d'augmenter un peu la sécurité, au prix d'une réduction de performances. Désactiver cette option est un compromis, mais permet de gagner des performances en jeu pour une réduction minime de sécurité. Personnellement, je le fais. A chacun de décider selon ses préférences.
 
-### <img src="https://i.imgur.com/qYLxcc4.png" width="20" height="20">Modification
 Pour désactiver l'option, il faut modifier une clé de registre, ce qu'on peut faire via le Terminal.
 - Clic droit sur <img src="https://i.imgur.com/QfAQiaL.png" width="30" height="30">
 - Windows Terminal (Admin)
