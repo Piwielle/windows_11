@@ -18,6 +18,7 @@ Pour annuler n'importe laquelle de ces modifications, la procédure est décrite
  - [**Service SysMain**](#service-sysmain)
  - [**VBS**](#vbs)
  - [**Windows Copilot**](#windows-copilot)
+ - [**Brave**](#brave)
  - [**TLDR (tout d'un coup)**](#tldr-tout-dun-coup)
 
 ## Le clic droit
@@ -216,6 +217,29 @@ Pour désactiver l'option, il faut modifier une clé de registre, ce qu'on peut 
 - Redémarrer le PC.
 
 
+## Brave
+Google a décidé de désactiver uBlock Origin (entre autres). Une des solutions pour pouvoir l'utiliser et d'utiliser un autre navigateur qui propose encore l'extension, comme Brave. Mais Brave a aussi son lot de saloperies, des options de crypto, d'intelligence artificielle et autres truics qui ne m'intéressent pas.
+On peut complètement désactiver ces options.
+
+Pour désactiver ces options, il faut modifier des clés de registre, ce qu'on peut faire via le Terminal.
+- Clic droit sur <img src="https://i.imgur.com/QfAQiaL.png" width="30" height="30">
+- Windows Terminal (Admin)
+- CLiquer sur la petite flèche dans la barre du haut, puis ouvrir un **Invite de commande**
+- Coller la ligne :
+
+```
+reg add "HKEY_LOCAL_MACHINE\Software\Policies\BraveSoftware\Brave" /v BraveRewardsDisabled /t REG_DWORD /d 1 /f
+reg add "HKEY_LOCAL_MACHINE\Software\Policies\BraveSoftware\Brave" /v BraveWalletDisabled /t REG_DWORD /d 1 /f
+reg add "HKEY_LOCAL_MACHINE\Software\Policies\BraveSoftware\Brave" /v BraveVPNDisabled /t REG_DWORD /d 1 /f
+reg add "HKEY_LOCAL_MACHINE\Software\Policies\BraveSoftware\Brave" /v BraveAIChatEnabled /t REG_DWORD /d 0 /f
+reg add "HKEY_LOCAL_MACHINE\Software\Policies\BraveSoftware\Brave" /v PasswordManagerEnabled /t REG_DWORD /d 0 /f
+reg add "HKEY_LOCAL_MACHINE\Software\Policies\BraveSoftware\Brave" /v TorDisabled /t REG_DWORD /d 0 /f
+pause
+```
+- Vérifier que la réponse confirme que l'opération a bien été effectuée.
+- Redémarrer le PC.
+
+
 ## TLDR (tout d'un coup)
 
 Je mets ici directement la liste de toutes les commandes de ce doc, pour avoir tout d'un coup sans devoir tout lire. A utiliser uniquement si vous avez lu, et que vous savez ce que fait chaque modification, sinon vous risquez des mauvaises surprises.
@@ -235,9 +259,16 @@ reg add HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge /v DefaultBrowserSet
 reg add "HKLM\System\CurrentControlSet\Control\DeviceGuard\Scenarios\HypervisorEnforcedCodeIntegrity" /v Enabled /t REG_DWORD /d 0 /f
 reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\DeviceGuard" /v EnableVirtualizationBasedSecurity /t REG_DWORD /d 0 /f
 reg add "HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\WindowsCopilot" /v TurnOffWindowsCopilot /t REG_DWORD /d 1 /f
+reg add "HKEY_LOCAL_MACHINE\Software\Policies\BraveSoftware\Brave" /v BraveRewardsDisabled /t REG_DWORD /d 1 /f
+reg add "HKEY_LOCAL_MACHINE\Software\Policies\BraveSoftware\Brave" /v BraveWalletDisabled /t REG_DWORD /d 1 /f
+reg add "HKEY_LOCAL_MACHINE\Software\Policies\BraveSoftware\Brave" /v BraveVPNDisabled /t REG_DWORD /d 1 /f
+reg add "HKEY_LOCAL_MACHINE\Software\Policies\BraveSoftware\Brave" /v BraveAIChatEnabled /t REG_DWORD /d 0 /f
+reg add "HKEY_LOCAL_MACHINE\Software\Policies\BraveSoftware\Brave" /v PasswordManagerEnabled /t REG_DWORD /d 0 /f
+reg add "HKEY_LOCAL_MACHINE\Software\Policies\BraveSoftware\Brave" /v TorDisabled /t REG_DWORD /d 0 /f
 powercfg -h off
 sc.exe stop "SysMain"
 sc.exe config "SysMain" start=disabled
+pause
 ```
 
 A noter que certaines parties (le menu démarrer par exemple) ne sont pas modifiées via le registre, et ne sont du coup pas modifiées par les commandes au dessus !
