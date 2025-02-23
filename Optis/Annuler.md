@@ -145,6 +145,29 @@ Pour réactiver l'option, il faut modifier une clé de registre, ce qu'on peut f
 - Redémarrer le PC.
 
 
+## Inverser Brave
+Le nouvel assistant "AI" de Windows. Il n'est pas désactivable via les paramètres pour le moment, on peut uniquement cacher son icône.
+
+Pour réactiver l'option, il faut modifier une clé de registre, ce qu'on peut faire via le Terminal.
+- Clic droit sur <img src="https://i.imgur.com/QfAQiaL.png" width="30" height="30">
+- Windows Terminal (Admin)
+- CLiquer sur la petite flèche dans la barre du haut, puis ouvrir un **Invite de commande**
+- Coller la ligne :
+
+```
+reg delete "HKEY_LOCAL_MACHINE\Software\Policies\BraveSoftware\Brave" /v BraveRewardsDisabled /f
+reg delete "HKEY_LOCAL_MACHINE\Software\Policies\BraveSoftware\Brave" /v BraveWalletDisabled /f
+reg delete "HKEY_LOCAL_MACHINE\Software\Policies\BraveSoftware\Brave" /v BraveVPNDisabled /f
+reg delete "HKEY_LOCAL_MACHINE\Software\Policies\BraveSoftware\Brave" /v BraveAIChatEnabled /f
+reg delete "HKEY_LOCAL_MACHINE\Software\Policies\BraveSoftware\Brave" /v PasswordManagerEnabled /f
+reg delete "HKEY_LOCAL_MACHINE\Software\Policies\BraveSoftware\Brave" /v TorDisabled /f
+pause
+```
+
+- Vérifier que la réponse confirme que l'opération a bien été effectuée.
+- Redémarrer le PC.
+
+
 ## Inverser TLDR (tout d'un coup)
 
 Pour réactiver d'un coup tout ce qu'on a désactivé :
@@ -163,8 +186,15 @@ reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge" /v DefaultBrows
 reg add "HKLM\System\CurrentControlSet\Control\DeviceGuard\Scenarios\HypervisorEnforcedCodeIntegrity" /v Enabled /t REG_DWORD /d 1 /f
 reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\DeviceGuard" /v EnableVirtualizationBasedSecurity /t REG_DWORD /d 1 /f
 reg delete "HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\WindowsCopilot" /v TurnOffWindowsCopilot /f
+reg delete "HKEY_LOCAL_MACHINE\Software\Policies\BraveSoftware\Brave" /v BraveRewardsDisabled /f
+reg delete "HKEY_LOCAL_MACHINE\Software\Policies\BraveSoftware\Brave" /v BraveWalletDisabled /f
+reg delete "HKEY_LOCAL_MACHINE\Software\Policies\BraveSoftware\Brave" /v BraveVPNDisabled /f
+reg delete "HKEY_LOCAL_MACHINE\Software\Policies\BraveSoftware\Brave" /v BraveAIChatEnabled /f
+reg delete "HKEY_LOCAL_MACHINE\Software\Policies\BraveSoftware\Brave" /v PasswordManagerEnabled /f
+reg delete "HKEY_LOCAL_MACHINE\Software\Policies\BraveSoftware\Brave" /v TorDisabled /f
 powercfg -h on
 sc.exe config "SysMain" start=auto
+pause
 ```
 
 A noter que certaines parties (le menu démarrer par exemple) ne sont pas modifiées via le registre, et ne sont du coup pas modifiées par les commandes au dessus !
