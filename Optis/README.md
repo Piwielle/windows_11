@@ -36,7 +36,9 @@ Pour récupérer le clic droit de Windows 10, il faut modifier une clé de regis
 - Windows Terminal (Admin)
 - Coller la ligne :
 
-```reg add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve```
+```
+reg add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve
+```
 - Vérifier que la réponse confirme que l'opération a bien été effectuée.
 - Redémarrer le PC.
 
@@ -48,12 +50,13 @@ Ceci dit, la fonctionnalité d'enregistrement permanent des jeux de cette Game B
 Pour désactiver cette option, il faut modifier deux clés de registre, ce qu'on peut faire via le Terminal, et désinstaller une application.
 - Clic droit sur <img src="https://i.imgur.com/QfAQiaL.png" width="30" height="30">
 - Windows Terminal (Admin)
-- Coller les lignes une par une :
+- Copier/coller les lignes :
 
-```reg add "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" /v AppCaptureEnabled /t REG_DWORD /d 00000000 /f```
-
-
-```reg add "HKEY_CURRENT_USER\System\GameConfigStore" /v GameDVR_Enabled /t REG_DWORD /d 00000000 /f```
+```
+reg add "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" /v AppCaptureEnabled /t REG_DWORD /d 00000000 /f
+reg add "HKEY_CURRENT_USER\System\GameConfigStore" /v GameDVR_Enabled /t REG_DWORD /d 00000000 /f
+pause
+```
 - Vérifier que les réponses confirment que les opérations ont bien été effectuées.
 - Redémarrer le PC.
 
@@ -78,17 +81,15 @@ Pour désactiver ça :
   
 - Clic droit sur <img src="https://i.imgur.com/QfAQiaL.png" width="30" height="30">
 - Windows Terminal (Admin)
-- Coller les lignes une par une :
+- Copier/coller les lignes :
 
-```reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge" /v HubsSidebarEnabled /t REG_DWORD /d 00000000 /f```
-
-
-```reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge" /v ShowRecommendationsEnabled /t REG_DWORD /d 00000000 /f```
-
-
-```reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge" /v SpotlightExperiencesAndRecommendationsEnabled /t REG_DWORD /d 00000000 /f```
-
-```reg add HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge /v DefaultBrowserSettingEnabled /t REG_DWORD /d 00000000 /f```
+```
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge" /v HubsSidebarEnabled /t REG_DWORD /d 00000000 /f
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge" /v ShowRecommendationsEnabled /t REG_DWORD /d 00000000 /f
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge" /v SpotlightExperiencesAndRecommendationsEnabled /t REG_DWORD /d 00000000 /f
+reg add HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge /v DefaultBrowserSettingEnabled /t REG_DWORD /d 00000000 /f
+pause
+```
 
 - Vérifier que les réponses confirment que les opérations ont bien été effectuées.
 - Redémarrer le navigateur.
@@ -127,7 +128,9 @@ Pour désactiver les résultats web dans la recherche, il faut modifier une clé
 - Windows Terminal (Admin)
 - Coller la ligne :
 
-```reg add "HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Explorer" /v DisableSearchBoxSuggestions /t REG_DWORD /d 00000001 /f```
+```
+reg add "HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Explorer" /v DisableSearchBoxSuggestions /t REG_DWORD /d 00000001 /f
+```
 - Vérifier que la réponse confirme que l'opération a bien été effectuée.
 - Redémarrer le PC.
 
@@ -144,7 +147,9 @@ Pour désactiver les Widgets, il faut modifier une clé de registre, ce qu'on pe
 - Windows Terminal (Admin)
 - Coller la ligne :
 
-```reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Dsh" /v AllowNewsAndInterests /t REG_DWORD /d 00000000 /f```
+```
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Dsh" /v AllowNewsAndInterests /t REG_DWORD /d 00000000 /f
+```
 - Vérifier que la réponse confirme que l'opération a bien été effectuée.
 - Redémarrer le PC.
 
@@ -154,12 +159,13 @@ Par défaut, Windows se met en veille prolongée au lieu de vraiment s'éteindre
 Pour désactiver l'hibernation, il faut modifier une clé de registre, ce qu'on peut faire via le Terminal.
 - Clic droit sur <img src="https://i.imgur.com/QfAQiaL.png" width="30" height="30">
 - Windows Terminal (Admin)
-- Coller les lignes :
+- Copier/coller les lignes :
 
-```REG ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Power" /v HiberbootEnabled /t REG_DWORD /d 00000000 /f```
-
-
-```powercfg -h off```
+```
+REG ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Power" /v HiberbootEnabled /t REG_DWORD /d 00000000 /f
+powercfg -h off
+pause
+```
 - Vérifier que les réponses confirment que les opérations ont bien été effectué.
 - Redémarrer le PC.
 
@@ -172,7 +178,9 @@ Pour désactiver le service, il faut modifier une clé de registre, ce qu'on peu
 - Cliquer sur la petite flèche dans la barre du haut, puis ouvrir un **Invite de commande**
 - Coller la ligne :
 
-```sc stop "SysMain" & sc config "SysMain" start=disabled```
+```
+sc stop "SysMain" & sc config "SysMain" start=disabled
+```
 - Vérifier que la réponse confirme que l'opération a bien été effectuée.
 - Redémarrer le PC.
 
@@ -184,11 +192,13 @@ Pour désactiver l'option, il faut modifier une clé de registre, ce qu'on peut 
 - Clic droit sur <img src="https://i.imgur.com/QfAQiaL.png" width="30" height="30">
 - Windows Terminal (Admin)
 - CLiquer sur la petite flèche dans la barre du haut, puis ouvrir un **Invite de commande**
-- Coller la ligne :
+- Copier/coller les lignes :
 
-```reg add "HKLM\System\CurrentControlSet\Control\DeviceGuard\Scenarios\HypervisorEnforcedCodeIntegrity" /v Enabled /t REG_DWORD /d 0 /f```
-
-```reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\DeviceGuard" /v EnableVirtualizationBasedSecurity /t REG_DWORD /d 0 /f```
+```
+reg add "HKLM\System\CurrentControlSet\Control\DeviceGuard\Scenarios\HypervisorEnforcedCodeIntegrity" /v Enabled /t REG_DWORD /d 0 /f
+reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\DeviceGuard" /v EnableVirtualizationBasedSecurity /t REG_DWORD /d 0 /f
+pause
+```
 - Vérifier que la réponse confirme que l'opération a bien été effectuée.
 - Redémarrer le PC.
 
@@ -201,7 +211,9 @@ Pour désactiver l'option, il faut modifier une clé de registre, ce qu'on peut 
 - CLiquer sur la petite flèche dans la barre du haut, puis ouvrir un **Invite de commande**
 - Coller la ligne :
 
-```reg add "HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\WindowsCopilot" /v TurnOffWindowsCopilot /t REG_DWORD /d 1 /f```
+```
+reg add "HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\WindowsCopilot" /v TurnOffWindowsCopilot /t REG_DWORD /d 1 /f
+```
 - Vérifier que la réponse confirme que l'opération a bien été effectuée.
 - Redémarrer le PC.
 
@@ -214,7 +226,7 @@ Pour désactiver ces options, il faut modifier des clés de registre, ce qu'on p
 - Clic droit sur <img src="https://i.imgur.com/QfAQiaL.png" width="30" height="30">
 - Windows Terminal (Admin)
 - CLiquer sur la petite flèche dans la barre du haut, puis ouvrir un **Invite de commande**
-- Coller la ligne :
+- Copier/coller les lignes :
 
 ```
 reg add "HKEY_LOCAL_MACHINE\Software\Policies\BraveSoftware\Brave" /v BraveRewardsDisabled /t REG_DWORD /d 1 /f
