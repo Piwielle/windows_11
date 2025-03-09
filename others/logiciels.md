@@ -13,6 +13,7 @@ Quelques logiciels que j'utilise très souvent et qui pourraient t'intéresser.
 - [Sublime Text](https://www.sublimetext.com/) Prise de notes/code
 - [NanaZip](https://apps.microsoft.com/detail/9n8g7tscl18r?hl=fr-FR&gl=FR) Gestion d'archives
 - [qBittorent](https://www.qbittorrent.org/) Torrents
+- [VibranceGUI](https://vibrancegui.com/) Adapter automatiquement la saturation des couleurs par jeu
 - [twinkle tray](https://twinkletray.com/) Gestion de la luminosité des écrans
 - [RTSS](https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download/) Monitoring des performances du PC
 - [HwInfo](https://www.hwinfo.com/download/) Monitoring des performances du PC
