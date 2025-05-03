@@ -178,5 +178,5 @@ reg add "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Ad
 ```
 
 ## Support vidéo
-[<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb">Y'a pas de vidéo pour le moment, alors voilà une photo de mon chat](https://i.imgur.com/gv9hWgA.png)
+[<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb">Désactiver toutes les pubs de Windows 11](https://www.youtube.com/watch?v=kCPbzM3-Mp0)
 
