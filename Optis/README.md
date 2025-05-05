@@ -191,7 +191,7 @@ La VBS (Virtualization Based Security) est une option de sécurité de Windows. 
 Pour désactiver l'option, il faut modifier une clé de registre, ce qu'on peut faire via le Terminal.
 - Clic droit sur <img src="https://i.imgur.com/QfAQiaL.png" width="30" height="30">
 - Windows Terminal (Admin)
-- CLiquer sur la petite flèche dans la barre du haut, puis ouvrir un **Invite de commande**
+- Cliquer sur la petite flèche dans la barre du haut, puis ouvrir un **Invite de commande**
 - Copier/coller les lignes :
 
 ```
@@ -208,7 +208,7 @@ Le nouvel assistant "AI" de Windows. Il n'est pas désactivable via les paramèt
 Pour désactiver l'option, il faut modifier une clé de registre, ce qu'on peut faire via le Terminal.
 - Clic droit sur <img src="https://i.imgur.com/QfAQiaL.png" width="30" height="30">
 - Windows Terminal (Admin)
-- CLiquer sur la petite flèche dans la barre du haut, puis ouvrir un **Invite de commande**
+- Cliquer sur la petite flèche dans la barre du haut, puis ouvrir un **Invite de commande**
 - Coller la ligne :
 
 ```
@@ -219,13 +219,13 @@ reg add "HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\WindowsCopilot" /
 
 
 ## Brave
-Google a décidé de désactiver uBlock Origin (entre autres). Une des solutions pour pouvoir l'utiliser et d'utiliser un autre navigateur qui propose encore l'extension, comme Brave. Mais Brave a aussi son lot de saloperies, des options de crypto, d'intelligence artificielle et autres truics qui ne m'intéressent pas.
+Google a décidé de désactiver uBlock Origin (entre autres). Une des solutions pour pouvoir l'utiliser et d'utiliser un autre navigateur qui propose encore l'extension, comme Brave. Mais Brave a aussi son lot de saloperies, des options de crypto, d'intelligence artificielle et autres trucs qui ne m'intéressent pas.
 On peut complètement désactiver ces options.
 
 Pour désactiver ces options, il faut modifier des clés de registre, ce qu'on peut faire via le Terminal.
 - Clic droit sur <img src="https://i.imgur.com/QfAQiaL.png" width="30" height="30">
 - Windows Terminal (Admin)
-- CLiquer sur la petite flèche dans la barre du haut, puis ouvrir un **Invite de commande**
+- Cliquer sur la petite flèche dans la barre du haut, puis ouvrir un **Invite de commande**
 - Copier/coller les lignes :
 
 ```
