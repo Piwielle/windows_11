@@ -70,7 +70,7 @@ Une fois les paramètres réglés, on va aller changer le mode de gestion d'alim
 - *CPU AMD Ryzen 3XXX et plus anciens* : Le mode de gestion "**Ryzen balanced**" est le meilleur mode. (il s'installe quand vous installez les pilotes de chipset)
 - *CPU AMD Ryzen 5XXX et plus récents* : Le mode de gestion "**Utilisation normale**" est le meilleur mode (vous pouvez bouger le slider dans Paramètres -> Système -> Alimentation pour un léger gain).
 
-N'utilisez pas le mode "Performances optimales" sur un CPU récents (AMD 3XXX et plus récents, et Intel 12XXX et plus récents). Le mode de gestion d'alim "Performances optimales" date de 2017, et n'est pas optimal pour les architectures hybrides des processeurs récents.
+N'utilisez pas le mode "Performances optimales" sur un CPU récent (AMD 3XXX et plus récents, et Intel 12XXX et plus récents). Le mode de gestion d'alim "Performances optimales" date de 2017, et n'est pas optimal pour les architectures hybrides des processeurs récents.
 
 Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb"> 4 - Les paramètres de Windows](https://youtu.be/CmdQOGJdFV0)
 
