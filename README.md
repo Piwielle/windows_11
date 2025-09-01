@@ -1,8 +1,8 @@
 <center> <img src="https://i.imgur.com/lVuDunL.png" height="280" width="693" id="img-header" alt="Logo Windows 11"> </center>
 
-_Dernière mise à jour : 09/03/2024_
+_Dernière mise à jour : 02/09/2025_
 
-Ce site propose différents guides pour apprendre à (ré)installer Windows 10/11 proprement, avec des optimisations saines pour votre machine. Il s'agit de guides complets que vous pouvez suivre quel que soit votre niveau en informatique.
+Ce site propose différents guides pour apprendre à (ré)installer Windows 11 proprement, avec des optimisations saines pour votre machine. Il s'agit de guides complets que vous pouvez suivre quel que soit votre niveau en informatique.
 
 ## Pourquoi ce guide
 
@@ -22,18 +22,6 @@ Je propose ici un guide simple et efficace pour avoir un PC performant et optimi
         </li>
         <li>
             <a href="https://installerwindows.fr/guide/windows-11">Guide en version texte</a>
-        </li>
-    </li>
-</div>
-
-<div id="guide-w10">
-    <h2>Windows 10</h2>
-    <p>
-        Si jamais vous préférez Windows 10 (supporté par Microsoft jusqu'en 2025), mon ancien guide reste disponible. Il sera moins mis à jour, mais reste fonctionnel.
-    </p>
-    <ul>
-        <li>
-            <a href="https://installerwindows.fr/guide/windows-10">Guide en version texte</a>
         </li>
     </li>
 </div>
