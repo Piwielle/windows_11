@@ -33,7 +33,7 @@ Pour faire ça:
 
 - Chaque SSD ou disque dur dans le PC correspond à un lecteur sur l'interface.
 - Déterminer sur quel disque (lecteur) l'installation de Windows sera faite (on pourra s'aider de la taille pour les reconnaître).
-- Supprimer toutes les partitions de ce que disque.
+- Supprimer toutes les partitions de ce disque.
 - Sélectionner l'espace non alloué représentant le disque, puis simplement appuyer sur suivant.
 
 On pourra ensuite attendre la copie et l'installation de Windows. Pendant le compte à rebours de 10 secondes avant de redémarrer le PC, pensez à retirer la clé USB du PC. Ca évitera de redémarrer encore sur la clé et de recommencer l'installation en boucle.
